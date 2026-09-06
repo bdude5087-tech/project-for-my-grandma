@@ -7,12 +7,12 @@ import { CONTACT_EMAIL, SITE_NAME } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Privacy policy",
   description:
-    "What RoamRank collects, why, and what we never collect. No accounts, no forms, no tracking walls.",
+    "What EsimRates collects, why, and what we never collect. No accounts, no forms, no tracking walls.",
   alternates: { canonical: "/privacy/" },
   openGraph: {
     type: "website",
     url: "/privacy/",
-    title: "Privacy policy for RoamRank",
+    title: "Privacy policy for EsimRates",
     description: "We collect almost nothing. This page documents exactly what.",
   },
 };

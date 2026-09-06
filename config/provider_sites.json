@@ -1,0 +1,15 @@
+{
+  "_comment": "Manually verified official website URLs for providers, keyed by the provider name as it appears in data/processed/providers.json. These override any catalog-derived website_url. Only URLs that point to the provider's own official domain are added; providers that have no verifiable consumer storefront (NextLink, RoamVault, eSIMGo are wholesale/marketplace-only) are intentionally left out so no redirect target is invented.",
+  "providers": {
+    "3": "https://www.three.com.hk/prepaid/account/en/rnr-reg",
+    "Airalo": "https://www.airalo.com",
+    "Bouygues": "https://www.bouyguestelecom.fr",
+    "IIJ": "https://www.iijmio.jp",
+    "MeiSIM": "https://www.meisimusa.com",
+    "Sparks": "https://sparks.travel",
+    "TSimTech": "https://www.tsimtech.com",
+    "True": "https://www.true.th",
+    "Ubigi": "https://www.ubigi.com",
+    "Vinaphone": "https://www.vinaphone.com.vn"
+  }
+}

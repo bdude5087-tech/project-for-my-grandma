@@ -35,7 +35,7 @@ DATA_PROCESSED_DIR = REPO_ROOT / "data" / "processed"
 
 API_BASE = "https://api.meisimusa.com/mm/products"
 SOURCE_NAME = "meisim_usa_api"
-USER_AGENT = "roamrank-ingest/0.1 (comparison site, public catalog API)"
+USER_AGENT = "esimrates-ingest/0.1 (comparison site, public catalog API)"
 REQUEST_TIMEOUT_SECONDS = 30
 RANKED_PLANS_LIMIT = 10
 
@@ -655,6 +655,7 @@ def stage_write(state: dict) -> dict:
             entry["_sites"][site] = entry["_sites"].get(site, 0) + 1
 
     providers_out = []
+    manual_sites = load_json(CONFIG_DIR / "provider_sites.json").get("providers") or {}
     for name in sorted(by_provider):
         entry = by_provider[name]
         sites = entry.pop("_sites")
@@ -663,7 +664,8 @@ def stage_write(state: dict) -> dict:
         for url, count in sites.items():  # insertion order = first-seen tiebreak
             if count > best_count:
                 best_site, best_count = url, count
-        entry["website_url"] = best_site
+        # Manually verified official sites override catalog-derived links.
+        entry["website_url"] = manual_sites.get(name, best_site)
         entry["country_codes"] = sorted(entry["country_codes"])
         entry["price_min"] = round(entry["price_min"], 2)
         entry["price_max"] = round(entry["price_max"], 2)

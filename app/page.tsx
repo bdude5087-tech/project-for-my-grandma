@@ -130,7 +130,7 @@ export default function Home() {
               href="/about/"
               className="mt-3 inline-block text-sm font-medium text-emerald-700 hover:underline"
             >
-              About RoamRank &rarr;
+              About EsimRates &rarr;
             </Link>
           </div>
         </div>

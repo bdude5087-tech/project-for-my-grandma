@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-09-06T22:34:48Z",
+    "last_updated": "2026-09-06T23:02:17Z",
     "plan_count": 447
   },
   "providers": [
@@ -184,7 +184,7 @@
       ],
       "price_min": 4.99,
       "price_max": 54.99,
-      "website_url": null
+      "website_url": "https://www.airalo.com"
     },
     {
       "name": "Bouygues",
@@ -228,7 +228,7 @@
       ],
       "price_min": 44.99,
       "price_max": 59.99,
-      "website_url": null
+      "website_url": "https://www.bouyguestelecom.fr"
     },
     {
       "name": "IIJ",
@@ -239,7 +239,7 @@
       ],
       "price_min": 5.99,
       "price_max": 79.99,
-      "website_url": null
+      "website_url": "https://www.iijmio.jp"
     },
     {
       "name": "MeiSIM",
@@ -258,7 +258,7 @@
       ],
       "price_min": 1.88,
       "price_max": 288.0,
-      "website_url": null
+      "website_url": "https://www.meisimusa.com"
     },
     {
       "name": "NextLink",
@@ -517,7 +517,7 @@
       ],
       "price_min": 3.49,
       "price_max": 67.49,
-      "website_url": null
+      "website_url": "https://sparks.travel"
     },
     {
       "name": "TSimTech",
@@ -544,7 +544,7 @@
       ],
       "price_min": 3.99,
       "price_max": 67.99,
-      "website_url": null
+      "website_url": "https://www.tsimtech.com"
     },
     {
       "name": "True",
@@ -555,7 +555,7 @@
       ],
       "price_min": 9.2,
       "price_max": 9.2,
-      "website_url": null
+      "website_url": "https://www.true.th"
     },
     {
       "name": "Ubigi",
@@ -750,7 +750,7 @@
       ],
       "price_min": 8.99,
       "price_max": 69.99,
-      "website_url": null
+      "website_url": "https://www.ubigi.com"
     },
     {
       "name": "Vinaphone",
@@ -761,7 +761,7 @@
       ],
       "price_min": 6.99,
       "price_max": 26.99,
-      "website_url": null
+      "website_url": "https://www.vinaphone.com.vn"
     },
     {
       "name": "eSIMGo",
