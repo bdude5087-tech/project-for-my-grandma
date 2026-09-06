@@ -1,10 +1,10 @@
 {
-  "site_name": "eSIM Compare",
+  "site_name": "RoamRank",
   "base_url": "https://project-for-my-grandma.pages.dev",
   "_comment_contact_email": "REPLACE before launch: public contact address (rendered on /contact).",
   "contact_email": "editor@project-for-my-grandma.pages.dev",
   "_comment_editor": "E-E-A-T byline identity shown as author on content pages. Replace with real person details before launch.",
-  "editor_name": "The eSIM Compare Editorial Team",
+  "editor_name": "The RoamRank Editorial Team",
   "editor_role": "Editor & Researcher",
   "since_year": 2026
 }

@@ -7,12 +7,12 @@ import { CONTACT_EMAIL, SITE_NAME } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "How to reach the eSIM Compare team about data corrections, partnership questions, or privacy concerns.",
+    "How to reach the RoamRank team about data corrections, partnership questions, or privacy concerns.",
   alternates: { canonical: "/contact/" },
   openGraph: {
     type: "website",
     url: "/contact/",
-    title: "Contact eSIM Compare",
+    title: "Contact RoamRank",
     description: "Corrections, partnerships, and privacy requests.",
   },
 };

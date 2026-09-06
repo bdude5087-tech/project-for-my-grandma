@@ -7,7 +7,7 @@ import { SITE_NAME } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Affiliate disclosure",
   description:
-    "How affiliate links work on eSIM Compare, and why they never change a plan's score or position.",
+    "How affiliate links work on RoamRank, and why they never change a plan's score or position.",
   alternates: { canonical: "/affiliate-disclosure/" },
   openGraph: {
     type: "website",

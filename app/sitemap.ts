@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date(getMeta().last_updated);
 
   const staticPages = [
+    { url: `${SITE_BASE_URL}/all-locations/`, priority: 0.7 },
     { url: `${SITE_BASE_URL}/about/`, priority: 0.4 },
     { url: `${SITE_BASE_URL}/how-we-rank/`, priority: 0.5 },
     { url: `${SITE_BASE_URL}/contact/`, priority: 0.3 },

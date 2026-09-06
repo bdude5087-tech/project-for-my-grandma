@@ -119,6 +119,36 @@ export interface Meta {
   plan_count: number;
 }
 
+export interface SearchIndexPlan {
+  plan_name: string;
+  provider: string;
+  price: number;
+  currency: string;
+  data_gb: number | null;
+  unlimited: boolean;
+  price_per_gb: number | null;
+  validity_days: number | null;
+  network: string;
+  hotspot: boolean;
+  value_score: number;
+}
+
+export interface SearchIndexDestination {
+  code: string;
+  name: string;
+  slug: string;
+  url_name?: string | null;
+  plan_count: number;
+  provider_count: number;
+  cheapest_price: number | null;
+  plans: SearchIndexPlan[];
+}
+
+export interface SearchIndex {
+  meta: Meta;
+  destinations: SearchIndexDestination[];
+}
+
 // ---------------------------------------------------------------------------
 // Build-time JSON reader (cached per process)
 // ---------------------------------------------------------------------------
@@ -185,6 +215,12 @@ export function getAffiliates(): Record<string, AffiliateConfig> {
 export function getComparePairs(): [string, string][] {
   return readJson<{ pairs: [string, string][] }>("config/compare-pairs.json")
     .pairs;
+}
+
+export function getSearchIndex(): SearchIndex {
+  return readJson<{ destinations: SearchIndexDestination[]; meta: Meta }>(
+    "data/processed/search-index.json",
+  ) as SearchIndex;
 }
 
 // ---------------------------------------------------------------------------

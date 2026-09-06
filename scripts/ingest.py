@@ -8,6 +8,8 @@ Data flow (in-memory dicts, then committed JSON files):
     data/processed/providers.json           provider rollups
     data/processed/destinations.json        per-destination coverage rollups
     data/processed/aggregates.json          per-destination rankings + answer-box stats
+    data/processed/search-index.json        trimmed per-destination plan index for the
+                                            client-side homepage finder
 
 Zero third-party dependencies (stdlib only). Deterministic scoring weights come
 from config/scoring.json. See README for usage.
@@ -31,7 +33,7 @@ DATA_PROCESSED_DIR = REPO_ROOT / "data" / "processed"
 
 API_BASE = "https://api.meisimusa.com/mm/products"
 SOURCE_NAME = "meisim_usa_api"
-USER_AGENT = "esim-compare-ingest/0.1 (comparison site, public catalog API)"
+USER_AGENT = "roamrank-ingest/0.1 (comparison site, public catalog API)"
 REQUEST_TIMEOUT_SECONDS = 30
 RANKED_PLANS_LIMIT = 10
 
@@ -577,6 +579,12 @@ def stage_score(state: dict) -> dict:
 DEST_ORDER = ["JP", "US", "IN", "TH", "MX", "GB", "IT", "VN", "ES", "FR"]
 
 
+def _dest_names() -> dict[str, dict]:
+    """Destination metadata (name/slug/url_name) keyed by ISO code."""
+    config = load_json(CONFIG_DIR / "destinations.json")
+    return {d["code"]: d for d in config["destinations"]}
+
+
 def stage_write(state: dict) -> dict:
     plans = state["plans"]
     aggregates = state["aggregates"]
@@ -634,11 +642,50 @@ def stage_write(state: dict) -> dict:
     for code in DEST_ORDER:
         aggregates_out[code] = aggregates.get(code)
 
+    # search-index.json — trimmed per-destination index for the client-side finder.
+    dest_names = _dest_names()
+    dest_index = []
+    for code in DEST_ORDER:
+        agg = aggregates.get(code)
+        if agg is None:
+            continue
+        plans_out = []
+        for plan, score in scored_by_dest.get(code, []):
+            plans_out.append(
+                {
+                    "plan_name": plan["plan_name"],
+                    "provider": plan["provider"],
+                    "price": plan["price"],
+                    "currency": plan["currency"],
+                    "data_gb": plan["data_gb"],
+                    "unlimited": plan["unlimited"],
+                    "price_per_gb": plan["price_per_gb"],
+                    "validity_days": plan["validity_days"],
+                    "network": plan["network"],
+                    "hotspot": plan["hotspot"],
+                    "value_score": score,
+                }
+            )
+        info = dest_names.get(code, {})
+        dest_index.append(
+            {
+                "code": code,
+                "name": info.get("name", code),
+                "slug": info.get("slug", code.lower()),
+                "url_name": info.get("url_name"),
+                "plan_count": agg["plan_count"],
+                "provider_count": agg["provider_count"],
+                "cheapest_price": agg["cheapest_plan"]["price"],
+                "plans": plans_out,
+            }
+        )
+
     files = {
         "plans": {"meta": state["meta"], "plans": plans},
         "providers": {"meta": state["meta"], "providers": providers_out},
         "destinations": {"meta": state["meta"], "destinations": dests_out},
         "aggregates": {"meta": state["meta"], "aggregates": aggregates_out},
+        "search-index": {"meta": state["meta"], "destinations": dest_index},
     }
 
     for name, payload in files.items():

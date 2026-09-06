@@ -95,6 +95,43 @@ export default function HowWeRankPage() {
       </div>
 
       <h2 className="mt-12 text-2xl font-semibold tracking-tight">
+        How the plan finder picks suggestions
+      </h2>
+      <div className="mt-4 space-y-4 leading-relaxed text-gray-700">
+        <p>
+          The homepage finder asks four questions — destination, data per day,
+          trip length, and an optional budget — and filters the exact same
+          scored dataset described above. Its matching rule is fixed and
+          published here:
+        </p>
+        <ol className="list-decimal space-y-2 pl-5">
+          <li>
+            <strong>Full fit</strong> — validity covers the trip, data covers
+            the need (or the plan is unlimited), and price fits the budget.
+          </li>
+          <li>
+            <strong>No budget match</strong> — same as above minus the budget
+            constraint.
+          </li>
+          <li>
+            <strong>Data relaxed</strong> — validity and budget match, but the
+            plan may need a top-up.
+          </li>
+          <li>
+            <strong>Closest picks</strong> — nothing fits; we show the
+            destination&rsquo;s highest-value plans anyway.
+          </li>
+        </ol>
+        <p>
+          Within a tier, suggestions are ordered by value score (highest first),
+          then by price. Unlimited daily data means only truly unlimited plans
+          are suggested. The finder never changes a score and never introduces
+          new ranking logic — it only filters and comments on the published
+          ranking.
+        </p>
+      </div>
+
+      <h2 className="mt-12 text-2xl font-semibold tracking-tight">
         Data source and freshness
       </h2>
       <p className="mt-4 leading-relaxed text-gray-700">

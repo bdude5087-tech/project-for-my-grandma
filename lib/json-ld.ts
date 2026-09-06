@@ -1,12 +1,12 @@
 import type { DestinationAggregate, Faq, PlanSummary } from "@/lib/data";
 import { getRenderedFaqs } from "@/lib/faq";
-import { pageUrl } from "@/lib/site";
+import { pageUrl, SITE_NAME } from "@/lib/site";
 
 export function organizationJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "eSIM Compare",
+    name: SITE_NAME,
     url: pageUrl(),
   };
 }
@@ -15,7 +15,7 @@ export function webSiteJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "eSIM Compare",
+    name: SITE_NAME,
     url: pageUrl(),
   };
 }

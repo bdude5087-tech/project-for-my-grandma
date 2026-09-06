@@ -7,12 +7,12 @@ import { CONTACT_EMAIL, EDITOR, SITE_NAME } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "eSIM Compare is an independent, ad-free price comparison site for eSIM data plans. Every ranking is computed from real catalog data using transparent, deterministic rules.",
+    "RoamRank is an independent, ad-free price comparison site for eSIM data plans. Every ranking is computed from real catalog data using transparent, deterministic rules.",
   alternates: { canonical: "/about/" },
   openGraph: {
     type: "website",
     url: "/about/",
-    title: "About eSIM Compare",
+    title: "About RoamRank",
     description:
       "Independent, transparent eSIM price comparison. Every ranking is data-driven and never paid for.",
   },
