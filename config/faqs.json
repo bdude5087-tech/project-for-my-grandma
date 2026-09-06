@@ -1,0 +1,29 @@
+{
+  "_comment": "Hand-authored FAQ content (no AI-generated copy). Rendered with FAQPage schema on every destination page. Each answer is self-contained (liftable out of context). {country} / {provider} placeholders are substituted from data.",
+  "generic_questions": [
+    {
+      "question": "Is an eSIM worth it for {country}?",
+      "answer": "Yes. For most travelers the cheapest eSIM plan for {country} in this dataset costs less than a physical SIM or roaming add-on, activates in minutes, and lets you stay connected the moment you land. Plans are bought online before you travel and installed as a QR code, so there is no airport SIM counter queue."
+    },
+    {
+      "question": "How do I install an eSIM for {country}?",
+      "answer": "Buy a {country} eSIM plan online, then scan the QR code provided with your phone's built-in eSIM installer (Settings > Cellular/Connections > Add eSIM). The profile installs over your current Wi-Fi. Your phone must be unlocked and eSIM-compatible; most phones from 2019 onwards support eSIM."
+    },
+    {
+      "question": "How much data do I need for a trip to {country}?",
+      "answer": "As a general rule, 1 GB per day covers maps, messaging, and light browsing. For a typical 7-day trip, a 5-10 GB plan is comfortable. If you stream video or use GPS-heavy apps constantly, choose an unlimited plan or the largest data tier in the list above."
+    },
+    {
+      "question": "Do eSIMs work everywhere in {country}?",
+      "answer": "Coverage follows the local networks each plan connects to. The plans listed for {country} are checked against {country}'s mobile networks at ingestion time. If you travel to remote areas, check the provider's coverage map or choose a plan on a major national network."
+    },
+    {
+      "question": "Can I get a refund if my {country} eSIM plan doesn't work?",
+      "answer": "Most providers offer a refund window (usually 24 hours to 30 days) if you have not activated or used the plan. Contact the provider's support within that window. We recommend activating the plan shortly before departure so you can test it while still at home."
+    },
+    {
+      "question": "Which is the cheapest eSIM for {country}?",
+      "answer": "In our current dataset, the cheapest plan for {country} is {cheapest_plan} from {cheapest_provider} at {cheapest_price}. Prices are checked on a rolling basis and the dataset is refreshed every 12 hours."
+    }
+  ]
+}

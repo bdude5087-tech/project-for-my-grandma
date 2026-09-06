@@ -1,0 +1,11 @@
+{
+  "_comment": "Provider-vs-provider comparison pages to generate at build time. Providers are matched by canonical name as it appears in data/processed/providers.json. Only pairs where both providers actually have plans are rendered; entries with a provider not present in the dataset are skipped. Add/remove freely.",
+  "pairs": [
+    ["Airalo", "Holafly"],
+    ["Airalo", "Nomad"],
+    ["Airalo", "Ubigi"],
+    ["Holafly", "Nomad"],
+    ["Holafly", "Ubigi"],
+    ["Nomad", "Ubigi"]
+  ]
+}

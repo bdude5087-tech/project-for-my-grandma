@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "source": "meisim_usa_api",
+    "last_updated": "2026-09-06T20:29:39Z",
+    "plan_count": 447,
+    "flagged_count": 33
+  },
+  "flagged_records": [
+    {
+      "id": "p3:2:629",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p3:2:630",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p3:2:631",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p3:2:844",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p3:2:845",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p3:8:48",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p3:8:50",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p3:8:348",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p3:8:490",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p3:8:796",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p3:8:797",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p3:8:798",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p3:197:691",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p3:318:698",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p3:318:699",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p3:318:700",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p3:318:701",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p3:318:702",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p3:445:746",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p3:445:747",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p3:445:749",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p3:445:750",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p3:445:771",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p3:445:772",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p3:445:799",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p2n:o2_8gb",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p2n:o2_25gb",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p2n:o2_40gb",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p2n:o2_125gb",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p2n:three_40gb",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p2n:three_100gb",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p2n:three_200gb",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "p2n:three_unlimited",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    }
+  ]
+}

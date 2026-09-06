@@ -1,0 +1,22 @@
+{
+  "_comment": "Affiliate layer. Fully decoupled from ranking/data: comparison and scoring logic never reads this file. For each provider, `affiliate: true` + a real `purchase_url` renders a 'Buy' button with rel='sponsored nofollow noopener noreferrer' and a small 'Affiliate' marker. `affiliate: false` with a real `purchase_url` renders a plain 'View' link with rel='nofollow noopener noreferrer'. A null/empty `purchase_url` renders no button for that provider. V0 ships inactive (all providers affiliate=false, purchase_url=null); flip entries on as affiliate accounts are secured. `label` overrides the default button text.",
+  "defaults": {
+    "affiliate": false,
+    "purchase_url": null
+  },
+  "providers": {
+    "3": { "affiliate": false, "purchase_url": null, "label": "Buy on 3" },
+    "Airalo": { "affiliate": false, "purchase_url": null, "label": "Buy on Airalo" },
+    "Bouygues": { "affiliate": false, "purchase_url": null, "label": "Buy on Bouygues" },
+    "IIJ": { "affiliate": false, "purchase_url": null, "label": "Buy on IIJ" },
+    "MeiSIM": { "affiliate": false, "purchase_url": null, "label": "Buy on MeiSIM" },
+    "NextLink": { "affiliate": false, "purchase_url": null, "label": "Buy on NextLink" },
+    "RoamVault": { "affiliate": false, "purchase_url": null, "label": "Buy on RoamVault" },
+    "Sparks": { "affiliate": false, "purchase_url": null, "label": "Buy on Sparks" },
+    "TSimTech": { "affiliate": false, "purchase_url": null, "label": "Buy on TSimTech" },
+    "True": { "affiliate": false, "purchase_url": null, "label": "Buy on True" },
+    "Ubigi": { "affiliate": false, "purchase_url": null, "label": "Buy on Ubigi" },
+    "Vinaphone": { "affiliate": false, "purchase_url": null, "label": "Buy on Vinaphone" },
+    "eSIMGo": { "affiliate": false, "purchase_url": null, "label": "Buy on eSIMGo" }
+  }
+}

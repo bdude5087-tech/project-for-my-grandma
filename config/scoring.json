@@ -1,0 +1,29 @@
+{
+  "weights": {
+    "_comment": "Deterministic value score weights. Sum of these six keys = 1.0. Editable here without touching code — re-run `python scripts/ingest.py` to apply.",
+    "price": 0.35,
+    "data": 0.25,
+    "validity": 0.15,
+    "network": 0.1,
+    "hotspot": 0.1,
+    "reliability": 0.05
+  },
+  "normalization": {
+    "_comment": "Per-destination min-max scoring lives in ingest.py. These controls shape edge cases.",
+    "price_per_gb_cap": 50,
+    "_price_per_gb_cap_comment": "Plans above this USD/GB are clipped to the cap when normalizing price (prevents tiny-data plans from dominating the price axis).",
+    "unlimited_nominal_data_gb": 1000,
+    "_unlimited_nominal_data_gb_comment": "Used only for computing an indicative price-per-GB figure for display on unlimited plans; unlimited plans are excluded from price-per-GB aggregation and from the 'cheapest by price/GB' ranking.",
+    "validity_cap_days": 90,
+    "_validity_cap_comment": "Validity normalized against this cap (90 days = full marks). Longer validities do not score beyond the cap.",
+    "min_network_generation": "4G",
+    "_min_network_generation_comment": "Network score: 5G = 1.0, 4G/LTE = 0.5, lower/unknown = 0.0."
+  },
+  "reliability": {
+    "_comment": "Provider reliability baselines (0-1). No free reliability data source exists, so all providers start at 1.0 and can be tuned manually. Deterministic and transparent.",
+    "baseline": 1.0,
+    "overrides": {}
+  },
+  "value_score_threshold": 0,
+  "_value_score_threshold_comment": "Plans scoring below this are excluded from destination ranked lists (0 = keep everything)."
+}

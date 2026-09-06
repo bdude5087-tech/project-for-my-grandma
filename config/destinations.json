@@ -1,0 +1,15 @@
+{
+  "_comment": "V0 destination list, validated by keyword research. Order roughly follows search volume x opportunity. Country codes are the canonical keys used in URLs, aggregates, and JSON-LD. Slugs match the dominant search queries ('eSIM USA', 'eSIM UK', etc.).",
+  "destinations": [
+    { "code": "JP", "name": "Japan", "slug": "japan" },
+    { "code": "US", "name": "United States", "slug": "usa", "url_name": "USA" },
+    { "code": "IN", "name": "India", "slug": "india" },
+    { "code": "TH", "name": "Thailand", "slug": "thailand" },
+    { "code": "MX", "name": "Mexico", "slug": "mexico" },
+    { "code": "GB", "name": "United Kingdom", "slug": "uk", "url_name": "UK" },
+    { "code": "IT", "name": "Italy", "slug": "italy" },
+    { "code": "VN", "name": "Vietnam", "slug": "vietnam" },
+    { "code": "ES", "name": "Spain", "slug": "spain" },
+    { "code": "FR", "name": "France", "slug": "france" }
+  ]
+}
