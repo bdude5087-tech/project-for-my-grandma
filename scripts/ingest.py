@@ -23,8 +23,10 @@ import json
 import re
 import sys
 import time
+import urllib.parse
 import urllib.request
 from pathlib import Path
+from typing import Iterator
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CONFIG_DIR = REPO_ROOT / "config"
@@ -157,6 +159,42 @@ def parse_passthrough(value) -> str | None:
         return None
     text = str(value).strip()
     return text or None
+
+
+# External-links extraction: the catalog embeds "Official registration website"
+# links in product detail HTML. We surface the first verifiable external URL so
+# the site can build honest /go/ outbound redirects without inventing URLs.
+_EXTERNAL_URL_RE = re.compile(r'href="(https?://[^"]+)"|(https?://[^\s"<>]+)')
+_BLOCKED_EXTERNAL_HOSTS = {"meisimusa-backend.vercel.app", "api.meisimusa.com"}
+
+
+def first_external_url(*texts) -> str | None:
+    for text in texts:
+        for match in _EXTERNAL_URL_RE.finditer(str(text or "")):
+            url = (match.group(1) or match.group(2)).rstrip(").,;'\"")
+            try:
+                parsed = urllib.parse.urlparse(url)
+            except (AttributeError, ValueError):
+                continue
+            if not parsed.scheme or not parsed.netloc:
+                continue
+            if parsed.netloc.lower() in _BLOCKED_EXTERNAL_HOSTS:
+                continue
+            if parsed.path.startswith("/img/"):
+                continue
+            return url
+    return None
+
+
+def product_detail_texts(product: dict) -> Iterator[str]:
+    for item in product.get("productDetails") or []:
+        if isinstance(item, dict):
+            if item.get("value") is not None:
+                yield str(item["value"])
+        else:
+            yield str(item)
+    if product.get("displayAttributes"):
+        yield str(product["displayAttributes"])
 
 
 def parse_bool_flag(value) -> bool:
@@ -347,6 +385,7 @@ def normalize_product(product: dict) -> dict | None:
         "activation_policy": parse_passthrough(details.get("ACTIVATION_POLICY")),
         "usage_tracking": parse_passthrough(details.get("USAGE_TRACKING")),
         "coverage": parse_passthrough(details.get("PLAN_COVERAGE")),
+        "website_url": first_external_url(*product_detail_texts(product)),
         "externally_shown": parse_bool_flag(details.get("EXTERNALLY_SHOWN")),
         "only_returns_inventory": parse_bool_flag(
             details.get("ONLY_RETURNS_INVENTORY")
@@ -603,6 +642,7 @@ def stage_write(state: dict) -> dict:
                 "country_codes": set(),
                 "price_min": None,
                 "price_max": None,
+                "_sites": {},
             },
         )
         entry["plan_count"] += 1
@@ -610,10 +650,20 @@ def stage_write(state: dict) -> dict:
         price = plan["price"]
         entry["price_min"] = price if entry["price_min"] is None else min(entry["price_min"], price)
         entry["price_max"] = max(entry["price_max"] or 0, price)
+        site = plan.get("website_url")
+        if site:
+            entry["_sites"][site] = entry["_sites"].get(site, 0) + 1
 
     providers_out = []
     for name in sorted(by_provider):
         entry = by_provider[name]
+        sites = entry.pop("_sites")
+        best_site = None
+        best_count = 0
+        for url, count in sites.items():  # insertion order = first-seen tiebreak
+            if count > best_count:
+                best_site, best_count = url, count
+        entry["website_url"] = best_site
         entry["country_codes"] = sorted(entry["country_codes"])
         entry["price_min"] = round(entry["price_min"], 2)
         entry["price_max"] = round(entry["price_max"], 2)

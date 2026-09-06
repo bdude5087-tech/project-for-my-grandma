@@ -50,6 +50,7 @@ export interface Provider {
   country_codes: string[];
   price_min: number;
   price_max: number;
+  website_url?: string | null;
 }
 
 export interface ProcessedDestination {
