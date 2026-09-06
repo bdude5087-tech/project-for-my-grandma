@@ -1,4 +1,5 @@
 import type { DestinationAggregate, Faq, PlanSummary } from "@/lib/data";
+import { buildPurchaseLink } from "@/lib/affiliate";
 import { getRenderedFaqs } from "@/lib/faq";
 import { pageUrl, SITE_NAME } from "@/lib/site";
 
@@ -60,20 +61,24 @@ export function planItemListJsonLd(
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: `Top eSIM plans for ${country}`,
-    itemListElement: plans.slice(0, 5).map((plan, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      item: {
-        "@type": "Product",
-        name: plan.plan_name,
-        brand: { "@type": "Brand", name: plan.provider },
-        offers: {
-          "@type": "Offer",
-          price: plan.price,
-          priceCurrency: plan.currency || "USD",
+    itemListElement: plans.slice(0, 5).map((plan, i) => {
+      const link = buildPurchaseLink(plan.provider);
+      return {
+        "@type": "ListItem",
+        position: i + 1,
+        item: {
+          "@type": "Product",
+          name: plan.plan_name,
+          brand: { "@type": "Brand", name: plan.provider },
+          offers: {
+            "@type": "Offer",
+            price: plan.price,
+            priceCurrency: plan.currency || "USD",
+          },
+          ...(link ? { url: pageUrl(link.href) } : {}),
         },
-      },
-    })),
+      };
+    }),
     url: pageUrl(`/esim/${slug}/`),
   };
 }

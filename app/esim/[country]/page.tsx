@@ -8,6 +8,7 @@ import FilterablePlanTable from "@/components/FilterablePlanTable";
 import HowWeRank from "@/components/HowWeRank";
 import JsonLd from "@/components/JsonLd";
 import RelatedDestinations from "@/components/RelatedDestinations";
+import TopPicks from "@/components/TopPicks";
 import {
   getAggregates,
   getDestBySlug,
@@ -111,6 +112,8 @@ export default async function DestinationPage({ params }: PageProps) {
       <Byline lastUpdated={agg.last_updated} />
 
       <AnswerBox agg={agg} countryName={dest.name} />
+
+      <TopPicks plans={agg.ranked_plans.slice(0, 5)} countryName={dest.name} />
 
       <section aria-labelledby="plans-heading" className="mt-10">
         <h2 id="plans-heading" className="text-2xl font-semibold tracking-tight">

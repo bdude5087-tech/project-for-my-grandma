@@ -40,8 +40,14 @@ export default function AnswerBox({
         Prices verified {formatMonthYear(agg.last_updated)}. Updated every 12
         hours.
       </p>
-      <div className="mt-3">
+      <div className="mt-3 flex flex-wrap items-center gap-3">
         <PurchaseButton providerName={cheapest.provider} size="md" />
+        {best.plan_name !== cheapest.plan_name && (
+          <span className="flex items-center gap-2">
+            <PurchaseButton providerName={best.provider} size="md" />
+            <span className="text-xs text-gray-500">Best value pick</span>
+          </span>
+        )}
       </div>
     </div>
   );
