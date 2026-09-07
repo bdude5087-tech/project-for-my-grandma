@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-09-07T00:42:53Z",
-    "plan_count": 413
+    "last_updated": "2026-09-07T12:39:30Z",
+    "plan_count": 419
   },
   "providers": [
     {
@@ -244,7 +244,7 @@
     {
       "name": "MeiSIM",
       "logo": null,
-      "plan_count": 116,
+      "plan_count": 124,
       "country_codes": [
         "ES",
         "FR",
@@ -360,7 +360,7 @@
     {
       "name": "Sparks",
       "logo": "https://meisimusa-backend.vercel.app/img/logo/e801a6dc70ec83df8d33e98c",
-      "plan_count": 85,
+      "plan_count": 83,
       "country_codes": [
         "AD",
         "AE",

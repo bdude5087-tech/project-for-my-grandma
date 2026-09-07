@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-09-07T00:42:53Z",
-    "plan_count": 413
+    "last_updated": "2026-09-07T12:39:30Z",
+    "plan_count": 419
   },
   "destinations": [
     {
@@ -10,7 +10,7 @@
       "name": "Japan",
       "slug": "japan",
       "url_name": null,
-      "plan_count": 77,
+      "plan_count": 85,
       "provider_count": 8,
       "cheapest_price": 3.52,
       "plans": [
@@ -25,7 +25,7 @@
           "validity_days": 90,
           "network": "5G",
           "hotspot": true,
-          "value_score": 97
+          "value_score": 90
         },
         {
           "plan_name": "Japan 60 GB 90 days",
@@ -37,19 +37,6 @@
           "price_per_gb": 1.33,
           "validity_days": 90,
           "network": "4G",
-          "hotspot": true,
-          "value_score": 92
-        },
-        {
-          "plan_name": "Japan 50 GB",
-          "provider": "RoamVault",
-          "price": 29.99,
-          "currency": "USD",
-          "data_gb": 50.0,
-          "unlimited": false,
-          "price_per_gb": 0.6,
-          "validity_days": 30,
-          "network": "5G",
           "hotspot": true,
           "value_score": 84
         },
@@ -64,7 +51,20 @@
           "validity_days": 365,
           "network": "4G",
           "hotspot": true,
-          "value_score": 84
+          "value_score": 79
+        },
+        {
+          "plan_name": "Japan 50 GB",
+          "provider": "RoamVault",
+          "price": 29.99,
+          "currency": "USD",
+          "data_gb": 50.0,
+          "unlimited": false,
+          "price_per_gb": 0.6,
+          "validity_days": 30,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 77
         },
         {
           "plan_name": "Japan 50 GB",
@@ -77,20 +77,7 @@
           "validity_days": 30,
           "network": "5G",
           "hotspot": true,
-          "value_score": 83
-        },
-        {
-          "plan_name": "Japan Unlimited 10 Days",
-          "provider": "Airalo",
-          "price": 24.99,
-          "currency": "USD",
-          "data_gb": 66.0,
-          "unlimited": false,
-          "price_per_gb": 0.38,
-          "validity_days": 10,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 81
+          "value_score": 77
         },
         {
           "plan_name": "APAC 34 GB Yearly",
@@ -103,46 +90,7 @@
           "validity_days": 365,
           "network": "4G",
           "hotspot": true,
-          "value_score": 81
-        },
-        {
-          "plan_name": "Japan 50 GB",
-          "provider": "IIJ",
-          "price": 29.99,
-          "currency": "USD",
-          "data_gb": 50.0,
-          "unlimited": false,
-          "price_per_gb": 0.6,
-          "validity_days": 30,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 79
-        },
-        {
-          "plan_name": "China Korea Japan 35 GB",
-          "provider": "TSimTech",
-          "price": 29.99,
-          "currency": "USD",
-          "data_gb": 35.0,
-          "unlimited": false,
-          "price_per_gb": 0.86,
-          "validity_days": 30,
-          "network": "5G",
-          "hotspot": true,
-          "value_score": 78
-        },
-        {
-          "plan_name": "Best World 25 GB 90 Days",
-          "provider": "Ubigi",
-          "price": 69.99,
-          "currency": "USD",
-          "data_gb": 25.0,
-          "unlimited": false,
-          "price_per_gb": 2.8,
-          "validity_days": 90,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 78
+          "value_score": 77
         },
         {
           "plan_name": "Global 26 GB Yearly",
@@ -155,46 +103,7 @@
           "validity_days": 365,
           "network": "4G",
           "hotspot": true,
-          "value_score": 78
-        },
-        {
-          "plan_name": "Japan 35 GB 60 days",
-          "provider": "IIJ",
-          "price": 42.99,
-          "currency": "USD",
-          "data_gb": 35.0,
-          "unlimited": false,
-          "price_per_gb": 1.23,
-          "validity_days": 60,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 77
-        },
-        {
-          "plan_name": "Japan Unlimited 7 Days",
-          "provider": "Airalo",
-          "price": 19.99,
-          "currency": "USD",
-          "data_gb": 53.0,
-          "unlimited": false,
-          "price_per_gb": 0.38,
-          "validity_days": 7,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 76
-        },
-        {
-          "plan_name": "Japan 30 GB",
-          "provider": "TSimTech",
-          "price": 22.99,
-          "currency": "USD",
-          "data_gb": 30.0,
-          "unlimited": false,
-          "price_per_gb": 0.77,
-          "validity_days": 30,
-          "network": "5G",
-          "hotspot": true,
-          "value_score": 76
+          "value_score": 75
         },
         {
           "plan_name": "Europe Asia and USA 20 GB Yearly",
@@ -207,20 +116,59 @@
           "validity_days": 365,
           "network": "4G",
           "hotspot": true,
-          "value_score": 76
+          "value_score": 74
         },
         {
-          "plan_name": "Asia 14 Countries 30 GB",
-          "provider": "TSimTech",
-          "price": 37.99,
+          "plan_name": "Best World 25 GB 90 Days",
+          "provider": "Ubigi",
+          "price": 69.99,
           "currency": "USD",
-          "data_gb": 30.0,
+          "data_gb": 25.0,
           "unlimited": false,
-          "price_per_gb": 1.27,
+          "price_per_gb": 2.8,
+          "validity_days": 90,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 74
+        },
+        {
+          "plan_name": "Japan Unlimited 10 Days",
+          "provider": "Airalo",
+          "price": 24.99,
+          "currency": "USD",
+          "data_gb": 66.0,
+          "unlimited": false,
+          "price_per_gb": 0.38,
+          "validity_days": 10,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 73
+        },
+        {
+          "plan_name": "China Korea Japan 35 GB",
+          "provider": "TSimTech",
+          "price": 29.99,
+          "currency": "USD",
+          "data_gb": 35.0,
+          "unlimited": false,
+          "price_per_gb": 0.86,
           "validity_days": 30,
           "network": "5G",
           "hotspot": true,
-          "value_score": 75
+          "value_score": 73
+        },
+        {
+          "plan_name": "Japan 35 GB 60 days",
+          "provider": "IIJ",
+          "price": 42.99,
+          "currency": "USD",
+          "data_gb": 35.0,
+          "unlimited": false,
+          "price_per_gb": 1.23,
+          "validity_days": 60,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 73
         },
         {
           "plan_name": "APAC 17 GB Yearly",
@@ -233,7 +181,7 @@
           "validity_days": 365,
           "network": "4G",
           "hotspot": true,
-          "value_score": 75
+          "value_score": 73
         },
         {
           "plan_name": "Global Special 20 GB",
@@ -246,7 +194,46 @@
           "validity_days": 365,
           "network": "4G",
           "hotspot": true,
-          "value_score": 75
+          "value_score": 73
+        },
+        {
+          "plan_name": "Japan 30 GB",
+          "provider": "TSimTech",
+          "price": 22.99,
+          "currency": "USD",
+          "data_gb": 30.0,
+          "unlimited": false,
+          "price_per_gb": 0.77,
+          "validity_days": 30,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 72
+        },
+        {
+          "plan_name": "Japan 50 GB",
+          "provider": "IIJ",
+          "price": 29.99,
+          "currency": "USD",
+          "data_gb": 50.0,
+          "unlimited": false,
+          "price_per_gb": 0.6,
+          "validity_days": 30,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 72
+        },
+        {
+          "plan_name": "Asia 14 Countries 30 GB",
+          "provider": "TSimTech",
+          "price": 37.99,
+          "currency": "USD",
+          "data_gb": 30.0,
+          "unlimited": false,
+          "price_per_gb": 1.27,
+          "validity_days": 30,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 72
         },
         {
           "plan_name": "China Korea Japan 25 GB",
@@ -259,7 +246,7 @@
           "validity_days": 30,
           "network": "5G",
           "hotspot": true,
-          "value_score": 74
+          "value_score": 71
         },
         {
           "plan_name": "China Korea Japan 25 GB",
@@ -272,7 +259,7 @@
           "validity_days": 30,
           "network": "5G",
           "hotspot": true,
-          "value_score": 74
+          "value_score": 71
         },
         {
           "plan_name": "Global 13 GB Yearly",
@@ -285,7 +272,7 @@
           "validity_days": 365,
           "network": "4G",
           "hotspot": true,
-          "value_score": 73
+          "value_score": 71
         },
         {
           "plan_name": "Japan 20 GB",
@@ -298,20 +285,7 @@
           "validity_days": 30,
           "network": "5G",
           "hotspot": true,
-          "value_score": 72
-        },
-        {
-          "plan_name": "Japan Unlimited 5 Days",
-          "provider": "Airalo",
-          "price": 14.99,
-          "currency": "USD",
-          "data_gb": 43.0,
-          "unlimited": false,
-          "price_per_gb": 0.35,
-          "validity_days": 5,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 72
+          "value_score": 70
         },
         {
           "plan_name": "Japan 20 GB",
@@ -324,7 +298,7 @@
           "validity_days": 30,
           "network": "5G",
           "hotspot": true,
-          "value_score": 72
+          "value_score": 70
         },
         {
           "plan_name": "South Korea and Japan 20 GB",
@@ -337,33 +311,7 @@
           "validity_days": 30,
           "network": "5G",
           "hotspot": true,
-          "value_score": 72
-        },
-        {
-          "plan_name": "Japan 20 GB",
-          "provider": "Airalo",
-          "price": 18.99,
-          "currency": "USD",
-          "data_gb": 20.0,
-          "unlimited": false,
-          "price_per_gb": 0.95,
-          "validity_days": 30,
-          "network": "5G",
-          "hotspot": true,
-          "value_score": 72
-        },
-        {
-          "plan_name": "Asia 14 Countries 20 GB",
-          "provider": "TSimTech",
-          "price": 24.99,
-          "currency": "USD",
-          "data_gb": 20.0,
-          "unlimited": false,
-          "price_per_gb": 1.25,
-          "validity_days": 30,
-          "network": "5G",
-          "hotspot": true,
-          "value_score": 72
+          "value_score": 70
         },
         {
           "plan_name": "Global Special 10 GB",
@@ -376,7 +324,59 @@
           "validity_days": 180,
           "network": "4G",
           "hotspot": true,
-          "value_score": 71
+          "value_score": 70
+        },
+        {
+          "plan_name": "Japan 20 GB",
+          "provider": "Airalo",
+          "price": 18.99,
+          "currency": "USD",
+          "data_gb": 20.0,
+          "unlimited": false,
+          "price_per_gb": 0.95,
+          "validity_days": 30,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 69
+        },
+        {
+          "plan_name": "Japan Unlimited 7 Days",
+          "provider": "Airalo",
+          "price": 19.99,
+          "currency": "USD",
+          "data_gb": 53.0,
+          "unlimited": false,
+          "price_per_gb": 0.38,
+          "validity_days": 7,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 69
+        },
+        {
+          "plan_name": "Asia 14 Countries 20 GB",
+          "provider": "TSimTech",
+          "price": 24.99,
+          "currency": "USD",
+          "data_gb": 20.0,
+          "unlimited": false,
+          "price_per_gb": 1.25,
+          "validity_days": 30,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 69
+        },
+        {
+          "plan_name": "97.66 GB · 30 days · Japan",
+          "provider": "MeiSIM",
+          "price": 89.34,
+          "currency": "USD",
+          "data_gb": 97.66,
+          "unlimited": false,
+          "price_per_gb": 0.91,
+          "validity_days": 30,
+          "network": "Unknown",
+          "hotspot": false,
+          "value_score": 69
         },
         {
           "plan_name": "Japan 15 GB",
@@ -389,33 +389,7 @@
           "validity_days": 30,
           "network": "5G",
           "hotspot": true,
-          "value_score": 70
-        },
-        {
-          "plan_name": "China Korea Japan 12 GB",
-          "provider": "TSimTech",
-          "price": 12.99,
-          "currency": "USD",
-          "data_gb": 12.0,
-          "unlimited": false,
-          "price_per_gb": 1.08,
-          "validity_days": 30,
-          "network": "5G",
-          "hotspot": true,
-          "value_score": 69
-        },
-        {
-          "plan_name": "China Korea Japan 12 GB",
-          "provider": "3",
-          "price": 14.99,
-          "currency": "USD",
-          "data_gb": 12.0,
-          "unlimited": false,
-          "price_per_gb": 1.25,
-          "validity_days": 30,
-          "network": "5G",
-          "hotspot": true,
-          "value_score": 69
+          "value_score": 68
         },
         {
           "plan_name": "Japan 10 GB",
@@ -428,7 +402,7 @@
           "validity_days": 30,
           "network": "5G",
           "hotspot": true,
-          "value_score": 68
+          "value_score": 67
         },
         {
           "plan_name": "South Korea and Japan 10 GB",
@@ -441,7 +415,20 @@
           "validity_days": 30,
           "network": "5G",
           "hotspot": true,
-          "value_score": 68
+          "value_score": 67
+        },
+        {
+          "plan_name": "China Korea Japan 12 GB",
+          "provider": "TSimTech",
+          "price": 12.99,
+          "currency": "USD",
+          "data_gb": 12.0,
+          "unlimited": false,
+          "price_per_gb": 1.08,
+          "validity_days": 30,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 67
         },
         {
           "plan_name": "Asia 14 Countries 10 GB",
@@ -454,7 +441,7 @@
           "validity_days": 30,
           "network": "5G",
           "hotspot": true,
-          "value_score": 68
+          "value_score": 67
         },
         {
           "plan_name": "Japan 10 GB",
@@ -467,7 +454,59 @@
           "validity_days": 30,
           "network": "5G",
           "hotspot": true,
-          "value_score": 68
+          "value_score": 67
+        },
+        {
+          "plan_name": "China Korea Japan 12 GB",
+          "provider": "3",
+          "price": 14.99,
+          "currency": "USD",
+          "data_gb": 12.0,
+          "unlimited": false,
+          "price_per_gb": 1.25,
+          "validity_days": 30,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 67
+        },
+        {
+          "plan_name": "Japan Unlimited 5 Days",
+          "provider": "Airalo",
+          "price": 14.99,
+          "currency": "USD",
+          "data_gb": 43.0,
+          "unlimited": false,
+          "price_per_gb": 0.35,
+          "validity_days": 5,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 67
+        },
+        {
+          "plan_name": "Unlimited · 10 days · Japan",
+          "provider": "MeiSIM",
+          "price": 21.53,
+          "currency": "USD",
+          "data_gb": null,
+          "unlimited": true,
+          "price_per_gb": null,
+          "validity_days": 10,
+          "network": "Unknown",
+          "hotspot": false,
+          "value_score": 67
+        },
+        {
+          "plan_name": "Unlimited · 15 days · Japan",
+          "provider": "MeiSIM",
+          "price": 31.88,
+          "currency": "USD",
+          "data_gb": null,
+          "unlimited": true,
+          "price_per_gb": null,
+          "validity_days": 15,
+          "network": "Unknown",
+          "hotspot": false,
+          "value_score": 67
         },
         {
           "plan_name": "China Korea Japan 7 GB",
@@ -480,97 +519,32 @@
           "validity_days": 30,
           "network": "5G",
           "hotspot": true,
-          "value_score": 67
-        },
-        {
-          "plan_name": "Asialink 20 GB",
-          "provider": "Airalo",
-          "price": 19.99,
-          "currency": "USD",
-          "data_gb": 20.0,
-          "unlimited": false,
-          "price_per_gb": 1.0,
-          "validity_days": 30,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 67
-        },
-        {
-          "plan_name": "Japan 20 GB",
-          "provider": "IIJ",
-          "price": 22.99,
-          "currency": "USD",
-          "data_gb": 20.0,
-          "unlimited": false,
-          "price_per_gb": 1.15,
-          "validity_days": 30,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 67
-        },
-        {
-          "plan_name": "Japan 5 GB",
-          "provider": "RoamVault",
-          "price": 5.99,
-          "currency": "USD",
-          "data_gb": 5.0,
-          "unlimited": false,
-          "price_per_gb": 1.2,
-          "validity_days": 30,
-          "network": "5G",
-          "hotspot": true,
           "value_score": 66
         },
         {
-          "plan_name": "Japan 10 GB",
-          "provider": "TSimTech",
-          "price": 8.49,
+          "plan_name": "Unlimited · 5 days · Japan",
+          "provider": "MeiSIM",
+          "price": 11.67,
           "currency": "USD",
-          "data_gb": 10.0,
-          "unlimited": false,
-          "price_per_gb": 0.85,
-          "validity_days": 15,
-          "network": "5G",
-          "hotspot": true,
+          "data_gb": null,
+          "unlimited": true,
+          "price_per_gb": null,
+          "validity_days": 5,
+          "network": "Unknown",
+          "hotspot": false,
           "value_score": 66
         },
         {
-          "plan_name": "Japan 5 GB",
-          "provider": "Airalo",
-          "price": 8.99,
+          "plan_name": "Unlimited · 7 days · Japan",
+          "provider": "MeiSIM",
+          "price": 15.32,
           "currency": "USD",
-          "data_gb": 5.0,
-          "unlimited": false,
-          "price_per_gb": 1.8,
-          "validity_days": 30,
-          "network": "5G",
-          "hotspot": true,
-          "value_score": 66
-        },
-        {
-          "plan_name": "Japan Unlimited 3 Days",
-          "provider": "Airalo",
-          "price": 10.99,
-          "currency": "USD",
-          "data_gb": 28.0,
-          "unlimited": false,
-          "price_per_gb": 0.39,
-          "validity_days": 3,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 66
-        },
-        {
-          "plan_name": "Europe Asia and USA 20 GB",
-          "provider": "Sparks",
-          "price": 52.99,
-          "currency": "USD",
-          "data_gb": 20.0,
-          "unlimited": false,
-          "price_per_gb": 2.65,
-          "validity_days": 30,
-          "network": "4G",
-          "hotspot": true,
+          "data_gb": null,
+          "unlimited": true,
+          "price_per_gb": null,
+          "validity_days": 7,
+          "network": "Unknown",
+          "hotspot": false,
           "value_score": 66
         },
         {
@@ -587,13 +561,13 @@
           "value_score": 65
         },
         {
-          "plan_name": "Japan 3 GB",
-          "provider": "Airalo",
-          "price": 6.99,
+          "plan_name": "Japan 5 GB",
+          "provider": "RoamVault",
+          "price": 5.99,
           "currency": "USD",
-          "data_gb": 3.0,
+          "data_gb": 5.0,
           "unlimited": false,
-          "price_per_gb": 2.33,
+          "price_per_gb": 1.2,
           "validity_days": 30,
           "network": "5G",
           "hotspot": true,
@@ -614,6 +588,71 @@
         },
         {
           "plan_name": "Japan 5 GB",
+          "provider": "Airalo",
+          "price": 8.99,
+          "currency": "USD",
+          "data_gb": 5.0,
+          "unlimited": false,
+          "price_per_gb": 1.8,
+          "validity_days": 30,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 65
+        },
+        {
+          "plan_name": "Japan 3 GB",
+          "provider": "Airalo",
+          "price": 6.99,
+          "currency": "USD",
+          "data_gb": 3.0,
+          "unlimited": false,
+          "price_per_gb": 2.33,
+          "validity_days": 30,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 64
+        },
+        {
+          "plan_name": "Japan 10 GB",
+          "provider": "TSimTech",
+          "price": 8.49,
+          "currency": "USD",
+          "data_gb": 10.0,
+          "unlimited": false,
+          "price_per_gb": 0.85,
+          "validity_days": 15,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 64
+        },
+        {
+          "plan_name": "Asialink 20 GB",
+          "provider": "Airalo",
+          "price": 19.99,
+          "currency": "USD",
+          "data_gb": 20.0,
+          "unlimited": false,
+          "price_per_gb": 1.0,
+          "validity_days": 30,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 64
+        },
+        {
+          "plan_name": "Japan 20 GB",
+          "provider": "IIJ",
+          "price": 22.99,
+          "currency": "USD",
+          "data_gb": 20.0,
+          "unlimited": false,
+          "price_per_gb": 1.15,
+          "validity_days": 30,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 64
+        },
+        {
+          "plan_name": "Japan 5 GB",
           "provider": "TSimTech",
           "price": 5.49,
           "currency": "USD",
@@ -623,20 +662,7 @@
           "validity_days": 15,
           "network": "5G",
           "hotspot": true,
-          "value_score": 64
-        },
-        {
-          "plan_name": "Global Special 5 GB",
-          "provider": "Sparks",
-          "price": 23.49,
-          "currency": "USD",
-          "data_gb": 5.0,
-          "unlimited": false,
-          "price_per_gb": 4.7,
-          "validity_days": 60,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 64
+          "value_score": 63
         },
         {
           "plan_name": "Asia 14 Countries 5 GB",
@@ -652,52 +678,26 @@
           "value_score": 63
         },
         {
-          "plan_name": "Japan 10 GB",
-          "provider": "IIJ",
-          "price": 13.49,
+          "plan_name": "Global Special 5 GB",
+          "provider": "Sparks",
+          "price": 23.49,
           "currency": "USD",
-          "data_gb": 10.0,
+          "data_gb": 5.0,
           "unlimited": false,
-          "price_per_gb": 1.35,
-          "validity_days": 30,
+          "price_per_gb": 4.7,
+          "validity_days": 60,
           "network": "4G",
           "hotspot": true,
           "value_score": 63
         },
         {
-          "plan_name": "Asialink 10 GB",
-          "provider": "Airalo",
-          "price": 14.99,
+          "plan_name": "Europe Asia and USA 20 GB",
+          "provider": "Sparks",
+          "price": 52.99,
           "currency": "USD",
-          "data_gb": 10.0,
+          "data_gb": 20.0,
           "unlimited": false,
-          "price_per_gb": 1.5,
-          "validity_days": 30,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 63
-        },
-        {
-          "plan_name": "Japan 12 GB",
-          "provider": "IIJ",
-          "price": 21.99,
-          "currency": "USD",
-          "data_gb": 12.0,
-          "unlimited": false,
-          "price_per_gb": 1.83,
-          "validity_days": 30,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 63
-        },
-        {
-          "plan_name": "APAC 12 GB",
-          "provider": "3",
-          "price": 22.99,
-          "currency": "USD",
-          "data_gb": 12.0,
-          "unlimited": false,
-          "price_per_gb": 1.92,
+          "price_per_gb": 2.65,
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
@@ -717,13 +717,65 @@
           "value_score": 62
         },
         {
-          "plan_name": "Europe Asia and USA 10 GB",
-          "provider": "Sparks",
-          "price": 27.99,
+          "plan_name": "Japan Unlimited 3 Days",
+          "provider": "Airalo",
+          "price": 10.99,
+          "currency": "USD",
+          "data_gb": 28.0,
+          "unlimited": false,
+          "price_per_gb": 0.39,
+          "validity_days": 3,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 62
+        },
+        {
+          "plan_name": "Japan 10 GB",
+          "provider": "IIJ",
+          "price": 13.49,
           "currency": "USD",
           "data_gb": 10.0,
           "unlimited": false,
-          "price_per_gb": 2.8,
+          "price_per_gb": 1.35,
+          "validity_days": 30,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 62
+        },
+        {
+          "plan_name": "Asialink 10 GB",
+          "provider": "Airalo",
+          "price": 14.99,
+          "currency": "USD",
+          "data_gb": 10.0,
+          "unlimited": false,
+          "price_per_gb": 1.5,
+          "validity_days": 30,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 62
+        },
+        {
+          "plan_name": "Japan 12 GB",
+          "provider": "IIJ",
+          "price": 21.99,
+          "currency": "USD",
+          "data_gb": 12.0,
+          "unlimited": false,
+          "price_per_gb": 1.83,
+          "validity_days": 30,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 62
+        },
+        {
+          "plan_name": "APAC 12 GB",
+          "provider": "3",
+          "price": 22.99,
+          "currency": "USD",
+          "data_gb": 12.0,
+          "unlimited": false,
+          "price_per_gb": 1.92,
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
@@ -743,19 +795,6 @@
           "value_score": 61
         },
         {
-          "plan_name": "Japan 5 GB",
-          "provider": "IIJ",
-          "price": 5.99,
-          "currency": "USD",
-          "data_gb": 5.0,
-          "unlimited": false,
-          "price_per_gb": 1.2,
-          "validity_days": 30,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 61
-        },
-        {
           "plan_name": "China Korea Japan Short Trip",
           "provider": "TSimTech",
           "price": 5.99,
@@ -769,30 +808,30 @@
           "value_score": 61
         },
         {
-          "plan_name": "APAC 7 GB",
-          "provider": "3",
-          "price": 13.99,
+          "plan_name": "Europe Asia and USA 10 GB",
+          "provider": "Sparks",
+          "price": 27.99,
           "currency": "USD",
-          "data_gb": 7.0,
+          "data_gb": 10.0,
           "unlimited": false,
-          "price_per_gb": 2.0,
+          "price_per_gb": 2.8,
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
           "value_score": 61
         },
         {
-          "plan_name": "Best World 10 GB",
-          "provider": "Ubigi",
-          "price": 39.99,
+          "plan_name": "Japan 5 GB",
+          "provider": "IIJ",
+          "price": 5.99,
           "currency": "USD",
-          "data_gb": 10.0,
+          "data_gb": 5.0,
           "unlimited": false,
-          "price_per_gb": 4.0,
+          "price_per_gb": 1.2,
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
-          "value_score": 61
+          "value_score": 60
         },
         {
           "plan_name": "Asialink 5 GB",
@@ -808,13 +847,26 @@
           "value_score": 60
         },
         {
-          "plan_name": "Europe Asia and USA 5 GB",
-          "provider": "Sparks",
-          "price": 16.99,
+          "plan_name": "APAC 7 GB",
+          "provider": "3",
+          "price": 13.99,
           "currency": "USD",
-          "data_gb": 5.0,
+          "data_gb": 7.0,
           "unlimited": false,
-          "price_per_gb": 3.4,
+          "price_per_gb": 2.0,
+          "validity_days": 30,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 60
+        },
+        {
+          "plan_name": "Best World 10 GB",
+          "provider": "Ubigi",
+          "price": 39.99,
+          "currency": "USD",
+          "data_gb": 10.0,
+          "unlimited": false,
+          "price_per_gb": 4.0,
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
@@ -834,13 +886,13 @@
           "value_score": 59
         },
         {
-          "plan_name": "World 10 GB",
-          "provider": "Ubigi",
-          "price": 69.99,
+          "plan_name": "Europe Asia and USA 5 GB",
+          "provider": "Sparks",
+          "price": 16.99,
           "currency": "USD",
-          "data_gb": 10.0,
+          "data_gb": 5.0,
           "unlimited": false,
-          "price_per_gb": 7.0,
+          "price_per_gb": 3.4,
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
@@ -860,6 +912,19 @@
           "value_score": 58
         },
         {
+          "plan_name": "World 10 GB",
+          "provider": "Ubigi",
+          "price": 69.99,
+          "currency": "USD",
+          "data_gb": 10.0,
+          "unlimited": false,
+          "price_per_gb": 7.0,
+          "validity_days": 30,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 58
+        },
+        {
           "plan_name": "Global Special 3 GB",
           "provider": "Sparks",
           "price": 15.49,
@@ -870,7 +935,20 @@
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
-          "value_score": 58
+          "value_score": 57
+        },
+        {
+          "plan_name": "48.83 GB · 30 days · Japan",
+          "provider": "MeiSIM",
+          "price": 45.34,
+          "currency": "USD",
+          "data_gb": 48.83,
+          "unlimited": false,
+          "price_per_gb": 0.93,
+          "validity_days": 30,
+          "network": "Unknown",
+          "hotspot": false,
+          "value_score": 57
         },
         {
           "plan_name": "Best World 3 GB",
@@ -883,7 +961,7 @@
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
-          "value_score": 57
+          "value_score": 56
         },
         {
           "plan_name": "Global Special 2 GB",
@@ -899,19 +977,6 @@
           "value_score": 55
         },
         {
-          "plan_name": "Europe Asia and USA 1 GB",
-          "provider": "Sparks",
-          "price": 5.99,
-          "currency": "USD",
-          "data_gb": 1.0,
-          "unlimited": false,
-          "price_per_gb": 5.99,
-          "validity_days": 14,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 54
-        },
-        {
           "plan_name": "Best World 1 GB",
           "provider": "Ubigi",
           "price": 8.99,
@@ -925,6 +990,19 @@
           "value_score": 54
         },
         {
+          "plan_name": "Europe Asia and USA 1 GB",
+          "provider": "Sparks",
+          "price": 5.99,
+          "currency": "USD",
+          "data_gb": 1.0,
+          "unlimited": false,
+          "price_per_gb": 5.99,
+          "validity_days": 14,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 53
+        },
+        {
           "plan_name": "World 3 GB",
           "provider": "Ubigi",
           "price": 31.99,
@@ -935,7 +1013,7 @@
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
-          "value_score": 54
+          "value_score": 53
         },
         {
           "plan_name": "Global Special 1 GB",
@@ -964,6 +1042,32 @@
           "value_score": 49
         },
         {
+          "plan_name": "19.53 GB · 30 days · Japan",
+          "provider": "MeiSIM",
+          "price": 21.17,
+          "currency": "USD",
+          "data_gb": 19.53,
+          "unlimited": false,
+          "price_per_gb": 1.08,
+          "validity_days": 30,
+          "network": "Unknown",
+          "hotspot": false,
+          "value_score": 49
+        },
+        {
+          "plan_name": "9.77 GB · 30 days · Japan",
+          "provider": "MeiSIM",
+          "price": 13.59,
+          "currency": "USD",
+          "data_gb": 9.77,
+          "unlimited": false,
+          "price_per_gb": 1.39,
+          "validity_days": 30,
+          "network": "Unknown",
+          "hotspot": false,
+          "value_score": 47
+        },
+        {
           "plan_name": "4.88 GB · 30 days · Japan",
           "provider": "MeiSIM",
           "price": 8.96,
@@ -974,7 +1078,7 @@
           "validity_days": 30,
           "network": "Unknown",
           "hotspot": false,
-          "value_score": 46
+          "value_score": 45
         },
         {
           "plan_name": "2.93 GB · 30 days · Japan",
@@ -1022,7 +1126,7 @@
       "name": "United States",
       "slug": "usa",
       "url_name": "USA",
-      "plan_count": 133,
+      "plan_count": 132,
       "provider_count": 8,
       "cheapest_price": 2.81,
       "plans": [
@@ -2347,19 +2451,6 @@
           "data_gb": 5.0,
           "unlimited": false,
           "price_per_gb": 4.6,
-          "validity_days": 30,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 58
-        },
-        {
-          "plan_name": "Caribbean 10 GB",
-          "provider": "Sparks",
-          "price": 59.99,
-          "currency": "USD",
-          "data_gb": 10.0,
-          "unlimited": false,
-          "price_per_gb": 6.0,
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
@@ -4344,7 +4435,7 @@
       "name": "Mexico",
       "slug": "mexico",
       "url_name": null,
-      "plan_count": 65,
+      "plan_count": 64,
       "provider_count": 7,
       "cheapest_price": 3.99,
       "plans": [
@@ -4451,19 +4542,6 @@
           "network": "4G",
           "hotspot": true,
           "value_score": 72
-        },
-        {
-          "plan_name": "Mexico 15 GB",
-          "provider": "Sparks",
-          "price": 49.99,
-          "currency": "USD",
-          "data_gb": 15.0,
-          "unlimited": false,
-          "price_per_gb": 3.33,
-          "validity_days": 30,
-          "network": "5G",
-          "hotspot": true,
-          "value_score": 70
         },
         {
           "plan_name": "Mexico 20 GB",
