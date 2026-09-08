@@ -1,13 +1,13 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-09-07T12:39:30Z",
-    "plan_count": 419
+    "last_updated": "2026-09-08T00:42:21Z",
+    "plan_count": 411
   },
   "aggregates": {
     "JP": {
       "country_code": "JP",
-      "plan_count": 85,
+      "plan_count": 77,
       "provider_count": 8,
       "provider_names": [
         "3",
@@ -41,12 +41,12 @@
         "validity_days": 90,
         "network": "5G"
       },
-      "best_value_score": 90,
+      "best_value_score": 97,
       "median_price_per_gb": 1.5,
-      "avg_price_per_gb": 2.41,
+      "avg_price_per_gb": 2.48,
       "price_range": {
         "min": 3.52,
-        "max": 89.34
+        "max": 79.99
       },
       "ranked_plans": [
         {
@@ -59,7 +59,7 @@
           "unlimited": false,
           "validity_days": 90,
           "network": "5G",
-          "value_score": 90
+          "value_score": 97
         },
         {
           "plan_name": "Japan 60 GB 90 days",
@@ -71,6 +71,18 @@
           "unlimited": false,
           "validity_days": 90,
           "network": "4G",
+          "value_score": 92
+        },
+        {
+          "plan_name": "Japan 50 GB",
+          "provider": "RoamVault",
+          "price": 29.99,
+          "currency": "USD",
+          "data_gb": 50.0,
+          "price_per_gb": 0.6,
+          "unlimited": false,
+          "validity_days": 30,
+          "network": "5G",
           "value_score": 84
         },
         {
@@ -83,19 +95,7 @@
           "unlimited": false,
           "validity_days": 365,
           "network": "4G",
-          "value_score": 79
-        },
-        {
-          "plan_name": "Japan 50 GB",
-          "provider": "RoamVault",
-          "price": 29.99,
-          "currency": "USD",
-          "data_gb": 50.0,
-          "price_per_gb": 0.6,
-          "unlimited": false,
-          "validity_days": 30,
-          "network": "5G",
-          "value_score": 77
+          "value_score": 84
         },
         {
           "plan_name": "Japan 50 GB",
@@ -107,55 +107,7 @@
           "unlimited": false,
           "validity_days": 30,
           "network": "5G",
-          "value_score": 77
-        },
-        {
-          "plan_name": "APAC 34 GB Yearly",
-          "provider": "3",
-          "price": 74.99,
-          "currency": "USD",
-          "data_gb": 34.0,
-          "price_per_gb": 2.21,
-          "unlimited": false,
-          "validity_days": 365,
-          "network": "4G",
-          "value_score": 77
-        },
-        {
-          "plan_name": "Global 26 GB Yearly",
-          "provider": "3",
-          "price": 74.99,
-          "currency": "USD",
-          "data_gb": 26.0,
-          "price_per_gb": 2.88,
-          "unlimited": false,
-          "validity_days": 365,
-          "network": "4G",
-          "value_score": 75
-        },
-        {
-          "plan_name": "Europe Asia and USA 20 GB Yearly",
-          "provider": "Sparks",
-          "price": 39.99,
-          "currency": "USD",
-          "data_gb": 20.0,
-          "price_per_gb": 2.0,
-          "unlimited": false,
-          "validity_days": 365,
-          "network": "4G",
-          "value_score": 74
-        },
-        {
-          "plan_name": "Best World 25 GB 90 Days",
-          "provider": "Ubigi",
-          "price": 69.99,
-          "currency": "USD",
-          "data_gb": 25.0,
-          "price_per_gb": 2.8,
-          "unlimited": false,
-          "validity_days": 90,
-          "network": "4G",
-          "value_score": 74
+          "value_score": 83
         },
         {
           "plan_name": "Japan Unlimited 10 Days",
@@ -167,10 +119,58 @@
           "unlimited": false,
           "validity_days": 10,
           "network": "4G",
-          "value_score": 73
+          "value_score": 81
+        },
+        {
+          "plan_name": "APAC 34 GB Yearly",
+          "provider": "3",
+          "price": 74.99,
+          "currency": "USD",
+          "data_gb": 34.0,
+          "price_per_gb": 2.21,
+          "unlimited": false,
+          "validity_days": 365,
+          "network": "4G",
+          "value_score": 81
+        },
+        {
+          "plan_name": "Japan 50 GB",
+          "provider": "IIJ",
+          "price": 29.99,
+          "currency": "USD",
+          "data_gb": 50.0,
+          "price_per_gb": 0.6,
+          "unlimited": false,
+          "validity_days": 30,
+          "network": "4G",
+          "value_score": 79
+        },
+        {
+          "plan_name": "China Korea Japan 35 GB",
+          "provider": "TSimTech",
+          "price": 29.99,
+          "currency": "USD",
+          "data_gb": 35.0,
+          "price_per_gb": 0.86,
+          "unlimited": false,
+          "validity_days": 30,
+          "network": "5G",
+          "value_score": 78
+        },
+        {
+          "plan_name": "Best World 25 GB 90 Days",
+          "provider": "Ubigi",
+          "price": 69.99,
+          "currency": "USD",
+          "data_gb": 25.0,
+          "price_per_gb": 2.8,
+          "unlimited": false,
+          "validity_days": 90,
+          "network": "4G",
+          "value_score": 78
         }
       ],
-      "last_updated": "2026-09-07T12:39:30Z"
+      "last_updated": "2026-09-08T00:42:21Z"
     },
     "US": {
       "country_code": "US",
@@ -337,7 +337,7 @@
           "value_score": 75
         }
       ],
-      "last_updated": "2026-09-07T12:39:30Z"
+      "last_updated": "2026-09-08T00:42:21Z"
     },
     "IN": {
       "country_code": "IN",
@@ -502,7 +502,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-09-07T12:39:30Z"
+      "last_updated": "2026-09-08T00:42:21Z"
     },
     "TH": {
       "country_code": "TH",
@@ -670,7 +670,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-09-07T12:39:30Z"
+      "last_updated": "2026-09-08T00:42:21Z"
     },
     "MX": {
       "country_code": "MX",
@@ -836,7 +836,7 @@
           "value_score": 68
         }
       ],
-      "last_updated": "2026-09-07T12:39:30Z"
+      "last_updated": "2026-09-08T00:42:21Z"
     },
     "GB": {
       "country_code": "GB",
@@ -1003,7 +1003,7 @@
           "value_score": 70
         }
       ],
-      "last_updated": "2026-09-07T12:39:30Z"
+      "last_updated": "2026-09-08T00:42:21Z"
     },
     "IT": {
       "country_code": "IT",
@@ -1170,7 +1170,7 @@
           "value_score": 75
         }
       ],
-      "last_updated": "2026-09-07T12:39:30Z"
+      "last_updated": "2026-09-08T00:42:21Z"
     },
     "VN": {
       "country_code": "VN",
@@ -1337,7 +1337,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-09-07T12:39:30Z"
+      "last_updated": "2026-09-08T00:42:21Z"
     },
     "ES": {
       "country_code": "ES",
@@ -1504,7 +1504,7 @@
           "value_score": 75
         }
       ],
-      "last_updated": "2026-09-07T12:39:30Z"
+      "last_updated": "2026-09-08T00:42:21Z"
     },
     "FR": {
       "country_code": "FR",
@@ -1671,7 +1671,7 @@
           "value_score": 75
         }
       ],
-      "last_updated": "2026-09-07T12:39:30Z"
+      "last_updated": "2026-09-08T00:42:21Z"
     }
   }
 }
