@@ -1,9 +1,9 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-09-15T12:37:52Z",
-    "plan_count": 463,
-    "flagged_count": 33
+    "last_updated": "2026-09-16T00:38:49Z",
+    "plan_count": 466,
+    "flagged_count": 34
   },
   "flagged_records": [
     {
@@ -176,6 +176,13 @@
     },
     {
       "id": "p3:445:799",
+      "provider": "MeiSIM",
+      "reasons": [
+        "no data limit or unlimited flag"
+      ]
+    },
+    {
+      "id": "man:att_30gb_6m",
       "provider": "MeiSIM",
       "reasons": [
         "no data limit or unlimited flag"
