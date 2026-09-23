@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-09-22T12:37:23Z",
-    "plan_count": 456
+    "last_updated": "2026-09-23T00:37:02Z",
+    "plan_count": 449
   },
   "aggregates": {
     "JP": {
@@ -170,11 +170,11 @@
           "value_score": 74
         }
       ],
-      "last_updated": "2026-09-22T12:37:23Z"
+      "last_updated": "2026-09-23T00:37:02Z"
     },
     "US": {
       "country_code": "US",
-      "plan_count": 132,
+      "plan_count": 134,
       "provider_count": 8,
       "provider_names": [
         "3",
@@ -210,7 +210,7 @@
       },
       "best_value_score": 94,
       "median_price_per_gb": 2.8,
-      "avg_price_per_gb": 3.6,
+      "avg_price_per_gb": 3.56,
       "price_range": {
         "min": 2.74,
         "max": 288.0
@@ -337,7 +337,7 @@
           "value_score": 75
         }
       ],
-      "last_updated": "2026-09-22T12:37:23Z"
+      "last_updated": "2026-09-23T00:37:02Z"
     },
     "IN": {
       "country_code": "IN",
@@ -502,11 +502,11 @@
           "value_score": 71
         }
       ],
-      "last_updated": "2026-09-22T12:37:23Z"
+      "last_updated": "2026-09-23T00:37:02Z"
     },
     "TH": {
       "country_code": "TH",
-      "plan_count": 80,
+      "plan_count": 71,
       "provider_count": 9,
       "provider_names": [
         "3",
@@ -541,12 +541,12 @@
         "validity_days": 90,
         "network": "5G"
       },
-      "best_value_score": 87,
-      "median_price_per_gb": 2.0,
-      "avg_price_per_gb": 2.89,
+      "best_value_score": 95,
+      "median_price_per_gb": 2.16,
+      "avg_price_per_gb": 2.98,
       "price_range": {
         "min": 3.1,
-        "max": 101.06
+        "max": 74.99
       },
       "ranked_plans": [
         {
@@ -559,7 +559,7 @@
           "unlimited": false,
           "validity_days": 90,
           "network": "5G",
-          "value_score": 87
+          "value_score": 95
         },
         {
           "plan_name": "Vietnam Plus 60 GB 60 Days",
@@ -571,7 +571,7 @@
           "unlimited": false,
           "validity_days": 60,
           "network": "5G",
-          "value_score": 85
+          "value_score": 94
         },
         {
           "plan_name": "Europe Asia and USA 40 GB Yearly",
@@ -583,7 +583,7 @@
           "unlimited": false,
           "validity_days": 365,
           "network": "4G",
-          "value_score": 79
+          "value_score": 86
         },
         {
           "plan_name": "APAC 34 GB Yearly",
@@ -595,19 +595,7 @@
           "unlimited": false,
           "validity_days": 365,
           "network": "4G",
-          "value_score": 77
-        },
-        {
-          "plan_name": "Global 26 GB Yearly",
-          "provider": "3",
-          "price": 74.99,
-          "currency": "USD",
-          "data_gb": 26.0,
-          "price_per_gb": 2.88,
-          "unlimited": false,
-          "validity_days": 365,
-          "network": "4G",
-          "value_score": 75
+          "value_score": 83
         },
         {
           "plan_name": "Thailand Happy Tourist",
@@ -619,19 +607,19 @@
           "unlimited": false,
           "validity_days": 10,
           "network": "5G",
-          "value_score": 74
+          "value_score": 82
         },
         {
-          "plan_name": "Europe Asia and USA 20 GB Yearly",
-          "provider": "Sparks",
-          "price": 39.99,
+          "plan_name": "Global 26 GB Yearly",
+          "provider": "3",
+          "price": 74.99,
           "currency": "USD",
-          "data_gb": 20.0,
-          "price_per_gb": 2.0,
+          "data_gb": 26.0,
+          "price_per_gb": 2.88,
           "unlimited": false,
           "validity_days": 365,
           "network": "4G",
-          "value_score": 74
+          "value_score": 79
         },
         {
           "plan_name": "Best World 25 GB 90 Days",
@@ -643,34 +631,46 @@
           "unlimited": false,
           "validity_days": 90,
           "network": "4G",
-          "value_score": 74
+          "value_score": 78
         },
         {
-          "plan_name": "APAC 17 GB Yearly",
+          "plan_name": "Singapore Malaysia and Thailand 30 GB",
           "provider": "3",
-          "price": 43.99,
+          "price": 13.99,
           "currency": "USD",
-          "data_gb": 17.0,
-          "price_per_gb": 2.59,
+          "data_gb": 30.0,
+          "price_per_gb": 0.47,
           "unlimited": false,
-          "validity_days": 365,
-          "network": "4G",
-          "value_score": 73
+          "validity_days": 30,
+          "network": "5G",
+          "value_score": 77
         },
         {
-          "plan_name": "Global Special 20 GB",
-          "provider": "Sparks",
-          "price": 67.49,
+          "plan_name": "Vietnam Plus 30 GB",
+          "provider": "TSimTech",
+          "price": 29.99,
           "currency": "USD",
-          "data_gb": 20.0,
-          "price_per_gb": 3.37,
+          "data_gb": 30.0,
+          "price_per_gb": 1.0,
           "unlimited": false,
-          "validity_days": 365,
-          "network": "4G",
-          "value_score": 73
+          "validity_days": 30,
+          "network": "5G",
+          "value_score": 77
+        },
+        {
+          "plan_name": "Asia 14 Countries 30 GB",
+          "provider": "TSimTech",
+          "price": 37.99,
+          "currency": "USD",
+          "data_gb": 30.0,
+          "price_per_gb": 1.27,
+          "unlimited": false,
+          "validity_days": 30,
+          "network": "5G",
+          "value_score": 77
         }
       ],
-      "last_updated": "2026-09-22T12:37:23Z"
+      "last_updated": "2026-09-23T00:37:02Z"
     },
     "MX": {
       "country_code": "MX",
@@ -836,7 +836,7 @@
           "value_score": 68
         }
       ],
-      "last_updated": "2026-09-22T12:37:23Z"
+      "last_updated": "2026-09-23T00:37:02Z"
     },
     "GB": {
       "country_code": "GB",
@@ -1003,7 +1003,7 @@
           "value_score": 70
         }
       ],
-      "last_updated": "2026-09-22T12:37:23Z"
+      "last_updated": "2026-09-23T00:37:02Z"
     },
     "IT": {
       "country_code": "IT",
@@ -1170,7 +1170,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-09-22T12:37:23Z"
+      "last_updated": "2026-09-23T00:37:02Z"
     },
     "VN": {
       "country_code": "VN",
@@ -1337,7 +1337,7 @@
           "value_score": 73
         }
       ],
-      "last_updated": "2026-09-22T12:37:23Z"
+      "last_updated": "2026-09-23T00:37:02Z"
     },
     "ES": {
       "country_code": "ES",
@@ -1504,7 +1504,7 @@
           "value_score": 75
         }
       ],
-      "last_updated": "2026-09-22T12:37:23Z"
+      "last_updated": "2026-09-23T00:37:02Z"
     },
     "FR": {
       "country_code": "FR",
@@ -1671,7 +1671,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-09-22T12:37:23Z"
+      "last_updated": "2026-09-23T00:37:02Z"
     }
   }
 }
