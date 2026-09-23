@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-09-23T00:37:02Z",
-    "plan_count": 449
+    "last_updated": "2026-09-23T17:13:36Z",
+    "plan_count": 474
   },
   "providers": [
     {
@@ -233,7 +233,7 @@
     {
       "name": "IIJ",
       "logo": "https://meisimusa-backend.vercel.app/img/logo/3004c54462bb70c0b3b6a3d0",
-      "plan_count": 7,
+      "plan_count": 8,
       "country_codes": [
         "JP"
       ],
@@ -244,7 +244,7 @@
     {
       "name": "MeiSIM",
       "logo": null,
-      "plan_count": 144,
+      "plan_count": 168,
       "country_codes": [
         "ES",
         "FR",
@@ -252,6 +252,7 @@
         "IN",
         "IT",
         "JP",
+        "MX",
         "TH",
         "US",
         "VN"
