@@ -1,13 +1,13 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-09-28T19:43:14Z",
-    "plan_count": 431
+    "last_updated": "2026-09-29T05:52:03Z",
+    "plan_count": 423
   },
   "aggregates": {
     "JP": {
       "country_code": "JP",
-      "plan_count": 83,
+      "plan_count": 91,
       "provider_count": 8,
       "provider_names": [
         "3",
@@ -41,12 +41,12 @@
         "validity_days": 90,
         "network": "5G"
       },
-      "best_value_score": 97,
-      "median_price_per_gb": 1.7,
-      "avg_price_per_gb": 2.64,
+      "best_value_score": 90,
+      "median_price_per_gb": 1.5,
+      "avg_price_per_gb": 2.57,
       "price_range": {
         "min": 3.42,
-        "max": 79.99
+        "max": 86.96
       },
       "ranked_plans": [
         {
@@ -59,7 +59,7 @@
           "unlimited": false,
           "validity_days": 90,
           "network": "5G",
-          "value_score": 97
+          "value_score": 90
         },
         {
           "plan_name": "Japan 60 GB 90 days",
@@ -71,31 +71,7 @@
           "unlimited": false,
           "validity_days": 90,
           "network": "5G",
-          "value_score": 97
-        },
-        {
-          "plan_name": "Japan 50 GB",
-          "provider": "IIJ",
-          "price": 29.99,
-          "currency": "USD",
-          "data_gb": 50.0,
-          "price_per_gb": 0.6,
-          "unlimited": false,
-          "validity_days": 30,
-          "network": "5G",
-          "value_score": 84
-        },
-        {
-          "plan_name": "Japan 50 GB",
-          "provider": "RoamVault",
-          "price": 29.99,
-          "currency": "USD",
-          "data_gb": 50.0,
-          "price_per_gb": 0.6,
-          "unlimited": false,
-          "validity_days": 30,
-          "network": "5G",
-          "value_score": 84
+          "value_score": 89
         },
         {
           "plan_name": "Europe Asia and USA 40 GB Yearly",
@@ -107,19 +83,7 @@
           "unlimited": false,
           "validity_days": 365,
           "network": "4G",
-          "value_score": 84
-        },
-        {
-          "plan_name": "Japan 50 GB",
-          "provider": "TSimTech",
-          "price": 34.99,
-          "currency": "USD",
-          "data_gb": 50.0,
-          "price_per_gb": 0.7,
-          "unlimited": false,
-          "validity_days": 30,
-          "network": "5G",
-          "value_score": 83
+          "value_score": 79
         },
         {
           "plan_name": "Japan 35 GB 60 days",
@@ -131,19 +95,43 @@
           "unlimited": false,
           "validity_days": 60,
           "network": "5G",
-          "value_score": 82
+          "value_score": 78
         },
         {
-          "plan_name": "Japan Unlimited 10 Days",
-          "provider": "Airalo",
-          "price": 24.99,
+          "plan_name": "Japan 50 GB",
+          "provider": "IIJ",
+          "price": 29.99,
           "currency": "USD",
-          "data_gb": 66.0,
-          "price_per_gb": 0.38,
+          "data_gb": 50.0,
+          "price_per_gb": 0.6,
           "unlimited": false,
-          "validity_days": 10,
-          "network": "4G",
-          "value_score": 81
+          "validity_days": 30,
+          "network": "5G",
+          "value_score": 77
+        },
+        {
+          "plan_name": "Japan 50 GB",
+          "provider": "RoamVault",
+          "price": 29.99,
+          "currency": "USD",
+          "data_gb": 50.0,
+          "price_per_gb": 0.6,
+          "unlimited": false,
+          "validity_days": 30,
+          "network": "5G",
+          "value_score": 77
+        },
+        {
+          "plan_name": "Japan 50 GB",
+          "provider": "TSimTech",
+          "price": 34.99,
+          "currency": "USD",
+          "data_gb": 50.0,
+          "price_per_gb": 0.7,
+          "unlimited": false,
+          "validity_days": 30,
+          "network": "5G",
+          "value_score": 77
         },
         {
           "plan_name": "APAC 34 GB Yearly",
@@ -155,22 +143,34 @@
           "unlimited": false,
           "validity_days": 365,
           "network": "4G",
-          "value_score": 81
+          "value_score": 77
         },
         {
-          "plan_name": "China Korea Japan 35 GB",
-          "provider": "TSimTech",
-          "price": 29.99,
+          "plan_name": "Global 26 GB Yearly",
+          "provider": "3",
+          "price": 74.99,
           "currency": "USD",
-          "data_gb": 35.0,
-          "price_per_gb": 0.86,
+          "data_gb": 26.0,
+          "price_per_gb": 2.88,
           "unlimited": false,
-          "validity_days": 30,
-          "network": "5G",
-          "value_score": 78
+          "validity_days": 365,
+          "network": "4G",
+          "value_score": 75
+        },
+        {
+          "plan_name": "Europe Asia and USA 20 GB Yearly",
+          "provider": "Sparks",
+          "price": 39.99,
+          "currency": "USD",
+          "data_gb": 20.0,
+          "price_per_gb": 2.0,
+          "unlimited": false,
+          "validity_days": 365,
+          "network": "4G",
+          "value_score": 74
         }
       ],
-      "last_updated": "2026-09-28T19:43:14Z"
+      "last_updated": "2026-09-29T05:52:03Z"
     },
     "US": {
       "country_code": "US",
@@ -337,16 +337,15 @@
           "value_score": 75
         }
       ],
-      "last_updated": "2026-09-28T19:43:14Z"
+      "last_updated": "2026-09-29T05:52:03Z"
     },
     "IN": {
       "country_code": "IN",
-      "plan_count": 54,
-      "provider_count": 7,
+      "plan_count": 51,
+      "provider_count": 6,
       "provider_names": [
         "3",
         "Airalo",
-        "MeiSIM",
         "NextLink",
         "Sparks",
         "TSimTech",
@@ -375,8 +374,8 @@
         "network": "4G"
       },
       "best_value_score": 94,
-      "median_price_per_gb": 3.23,
-      "avg_price_per_gb": 3.87,
+      "median_price_per_gb": 3.2,
+      "avg_price_per_gb": 3.84,
       "price_range": {
         "min": 3.99,
         "max": 74.99
@@ -503,16 +502,15 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-09-28T19:43:14Z"
+      "last_updated": "2026-09-29T05:52:03Z"
     },
     "TH": {
       "country_code": "TH",
-      "plan_count": 76,
-      "provider_count": 9,
+      "plan_count": 70,
+      "provider_count": 8,
       "provider_names": [
         "3",
         "Airalo",
-        "MeiSIM",
         "RoamVault",
         "Sparks",
         "TSimTech",
@@ -521,15 +519,15 @@
         "eSIMGo"
       ],
       "cheapest_plan": {
-        "plan_name": "1000 MB · 7 days · Thailand",
-        "provider": "MeiSIM",
-        "price": 3.1,
+        "plan_name": "Asia 7 Countries 1 GB",
+        "provider": "Sparks",
+        "price": 3.99,
         "currency": "USD",
-        "data_gb": 0.9765625,
-        "price_per_gb": 3.17,
+        "data_gb": 1.0,
+        "price_per_gb": 3.99,
         "unlimited": false,
-        "validity_days": 7,
-        "network": "Unknown"
+        "validity_days": 14,
+        "network": "5G"
       },
       "best_value_plan": {
         "plan_name": "Asia 7 Countries 50 GB",
@@ -543,10 +541,10 @@
         "network": "5G"
       },
       "best_value_score": 95,
-      "median_price_per_gb": 2.415,
-      "avg_price_per_gb": 3.15,
+      "median_price_per_gb": 2.27,
+      "avg_price_per_gb": 3.18,
       "price_range": {
-        "min": 3.1,
+        "min": 3.99,
         "max": 74.99
       },
       "ranked_plans": [
@@ -671,7 +669,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-09-28T19:43:14Z"
+      "last_updated": "2026-09-29T05:52:03Z"
     },
     "MX": {
       "country_code": "MX",
@@ -837,7 +835,7 @@
           "value_score": 68
         }
       ],
-      "last_updated": "2026-09-28T19:43:14Z"
+      "last_updated": "2026-09-29T05:52:03Z"
     },
     "GB": {
       "country_code": "GB",
@@ -1004,7 +1002,7 @@
           "value_score": 70
         }
       ],
-      "last_updated": "2026-09-28T19:43:14Z"
+      "last_updated": "2026-09-29T05:52:03Z"
     },
     "IT": {
       "country_code": "IT",
@@ -1171,16 +1169,15 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-09-28T19:43:14Z"
+      "last_updated": "2026-09-29T05:52:03Z"
     },
     "VN": {
       "country_code": "VN",
-      "plan_count": 75,
-      "provider_count": 8,
+      "plan_count": 68,
+      "provider_count": 7,
       "provider_names": [
         "3",
         "Airalo",
-        "MeiSIM",
         "Sparks",
         "TSimTech",
         "Ubigi",
@@ -1188,15 +1185,15 @@
         "eSIMGo"
       ],
       "cheapest_plan": {
-        "plan_name": "Unlimited · 1 day · Vietnam",
-        "provider": "MeiSIM",
-        "price": 3.3,
+        "plan_name": "Asia 7 Countries 1 GB",
+        "provider": "Sparks",
+        "price": 3.99,
         "currency": "USD",
-        "data_gb": null,
-        "price_per_gb": null,
-        "unlimited": true,
-        "validity_days": 1,
-        "network": "Unknown"
+        "data_gb": 1.0,
+        "price_per_gb": 3.99,
+        "unlimited": false,
+        "validity_days": 14,
+        "network": "5G"
       },
       "best_value_plan": {
         "plan_name": "Asia 7 Countries 50 GB",
@@ -1211,9 +1208,9 @@
       },
       "best_value_score": 95,
       "median_price_per_gb": 2.415,
-      "avg_price_per_gb": 3.21,
+      "avg_price_per_gb": 3.25,
       "price_range": {
-        "min": 3.3,
+        "min": 3.99,
         "max": 74.99
       },
       "ranked_plans": [
@@ -1338,7 +1335,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-09-28T19:43:14Z"
+      "last_updated": "2026-09-29T05:52:03Z"
     },
     "ES": {
       "country_code": "ES",
@@ -1505,7 +1502,7 @@
           "value_score": 75
         }
       ],
-      "last_updated": "2026-09-28T19:43:14Z"
+      "last_updated": "2026-09-29T05:52:03Z"
     },
     "FR": {
       "country_code": "FR",
@@ -1672,7 +1669,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-09-28T19:43:14Z"
+      "last_updated": "2026-09-29T05:52:03Z"
     }
   }
 }
