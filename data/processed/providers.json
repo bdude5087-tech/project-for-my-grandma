@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-09-30T05:42:38Z",
-    "plan_count": 409
+    "last_updated": "2026-09-30T18:01:29Z",
+    "plan_count": 431
   },
   "providers": [
     {
@@ -337,13 +337,17 @@
     {
       "name": "MeiSIM",
       "logo": null,
-      "plan_count": 94,
+      "plan_count": 116,
       "country_codes": [
         "ES",
         "FR",
         "GB",
+        "IN",
         "IT",
-        "US"
+        "JP",
+        "TH",
+        "US",
+        "VN"
       ],
       "price_min": 1.83,
       "price_max": 288.0,
@@ -474,6 +478,7 @@
         "BQ",
         "BR",
         "BS",
+        "BW",
         "BY",
         "CA",
         "CD",
