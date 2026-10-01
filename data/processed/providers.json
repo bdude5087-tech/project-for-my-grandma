@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-10-01T06:08:11Z",
-    "plan_count": 483
+    "last_updated": "2026-10-01T18:27:56Z",
+    "plan_count": 484
   },
   "providers": [
     {
@@ -13,6 +13,7 @@
         "AE",
         "AL",
         "AM",
+        "AO",
         "AR",
         "AT",
         "AU",
@@ -441,7 +442,7 @@
     {
       "name": "RoamVault",
       "logo": "https://meisimusa-backend.vercel.app/img/logo/f352c0225f948a9a286863b3",
-      "plan_count": 11,
+      "plan_count": 12,
       "country_codes": [
         "JP",
         "TH",

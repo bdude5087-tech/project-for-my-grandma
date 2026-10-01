@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-10-01T06:08:11Z",
-    "plan_count": 483
+    "last_updated": "2026-10-01T18:27:56Z",
+    "plan_count": 484
   },
   "destinations": [
     {
@@ -1204,7 +1204,7 @@
       "name": "United States",
       "slug": "usa",
       "url_name": "USA",
-      "plan_count": 139,
+      "plan_count": 140,
       "provider_count": 8,
       "cheapest_price": 2.74,
       "plans": [
@@ -1736,6 +1736,19 @@
           "data_gb": 15.0,
           "unlimited": false,
           "price_per_gb": 1.0,
+          "validity_days": 30,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 67
+        },
+        {
+          "plan_name": "USA 15 GB",
+          "provider": "RoamVault",
+          "price": 15.99,
+          "currency": "USD",
+          "data_gb": 15.0,
+          "unlimited": false,
+          "price_per_gb": 1.07,
           "validity_days": 30,
           "network": "5G",
           "hotspot": true,
@@ -2496,7 +2509,7 @@
           "value_score": 59
         },
         {
-          "plan_name": "North America 1 GB",
+          "plan_name": "USA 1 GB",
           "provider": "eSIMGo",
           "price": 4.49,
           "currency": "USD",
@@ -2509,7 +2522,7 @@
           "value_score": 58
         },
         {
-          "plan_name": "USA 1 GB",
+          "plan_name": "North America 1 GB",
           "provider": "eSIMGo",
           "price": 4.49,
           "currency": "USD",
