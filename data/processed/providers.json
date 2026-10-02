@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-10-01T18:27:56Z",
-    "plan_count": 484
+    "last_updated": "2026-10-02T05:51:50Z",
+    "plan_count": 360
   },
   "providers": [
     {
@@ -338,20 +338,12 @@
     {
       "name": "MeiSIM",
       "logo": null,
-      "plan_count": 168,
+      "plan_count": 40,
       "country_codes": [
-        "ES",
-        "FR",
         "GB",
-        "IN",
-        "IT",
-        "JP",
-        "MX",
-        "TH",
-        "US",
-        "VN"
+        "US"
       ],
-      "price_min": 1.83,
+      "price_min": 2.13,
       "price_max": 288.0,
       "website_url": "https://www.meisimusa.com"
     },
@@ -619,7 +611,7 @@
     {
       "name": "TSimTech",
       "logo": "https://meisimusa-backend.vercel.app/img/logo/22bdccd74c78afb6e36cc003",
-      "plan_count": 40,
+      "plan_count": 44,
       "country_codes": [
         "BD",
         "CN",
@@ -639,7 +631,7 @@
         "TW",
         "VN"
       ],
-      "price_min": 3.99,
+      "price_min": 3.49,
       "price_max": 67.99,
       "website_url": "https://www.tsimtech.com"
     },
