@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-10-09T06:20:06Z",
-    "plan_count": 474
+    "last_updated": "2026-10-09T18:25:10Z",
+    "plan_count": 432
   },
   "providers": [
     {
@@ -339,7 +339,7 @@
     {
       "name": "MeiSIM",
       "logo": null,
-      "plan_count": 153,
+      "plan_count": 116,
       "country_codes": [
         "ES",
         "FR",
@@ -442,13 +442,12 @@
     {
       "name": "RoamVault",
       "logo": "https://meisimusa-backend.vercel.app/img/logo/f352c0225f948a9a286863b3",
-      "plan_count": 12,
+      "plan_count": 7,
       "country_codes": [
         "JP",
-        "TH",
-        "US"
+        "TH"
       ],
-      "price_min": 4.99,
+      "price_min": 5.49,
       "price_max": 29.99,
       "website_url": null
     },
@@ -804,6 +803,7 @@
         "RS",
         "RU",
         "RW",
+        "SA",
         "SC",
         "SE",
         "SG",
