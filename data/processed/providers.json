@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-10-08T18:54:10Z",
-    "plan_count": 392
+    "last_updated": "2026-10-09T06:20:06Z",
+    "plan_count": 474
   },
   "providers": [
     {
@@ -339,7 +339,7 @@
     {
       "name": "MeiSIM",
       "logo": null,
-      "plan_count": 71,
+      "plan_count": 153,
       "country_codes": [
         "ES",
         "FR",
@@ -804,7 +804,6 @@
         "RS",
         "RU",
         "RW",
-        "SA",
         "SC",
         "SE",
         "SG",
