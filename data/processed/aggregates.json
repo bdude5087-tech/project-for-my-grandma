@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-10-09T18:25:10Z",
+    "last_updated": "2026-10-10T06:02:25Z",
     "plan_count": 432
   },
   "aggregates": {
@@ -170,7 +170,7 @@
           "value_score": 78
         }
       ],
-      "last_updated": "2026-10-09T18:25:10Z"
+      "last_updated": "2026-10-10T06:02:25Z"
     },
     "US": {
       "country_code": "US",
@@ -336,7 +336,7 @@
           "value_score": 75
         }
       ],
-      "last_updated": "2026-10-09T18:25:10Z"
+      "last_updated": "2026-10-10T06:02:25Z"
     },
     "IN": {
       "country_code": "IN",
@@ -502,7 +502,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-10-09T18:25:10Z"
+      "last_updated": "2026-10-10T06:02:25Z"
     },
     "TH": {
       "country_code": "TH",
@@ -670,7 +670,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-10-09T18:25:10Z"
+      "last_updated": "2026-10-10T06:02:25Z"
     },
     "MX": {
       "country_code": "MX",
@@ -836,7 +836,7 @@
           "value_score": 68
         }
       ],
-      "last_updated": "2026-10-09T18:25:10Z"
+      "last_updated": "2026-10-10T06:02:25Z"
     },
     "GB": {
       "country_code": "GB",
@@ -1003,7 +1003,7 @@
           "value_score": 70
         }
       ],
-      "last_updated": "2026-10-09T18:25:10Z"
+      "last_updated": "2026-10-10T06:02:25Z"
     },
     "IT": {
       "country_code": "IT",
@@ -1170,7 +1170,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-10-09T18:25:10Z"
+      "last_updated": "2026-10-10T06:02:25Z"
     },
     "VN": {
       "country_code": "VN",
@@ -1337,7 +1337,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-10-09T18:25:10Z"
+      "last_updated": "2026-10-10T06:02:25Z"
     },
     "ES": {
       "country_code": "ES",
@@ -1504,7 +1504,7 @@
           "value_score": 75
         }
       ],
-      "last_updated": "2026-10-09T18:25:10Z"
+      "last_updated": "2026-10-10T06:02:25Z"
     },
     "FR": {
       "country_code": "FR",
@@ -1671,7 +1671,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-10-09T18:25:10Z"
+      "last_updated": "2026-10-10T06:02:25Z"
     }
   }
 }
