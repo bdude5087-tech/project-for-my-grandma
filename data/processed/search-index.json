@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-10-14T05:02:47Z",
+    "last_updated": "2026-10-14T17:20:27Z",
     "plan_count": 486
   },
   "destinations": [
@@ -12141,11 +12141,11 @@
         {
           "plan_name": "France 10 GB",
           "provider": "eSIMGo",
-          "price": 9.99,
+          "price": 10.49,
           "currency": "USD",
           "data_gb": 10.0,
           "unlimited": false,
-          "price_per_gb": 1.0,
+          "price_per_gb": 1.05,
           "validity_days": 30,
           "network": "5G",
           "hotspot": true,
