@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-10-15T04:51:40Z",
-    "plan_count": 471
+    "last_updated": "2026-10-15T17:10:08Z",
+    "plan_count": 491
   },
   "destinations": [
     {
@@ -11,15 +11,15 @@
       "provider_count": 8,
       "cheapest_price": 3.55,
       "best_value_plan_name": "China Korea Japan 60 GB 90 Days",
-      "last_updated": "2026-10-15T04:51:40Z"
+      "last_updated": "2026-10-15T17:10:08Z"
     },
     {
       "country_code": "US",
-      "plan_count": 137,
-      "provider_count": 7,
+      "plan_count": 142,
+      "provider_count": 8,
       "cheapest_price": 2.85,
       "best_value_plan_name": "Half Global 120 GB Yearly",
-      "last_updated": "2026-10-15T04:51:40Z"
+      "last_updated": "2026-10-15T17:10:08Z"
     },
     {
       "country_code": "IN",
@@ -27,7 +27,7 @@
       "provider_count": 7,
       "cheapest_price": 3.99,
       "best_value_plan_name": "Europe Asia and USA 40 GB Yearly",
-      "last_updated": "2026-10-15T04:51:40Z"
+      "last_updated": "2026-10-15T17:10:08Z"
     },
     {
       "country_code": "TH",
@@ -35,15 +35,15 @@
       "provider_count": 9,
       "cheapest_price": 3.23,
       "best_value_plan_name": "Asia 7 Countries 50 GB",
-      "last_updated": "2026-10-15T04:51:40Z"
+      "last_updated": "2026-10-15T17:10:08Z"
     },
     {
       "country_code": "MX",
-      "plan_count": 69,
-      "provider_count": 7,
-      "cheapest_price": 3.99,
-      "best_value_plan_name": "LatAm 50 GB",
-      "last_updated": "2026-10-15T04:51:40Z"
+      "plan_count": 84,
+      "provider_count": 8,
+      "cheapest_price": 3.91,
+      "best_value_plan_name": "Global 26 GB Yearly",
+      "last_updated": "2026-10-15T17:10:08Z"
     },
     {
       "country_code": "GB",
@@ -51,7 +51,7 @@
       "provider_count": 8,
       "cheapest_price": 2.21,
       "best_value_plan_name": "UK 999 GB",
-      "last_updated": "2026-10-15T04:51:40Z"
+      "last_updated": "2026-10-15T17:10:08Z"
     },
     {
       "country_code": "IT",
@@ -59,7 +59,7 @@
       "provider_count": 8,
       "cheapest_price": 1.9,
       "best_value_plan_name": "Half Global 120 GB Yearly",
-      "last_updated": "2026-10-15T04:51:40Z"
+      "last_updated": "2026-10-15T17:10:08Z"
     },
     {
       "country_code": "VN",
@@ -67,7 +67,7 @@
       "provider_count": 8,
       "cheapest_price": 3.43,
       "best_value_plan_name": "Asia 7 Countries 50 GB",
-      "last_updated": "2026-10-15T04:51:40Z"
+      "last_updated": "2026-10-15T17:10:08Z"
     },
     {
       "country_code": "ES",
@@ -75,7 +75,7 @@
       "provider_count": 8,
       "cheapest_price": 1.96,
       "best_value_plan_name": "Half Global 120 GB Yearly",
-      "last_updated": "2026-10-15T04:51:40Z"
+      "last_updated": "2026-10-15T17:10:08Z"
     },
     {
       "country_code": "FR",
@@ -83,7 +83,7 @@
       "provider_count": 8,
       "cheapest_price": 1.9,
       "best_value_plan_name": "Half Global 120 GB Yearly",
-      "last_updated": "2026-10-15T04:51:40Z"
+      "last_updated": "2026-10-15T17:10:08Z"
     }
   ]
 }
