@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-10-16T04:42:34Z",
-    "plan_count": 462
+    "last_updated": "2026-10-16T16:46:32Z",
+    "plan_count": 486
   },
   "providers": [
     {
@@ -338,7 +338,7 @@
     {
       "name": "MeiSIM",
       "logo": null,
-      "plan_count": 141,
+      "plan_count": 170,
       "country_codes": [
         "ES",
         "FR",
@@ -358,7 +358,7 @@
     {
       "name": "NextLink",
       "logo": "https://meisimusa-backend.vercel.app/img/logo/99d1324bd53a2baa08fe0985",
-      "plan_count": 39,
+      "plan_count": 34,
       "country_codes": [
         "AG",
         "AI",
