@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-10-17T15:43:18Z",
-    "plan_count": 398
+    "last_updated": "2026-10-18T04:45:26Z",
+    "plan_count": 486
   },
   "providers": [
     {
@@ -338,17 +338,20 @@
     {
       "name": "MeiSIM",
       "logo": null,
-      "plan_count": 82,
+      "plan_count": 170,
       "country_codes": [
         "ES",
+        "FR",
         "GB",
         "IN",
+        "IT",
         "JP",
+        "MX",
         "TH",
         "US",
         "VN"
       ],
-      "price_min": 1.96,
+      "price_min": 1.9,
       "price_max": 288.0,
       "website_url": "https://www.meisimusa.com"
     },
