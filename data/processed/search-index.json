@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-10-19T04:53:33Z",
+    "last_updated": "2026-10-19T18:45:19Z",
     "plan_count": 488
   },
   "destinations": [
@@ -1612,8 +1612,8 @@
           "value_score": 70
         },
         {
-          "plan_name": "USA and UK 20 GB",
-          "provider": "3",
+          "plan_name": "USA 20 GB",
+          "provider": "NextLink",
           "price": 16.99,
           "currency": "USD",
           "data_gb": 20.0,
@@ -1625,8 +1625,8 @@
           "value_score": 69
         },
         {
-          "plan_name": "USA 20 GB",
-          "provider": "NextLink",
+          "plan_name": "USA and UK 20 GB",
+          "provider": "3",
           "price": 16.99,
           "currency": "USD",
           "data_gb": 20.0,
@@ -7027,11 +7027,11 @@
         {
           "plan_name": "UK 2 GB 40 Minutes",
           "provider": "eSIMGo",
-          "price": 6.49,
+          "price": 6.99,
           "currency": "USD",
           "data_gb": 2.0,
           "unlimited": false,
-          "price_per_gb": 3.25,
+          "price_per_gb": 3.5,
           "validity_days": 14,
           "network": "5G",
           "hotspot": true,
