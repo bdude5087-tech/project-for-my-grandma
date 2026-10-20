@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-10-20T05:00:25Z",
-    "plan_count": 473
+    "last_updated": "2026-10-20T17:19:25Z",
+    "plan_count": 493
   },
   "providers": [
     {
@@ -338,7 +338,7 @@
     {
       "name": "MeiSIM",
       "logo": null,
-      "plan_count": 155,
+      "plan_count": 170,
       "country_codes": [
         "ES",
         "FR",
@@ -346,6 +346,7 @@
         "IN",
         "IT",
         "JP",
+        "MX",
         "TH",
         "US",
         "VN"
@@ -619,7 +620,7 @@
     {
       "name": "TSimTech",
       "logo": "https://meisimusa-backend.vercel.app/img/logo/22bdccd74c78afb6e36cc003",
-      "plan_count": 44,
+      "plan_count": 49,
       "country_codes": [
         "BD",
         "CN",
