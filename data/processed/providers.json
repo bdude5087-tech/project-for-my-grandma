@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-10-23T05:02:32Z",
-    "plan_count": 356
+    "last_updated": "2026-10-23T17:16:43Z",
+    "plan_count": 480
   },
   "providers": [
     {
@@ -144,7 +144,6 @@
         "BZ",
         "CA",
         "CD",
-        "CG",
         "CH",
         "CI",
         "CL",
@@ -338,10 +337,17 @@
     {
       "name": "MeiSIM",
       "logo": null,
-      "plan_count": 33,
+      "plan_count": 147,
       "country_codes": [
+        "ES",
         "FR",
-        "US"
+        "GB",
+        "IN",
+        "IT",
+        "JP",
+        "TH",
+        "US",
+        "VN"
       ],
       "price_min": 1.9,
       "price_max": 288.0,
@@ -925,6 +931,17 @@
       ],
       "price_min": 3.99,
       "price_max": 155.99,
+      "website_url": null
+    },
+    {
+      "name": "eSIMPlus",
+      "logo": "https://meisimusa-backend.vercel.app/img/logo/9bf2fe0ee79ad7c2f96936b6",
+      "plan_count": 10,
+      "country_codes": [
+        "JP"
+      ],
+      "price_min": 4.99,
+      "price_max": 28.99,
       "website_url": null
     }
   ]
