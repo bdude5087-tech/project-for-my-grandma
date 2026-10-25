@@ -1,19 +1,18 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-10-25T04:55:31Z",
-    "plan_count": 459
+    "last_updated": "2026-10-25T16:33:55Z",
+    "plan_count": 348
   },
   "aggregates": {
     "JP": {
       "country_code": "JP",
-      "plan_count": 101,
-      "provider_count": 9,
+      "plan_count": 87,
+      "provider_count": 8,
       "provider_names": [
         "3",
         "Airalo",
         "IIJ",
-        "MeiSIM",
         "RoamVault",
         "Sparks",
         "TSimTech",
@@ -21,15 +20,15 @@
         "eSIMPlus"
       ],
       "cheapest_plan": {
-        "plan_name": "Unlimited · 1 day · Japan",
-        "provider": "MeiSIM",
-        "price": 3.55,
+        "plan_name": "Japan Short Trip",
+        "provider": "TSimTech",
+        "price": 4.49,
         "currency": "USD",
-        "data_gb": null,
-        "price_per_gb": null,
-        "unlimited": true,
-        "validity_days": 1,
-        "network": "Unknown"
+        "data_gb": 3.0,
+        "price_per_gb": 1.5,
+        "unlimited": false,
+        "validity_days": 5,
+        "network": "5G"
       },
       "best_value_plan": {
         "plan_name": "Japan Premium Unlimited 15 Days",
@@ -44,10 +43,10 @@
       },
       "best_value_score": 87,
       "median_price_per_gb": 1.4,
-      "avg_price_per_gb": 2.33,
+      "avg_price_per_gb": 2.36,
       "price_range": {
-        "min": 3.55,
-        "max": 90.38
+        "min": 4.49,
+        "max": 79.99
       },
       "ranked_plans": [
         {
@@ -171,11 +170,11 @@
           "value_score": 71
         }
       ],
-      "last_updated": "2026-10-25T04:55:31Z"
+      "last_updated": "2026-10-25T16:33:55Z"
     },
     "US": {
       "country_code": "US",
-      "plan_count": 142,
+      "plan_count": 127,
       "provider_count": 8,
       "provider_names": [
         "3",
@@ -188,15 +187,15 @@
         "eSIMGo"
       ],
       "cheapest_plan": {
-        "plan_name": "1000 MB · 7 days · United States",
-        "provider": "MeiSIM",
-        "price": 2.85,
+        "plan_name": "USA 2 GB",
+        "provider": "NextLink",
+        "price": 3.49,
         "currency": "USD",
-        "data_gb": 0.9765625,
-        "price_per_gb": 2.92,
+        "data_gb": 2.0,
+        "price_per_gb": 1.75,
         "unlimited": false,
-        "validity_days": 7,
-        "network": "Unknown"
+        "validity_days": 15,
+        "network": "5G"
       },
       "best_value_plan": {
         "plan_name": "Half Global 120 GB Yearly",
@@ -210,10 +209,10 @@
         "network": "4G"
       },
       "best_value_score": 94,
-      "median_price_per_gb": 2.8,
-      "avg_price_per_gb": 3.62,
+      "median_price_per_gb": 3.0,
+      "avg_price_per_gb": 3.74,
       "price_range": {
-        "min": 2.85,
+        "min": 3.49,
         "max": 288.0
       },
       "ranked_plans": [
@@ -338,16 +337,15 @@
           "value_score": 75
         }
       ],
-      "last_updated": "2026-10-25T04:55:31Z"
+      "last_updated": "2026-10-25T16:33:55Z"
     },
     "IN": {
       "country_code": "IN",
-      "plan_count": 54,
-      "provider_count": 7,
+      "plan_count": 51,
+      "provider_count": 6,
       "provider_names": [
         "3",
         "Airalo",
-        "MeiSIM",
         "NextLink",
         "Sparks",
         "TSimTech",
@@ -376,8 +374,8 @@
         "network": "4G"
       },
       "best_value_score": 94,
-      "median_price_per_gb": 3.23,
-      "avg_price_per_gb": 3.88,
+      "median_price_per_gb": 3.2,
+      "avg_price_per_gb": 3.84,
       "price_range": {
         "min": 3.99,
         "max": 74.99
@@ -504,16 +502,15 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-10-25T04:55:31Z"
+      "last_updated": "2026-10-25T16:33:55Z"
     },
     "TH": {
       "country_code": "TH",
-      "plan_count": 85,
-      "provider_count": 9,
+      "plan_count": 79,
+      "provider_count": 8,
       "provider_names": [
         "3",
         "Airalo",
-        "MeiSIM",
         "RoamVault",
         "Sparks",
         "TSimTech",
@@ -522,15 +519,15 @@
         "eSIMGo"
       ],
       "cheapest_plan": {
-        "plan_name": "1000 MB · 7 days · Thailand",
-        "provider": "MeiSIM",
-        "price": 3.23,
+        "plan_name": "Singapore Malaysia Thailand 3 GB",
+        "provider": "TSimTech",
+        "price": 3.49,
         "currency": "USD",
-        "data_gb": 0.9765625,
-        "price_per_gb": 3.31,
+        "data_gb": 3.0,
+        "price_per_gb": 1.16,
         "unlimited": false,
         "validity_days": 7,
-        "network": "Unknown"
+        "network": "5G"
       },
       "best_value_plan": {
         "plan_name": "Asia 7 Countries 50 GB",
@@ -545,9 +542,9 @@
       },
       "best_value_score": 95,
       "median_price_per_gb": 2.0,
-      "avg_price_per_gb": 2.89,
+      "avg_price_per_gb": 2.9,
       "price_range": {
-        "min": 3.23,
+        "min": 3.49,
         "max": 74.99
       },
       "ranked_plans": [
@@ -672,7 +669,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-10-25T04:55:31Z"
+      "last_updated": "2026-10-25T16:33:55Z"
     },
     "MX": {
       "country_code": "MX",
@@ -838,32 +835,31 @@
           "value_score": 68
         }
       ],
-      "last_updated": "2026-10-25T04:55:31Z"
+      "last_updated": "2026-10-25T16:33:55Z"
     },
     "GB": {
       "country_code": "GB",
-      "plan_count": 107,
-      "provider_count": 8,
+      "plan_count": 95,
+      "provider_count": 7,
       "provider_names": [
         "3",
         "Airalo",
         "Bouygues",
-        "MeiSIM",
         "NextLink",
         "Sparks",
         "Ubigi",
         "eSIMGo"
       ],
       "cheapest_plan": {
-        "plan_name": "1000 MB · 7 days · United Kingdom",
-        "provider": "MeiSIM",
-        "price": 2.21,
+        "plan_name": "Europe 2 GB",
+        "provider": "NextLink",
+        "price": 3.49,
         "currency": "USD",
-        "data_gb": 0.9765625,
-        "price_per_gb": 2.26,
+        "data_gb": 2.0,
+        "price_per_gb": 1.75,
         "unlimited": false,
-        "validity_days": 7,
-        "network": "Unknown"
+        "validity_days": 15,
+        "network": "5G"
       },
       "best_value_plan": {
         "plan_name": "UK 999 GB",
@@ -877,10 +873,10 @@
         "network": "5G"
       },
       "best_value_score": 90,
-      "median_price_per_gb": 1.58,
-      "avg_price_per_gb": 2.53,
+      "median_price_per_gb": 1.6,
+      "avg_price_per_gb": 2.6,
       "price_range": {
-        "min": 2.21,
+        "min": 3.49,
         "max": 116.99
       },
       "ranked_plans": [
@@ -1005,32 +1001,31 @@
           "value_score": 70
         }
       ],
-      "last_updated": "2026-10-25T04:55:31Z"
+      "last_updated": "2026-10-25T16:33:55Z"
     },
     "IT": {
       "country_code": "IT",
-      "plan_count": 106,
-      "provider_count": 8,
+      "plan_count": 88,
+      "provider_count": 7,
       "provider_names": [
         "3",
         "Airalo",
         "Bouygues",
-        "MeiSIM",
         "NextLink",
         "Sparks",
         "Ubigi",
         "eSIMGo"
       ],
       "cheapest_plan": {
-        "plan_name": "1000 MB · 7 days · Italy",
-        "provider": "MeiSIM",
-        "price": 1.9,
+        "plan_name": "Europe 2 GB",
+        "provider": "NextLink",
+        "price": 3.49,
         "currency": "USD",
-        "data_gb": 0.9765625,
-        "price_per_gb": 1.95,
+        "data_gb": 2.0,
+        "price_per_gb": 1.75,
         "unlimited": false,
-        "validity_days": 7,
-        "network": "Unknown"
+        "validity_days": 15,
+        "network": "5G"
       },
       "best_value_plan": {
         "plan_name": "Half Global 120 GB Yearly",
@@ -1044,10 +1039,10 @@
         "network": "4G"
       },
       "best_value_score": 94,
-      "median_price_per_gb": 1.41,
-      "avg_price_per_gb": 2.5,
+      "median_price_per_gb": 1.58,
+      "avg_price_per_gb": 2.63,
       "price_range": {
-        "min": 1.9,
+        "min": 3.49,
         "max": 116.99
       },
       "ranked_plans": [
@@ -1172,16 +1167,15 @@
           "value_score": 75
         }
       ],
-      "last_updated": "2026-10-25T04:55:31Z"
+      "last_updated": "2026-10-25T16:33:55Z"
     },
     "VN": {
       "country_code": "VN",
-      "plan_count": 75,
-      "provider_count": 8,
+      "plan_count": 68,
+      "provider_count": 7,
       "provider_names": [
         "3",
         "Airalo",
-        "MeiSIM",
         "Sparks",
         "TSimTech",
         "Ubigi",
@@ -1189,15 +1183,15 @@
         "eSIMGo"
       ],
       "cheapest_plan": {
-        "plan_name": "Unlimited · 1 day · Vietnam",
-        "provider": "MeiSIM",
-        "price": 3.43,
+        "plan_name": "Asia 7 Countries 1 GB",
+        "provider": "Sparks",
+        "price": 3.99,
         "currency": "USD",
-        "data_gb": null,
-        "price_per_gb": null,
-        "unlimited": true,
-        "validity_days": 1,
-        "network": "Unknown"
+        "data_gb": 1.0,
+        "price_per_gb": 3.99,
+        "unlimited": false,
+        "validity_days": 14,
+        "network": "5G"
       },
       "best_value_plan": {
         "plan_name": "Asia 7 Countries 50 GB",
@@ -1211,10 +1205,10 @@
         "network": "5G"
       },
       "best_value_score": 95,
-      "median_price_per_gb": 2.45,
-      "avg_price_per_gb": 3.22,
+      "median_price_per_gb": 2.415,
+      "avg_price_per_gb": 3.25,
       "price_range": {
-        "min": 3.43,
+        "min": 3.99,
         "max": 74.99
       },
       "ranked_plans": [
@@ -1339,32 +1333,31 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-10-25T04:55:31Z"
+      "last_updated": "2026-10-25T16:33:55Z"
     },
     "ES": {
       "country_code": "ES",
-      "plan_count": 110,
-      "provider_count": 8,
+      "plan_count": 92,
+      "provider_count": 7,
       "provider_names": [
         "3",
         "Airalo",
         "Bouygues",
-        "MeiSIM",
         "NextLink",
         "Sparks",
         "Ubigi",
         "eSIMGo"
       ],
       "cheapest_plan": {
-        "plan_name": "1000 MB · 7 days · Spain",
-        "provider": "MeiSIM",
-        "price": 1.96,
+        "plan_name": "Europe 2 GB",
+        "provider": "NextLink",
+        "price": 3.49,
         "currency": "USD",
-        "data_gb": 0.9765625,
-        "price_per_gb": 2.01,
+        "data_gb": 2.0,
+        "price_per_gb": 1.75,
         "unlimited": false,
-        "validity_days": 7,
-        "network": "Unknown"
+        "validity_days": 15,
+        "network": "5G"
       },
       "best_value_plan": {
         "plan_name": "Half Global 120 GB Yearly",
@@ -1378,10 +1371,10 @@
         "network": "4G"
       },
       "best_value_score": 94,
-      "median_price_per_gb": 1.65,
-      "avg_price_per_gb": 2.52,
+      "median_price_per_gb": 1.68,
+      "avg_price_per_gb": 2.64,
       "price_range": {
-        "min": 1.96,
+        "min": 3.49,
         "max": 116.99
       },
       "ranked_plans": [
@@ -1506,32 +1499,31 @@
           "value_score": 75
         }
       ],
-      "last_updated": "2026-10-25T04:55:31Z"
+      "last_updated": "2026-10-25T16:33:55Z"
     },
     "FR": {
       "country_code": "FR",
-      "plan_count": 120,
-      "provider_count": 8,
+      "plan_count": 102,
+      "provider_count": 7,
       "provider_names": [
         "3",
         "Airalo",
         "Bouygues",
-        "MeiSIM",
         "NextLink",
         "Sparks",
         "Ubigi",
         "eSIMGo"
       ],
       "cheapest_plan": {
-        "plan_name": "1000 MB · 7 days · France",
-        "provider": "MeiSIM",
-        "price": 1.9,
+        "plan_name": "Europe 2 GB",
+        "provider": "NextLink",
+        "price": 3.49,
         "currency": "USD",
-        "data_gb": 0.9765625,
-        "price_per_gb": 1.95,
+        "data_gb": 2.0,
+        "price_per_gb": 1.75,
         "unlimited": false,
-        "validity_days": 7,
-        "network": "Unknown"
+        "validity_days": 15,
+        "network": "5G"
       },
       "best_value_plan": {
         "plan_name": "Half Global 120 GB Yearly",
@@ -1545,10 +1537,10 @@
         "network": "4G"
       },
       "best_value_score": 94,
-      "median_price_per_gb": 1.4,
-      "avg_price_per_gb": 2.38,
+      "median_price_per_gb": 1.45,
+      "avg_price_per_gb": 2.49,
       "price_range": {
-        "min": 1.9,
+        "min": 3.49,
         "max": 116.99
       },
       "ranked_plans": [
@@ -1673,7 +1665,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-10-25T04:55:31Z"
+      "last_updated": "2026-10-25T16:33:55Z"
     }
   }
 }
