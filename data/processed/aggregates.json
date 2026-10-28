@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-10-28T05:54:58Z",
-    "plan_count": 490
+    "last_updated": "2026-10-28T18:23:12Z",
+    "plan_count": 505
   },
   "aggregates": {
     "JP": {
@@ -171,7 +171,7 @@
           "value_score": 71
         }
       ],
-      "last_updated": "2026-10-28T05:54:58Z"
+      "last_updated": "2026-10-28T18:23:12Z"
     },
     "US": {
       "country_code": "US",
@@ -338,7 +338,7 @@
           "value_score": 75
         }
       ],
-      "last_updated": "2026-10-28T05:54:58Z"
+      "last_updated": "2026-10-28T18:23:12Z"
     },
     "IN": {
       "country_code": "IN",
@@ -504,7 +504,7 @@
           "value_score": 71
         }
       ],
-      "last_updated": "2026-10-28T05:54:58Z"
+      "last_updated": "2026-10-28T18:23:12Z"
     },
     "TH": {
       "country_code": "TH",
@@ -672,7 +672,7 @@
           "value_score": 73
         }
       ],
-      "last_updated": "2026-10-28T05:54:58Z"
+      "last_updated": "2026-10-28T18:23:12Z"
     },
     "MX": {
       "country_code": "MX",
@@ -839,7 +839,7 @@
           "value_score": 67
         }
       ],
-      "last_updated": "2026-10-28T05:54:58Z"
+      "last_updated": "2026-10-28T18:23:12Z"
     },
     "GB": {
       "country_code": "GB",
@@ -1006,7 +1006,7 @@
           "value_score": 70
         }
       ],
-      "last_updated": "2026-10-28T05:54:58Z"
+      "last_updated": "2026-10-28T18:23:12Z"
     },
     "IT": {
       "country_code": "IT",
@@ -1173,7 +1173,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-10-28T05:54:58Z"
+      "last_updated": "2026-10-28T18:23:12Z"
     },
     "VN": {
       "country_code": "VN",
@@ -1340,7 +1340,7 @@
           "value_score": 73
         }
       ],
-      "last_updated": "2026-10-28T05:54:58Z"
+      "last_updated": "2026-10-28T18:23:12Z"
     },
     "ES": {
       "country_code": "ES",
@@ -1507,11 +1507,11 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-10-28T05:54:58Z"
+      "last_updated": "2026-10-28T18:23:12Z"
     },
     "FR": {
       "country_code": "FR",
-      "plan_count": 106,
+      "plan_count": 121,
       "provider_count": 8,
       "provider_names": [
         "3",
@@ -1546,8 +1546,8 @@
         "network": "5G"
       },
       "best_value_score": 95,
-      "median_price_per_gb": 1.5,
-      "avg_price_per_gb": 2.46,
+      "median_price_per_gb": 1.4,
+      "avg_price_per_gb": 2.36,
       "price_range": {
         "min": 1.9,
         "max": 124.99
@@ -1674,7 +1674,7 @@
           "value_score": 80
         }
       ],
-      "last_updated": "2026-10-28T05:54:58Z"
+      "last_updated": "2026-10-28T18:23:12Z"
     }
   }
 }

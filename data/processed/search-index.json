@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-10-28T05:54:58Z",
-    "plan_count": 490
+    "last_updated": "2026-10-28T18:23:12Z",
+    "plan_count": 505
   },
   "destinations": [
     {
@@ -11731,7 +11731,7 @@
       "name": "France",
       "slug": "france",
       "url_name": null,
-      "plan_count": 106,
+      "plan_count": 121,
       "provider_count": 8,
       "cheapest_price": 1.9,
       "plans": [
@@ -12113,6 +12113,19 @@
           "value_score": 70
         },
         {
+          "plan_name": "Unlimited · 30 days · France",
+          "provider": "MeiSIM",
+          "price": 35.02,
+          "currency": "USD",
+          "data_gb": null,
+          "unlimited": true,
+          "price_per_gb": null,
+          "validity_days": 30,
+          "network": "Unknown",
+          "hotspot": false,
+          "value_score": 70
+        },
+        {
           "plan_name": "Global 13 GB Yearly",
           "provider": "3",
           "price": 41.99,
@@ -12230,6 +12243,19 @@
           "value_score": 67
         },
         {
+          "plan_name": "Unlimited · 10 days · France",
+          "provider": "MeiSIM",
+          "price": 12.58,
+          "currency": "USD",
+          "data_gb": null,
+          "unlimited": true,
+          "price_per_gb": null,
+          "validity_days": 10,
+          "network": "Unknown",
+          "hotspot": false,
+          "value_score": 67
+        },
+        {
           "plan_name": "Europe and USA 12 GB",
           "provider": "Sparks",
           "price": 12.99,
@@ -12295,6 +12321,19 @@
           "value_score": 67
         },
         {
+          "plan_name": "Unlimited · 15 days · France",
+          "provider": "MeiSIM",
+          "price": 18.28,
+          "currency": "USD",
+          "data_gb": null,
+          "unlimited": true,
+          "price_per_gb": null,
+          "validity_days": 15,
+          "network": "Unknown",
+          "hotspot": false,
+          "value_score": 67
+        },
+        {
           "plan_name": "Europe Premium Unlimited 5 Days",
           "provider": "eSIMGo",
           "price": 21.99,
@@ -12319,6 +12358,45 @@
           "network": "4G",
           "hotspot": true,
           "value_score": 67
+        },
+        {
+          "plan_name": "Unlimited · 10 days · France",
+          "provider": "MeiSIM",
+          "price": 39.47,
+          "currency": "USD",
+          "data_gb": null,
+          "unlimited": true,
+          "price_per_gb": null,
+          "validity_days": 10,
+          "network": "Unknown",
+          "hotspot": false,
+          "value_score": 67
+        },
+        {
+          "plan_name": "Unlimited · 15 days · France",
+          "provider": "MeiSIM",
+          "price": 51.48,
+          "currency": "USD",
+          "data_gb": null,
+          "unlimited": true,
+          "price_per_gb": null,
+          "validity_days": 15,
+          "network": "Unknown",
+          "hotspot": false,
+          "value_score": 67
+        },
+        {
+          "plan_name": "Unlimited · 5 days · France",
+          "provider": "MeiSIM",
+          "price": 6.93,
+          "currency": "USD",
+          "data_gb": null,
+          "unlimited": true,
+          "price_per_gb": null,
+          "validity_days": 5,
+          "network": "Unknown",
+          "hotspot": false,
+          "value_score": 66
         },
         {
           "plan_name": "Europe 7 GB",
@@ -12357,6 +12435,19 @@
           "validity_days": 30,
           "network": "5G",
           "hotspot": true,
+          "value_score": 66
+        },
+        {
+          "plan_name": "Unlimited · 7 days · France",
+          "provider": "MeiSIM",
+          "price": 9.13,
+          "currency": "USD",
+          "data_gb": null,
+          "unlimited": true,
+          "price_per_gb": null,
+          "validity_days": 7,
+          "network": "Unknown",
+          "hotspot": false,
           "value_score": 66
         },
         {
@@ -12412,6 +12503,19 @@
           "value_score": 66
         },
         {
+          "plan_name": "Unlimited · 5 days · France",
+          "provider": "MeiSIM",
+          "price": 25.74,
+          "currency": "USD",
+          "data_gb": null,
+          "unlimited": true,
+          "price_per_gb": null,
+          "validity_days": 5,
+          "network": "Unknown",
+          "hotspot": false,
+          "value_score": 66
+        },
+        {
           "plan_name": "Unlimited · 1 day · France",
           "provider": "MeiSIM",
           "price": 1.92,
@@ -12420,6 +12524,19 @@
           "unlimited": true,
           "price_per_gb": null,
           "validity_days": 1,
+          "network": "Unknown",
+          "hotspot": false,
+          "value_score": 65
+        },
+        {
+          "plan_name": "Unlimited · 3 days · France",
+          "provider": "MeiSIM",
+          "price": 4.62,
+          "currency": "USD",
+          "data_gb": null,
+          "unlimited": true,
+          "price_per_gb": null,
+          "validity_days": 3,
           "network": "Unknown",
           "hotspot": false,
           "value_score": 65
@@ -12513,6 +12630,19 @@
           "validity_days": 15,
           "network": "5G",
           "hotspot": true,
+          "value_score": 65
+        },
+        {
+          "plan_name": "97.66 GB · 30 days · France",
+          "provider": "MeiSIM",
+          "price": 35.28,
+          "currency": "USD",
+          "data_gb": 97.66,
+          "unlimited": false,
+          "price_per_gb": 0.36,
+          "validity_days": 30,
+          "network": "Unknown",
+          "hotspot": false,
           "value_score": 65
         },
         {
@@ -12971,6 +13101,19 @@
           "value_score": 56
         },
         {
+          "plan_name": "48.83 GB · 30 days · France",
+          "provider": "MeiSIM",
+          "price": 26.43,
+          "currency": "USD",
+          "data_gb": 48.83,
+          "unlimited": false,
+          "price_per_gb": 0.54,
+          "validity_days": 30,
+          "network": "Unknown",
+          "hotspot": false,
+          "value_score": 55
+        },
+        {
           "plan_name": "Balkans Special 1 GB",
           "provider": "Sparks",
           "price": 4.99,
@@ -13075,6 +13218,19 @@
           "value_score": 50
         },
         {
+          "plan_name": "19.53 GB · 30 days · France",
+          "provider": "MeiSIM",
+          "price": 12.37,
+          "currency": "USD",
+          "data_gb": 19.53,
+          "unlimited": false,
+          "price_per_gb": 0.63,
+          "validity_days": 30,
+          "network": "Unknown",
+          "hotspot": false,
+          "value_score": 49
+        },
+        {
           "plan_name": "World 1 GB",
           "provider": "Ubigi",
           "price": 15.99,
@@ -13086,6 +13242,45 @@
           "network": "4G",
           "hotspot": true,
           "value_score": 49
+        },
+        {
+          "plan_name": "9.77 GB · 30 days · France",
+          "provider": "MeiSIM",
+          "price": 7.6,
+          "currency": "USD",
+          "data_gb": 9.77,
+          "unlimited": false,
+          "price_per_gb": 0.78,
+          "validity_days": 30,
+          "network": "Unknown",
+          "hotspot": false,
+          "value_score": 46
+        },
+        {
+          "plan_name": "2.93 GB · 30 days · France",
+          "provider": "MeiSIM",
+          "price": 4.15,
+          "currency": "USD",
+          "data_gb": 2.93,
+          "unlimited": false,
+          "price_per_gb": 1.42,
+          "validity_days": 30,
+          "network": "Unknown",
+          "hotspot": false,
+          "value_score": 45
+        },
+        {
+          "plan_name": "4.88 GB · 30 days · France",
+          "provider": "MeiSIM",
+          "price": 4.56,
+          "currency": "USD",
+          "data_gb": 4.88,
+          "unlimited": false,
+          "price_per_gb": 0.93,
+          "validity_days": 30,
+          "network": "Unknown",
+          "hotspot": false,
+          "value_score": 45
         },
         {
           "plan_name": "1.95 GB · 15 days · France",
