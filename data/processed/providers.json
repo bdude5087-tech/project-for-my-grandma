@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-11-03T06:58:32Z",
+    "last_updated": "2026-11-03T19:37:22Z",
     "plan_count": 490
   },
   "providers": [
@@ -349,7 +349,7 @@
         "US",
         "VN"
       ],
-      "price_min": 1.9,
+      "price_min": 1.96,
       "price_max": 288.0,
       "website_url": "https://www.meisimusa.com"
     },
@@ -773,6 +773,7 @@
         "ML",
         "MO",
         "MQ",
+        "MR",
         "MS",
         "MT",
         "MU",
