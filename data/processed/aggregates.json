@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-11-03T19:37:22Z",
-    "plan_count": 490
+    "last_updated": "2026-11-04T06:40:53Z",
+    "plan_count": 478
   },
   "aggregates": {
     "JP": {
@@ -171,7 +171,7 @@
           "value_score": 71
         }
       ],
-      "last_updated": "2026-11-03T19:37:22Z"
+      "last_updated": "2026-11-04T06:40:53Z"
     },
     "US": {
       "country_code": "US",
@@ -338,7 +338,7 @@
           "value_score": 75
         }
       ],
-      "last_updated": "2026-11-03T19:37:22Z"
+      "last_updated": "2026-11-04T06:40:53Z"
     },
     "IN": {
       "country_code": "IN",
@@ -504,7 +504,7 @@
           "value_score": 71
         }
       ],
-      "last_updated": "2026-11-03T19:37:22Z"
+      "last_updated": "2026-11-04T06:40:53Z"
     },
     "TH": {
       "country_code": "TH",
@@ -672,7 +672,7 @@
           "value_score": 73
         }
       ],
-      "last_updated": "2026-11-03T19:37:22Z"
+      "last_updated": "2026-11-04T06:40:53Z"
     },
     "MX": {
       "country_code": "MX",
@@ -838,32 +838,31 @@
           "value_score": 68
         }
       ],
-      "last_updated": "2026-11-03T19:37:22Z"
+      "last_updated": "2026-11-04T06:40:53Z"
     },
     "GB": {
       "country_code": "GB",
-      "plan_count": 107,
-      "provider_count": 8,
+      "plan_count": 95,
+      "provider_count": 7,
       "provider_names": [
         "3",
         "Airalo",
         "Bouygues",
-        "MeiSIM",
         "NextLink",
         "Sparks",
         "Ubigi",
         "eSIMGo"
       ],
       "cheapest_plan": {
-        "plan_name": "1000 MB · 7 days · United Kingdom",
-        "provider": "MeiSIM",
-        "price": 2.28,
+        "plan_name": "Europe 2 GB",
+        "provider": "NextLink",
+        "price": 3.49,
         "currency": "USD",
-        "data_gb": 0.9765625,
-        "price_per_gb": 2.33,
+        "data_gb": 2.0,
+        "price_per_gb": 1.75,
         "unlimited": false,
-        "validity_days": 7,
-        "network": "Unknown"
+        "validity_days": 15,
+        "network": "5G"
       },
       "best_value_plan": {
         "plan_name": "UK 999 GB",
@@ -878,9 +877,9 @@
       },
       "best_value_score": 90,
       "median_price_per_gb": 1.6,
-      "avg_price_per_gb": 2.53,
+      "avg_price_per_gb": 2.59,
       "price_range": {
-        "min": 2.28,
+        "min": 3.49,
         "max": 116.99
       },
       "ranked_plans": [
@@ -1005,7 +1004,7 @@
           "value_score": 70
         }
       ],
-      "last_updated": "2026-11-03T19:37:22Z"
+      "last_updated": "2026-11-04T06:40:53Z"
     },
     "IT": {
       "country_code": "IT",
@@ -1172,7 +1171,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-11-03T19:37:22Z"
+      "last_updated": "2026-11-04T06:40:53Z"
     },
     "VN": {
       "country_code": "VN",
@@ -1339,7 +1338,7 @@
           "value_score": 73
         }
       ],
-      "last_updated": "2026-11-03T19:37:22Z"
+      "last_updated": "2026-11-04T06:40:53Z"
     },
     "ES": {
       "country_code": "ES",
@@ -1506,7 +1505,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-11-03T19:37:22Z"
+      "last_updated": "2026-11-04T06:40:53Z"
     },
     "FR": {
       "country_code": "FR",
@@ -1673,7 +1672,7 @@
           "value_score": 80
         }
       ],
-      "last_updated": "2026-11-03T19:37:22Z"
+      "last_updated": "2026-11-04T06:40:53Z"
     }
   }
 }

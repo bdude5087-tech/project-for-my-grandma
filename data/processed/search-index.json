@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-11-03T19:37:22Z",
-    "plan_count": 490
+    "last_updated": "2026-11-04T06:40:53Z",
+    "plan_count": 478
   },
   "destinations": [
     {
@@ -6214,9 +6214,9 @@
       "name": "United Kingdom",
       "slug": "uk",
       "url_name": "UK",
-      "plan_count": 107,
-      "provider_count": 8,
-      "cheapest_price": 2.28,
+      "plan_count": 95,
+      "provider_count": 7,
+      "cheapest_price": 3.49,
       "plans": [
         {
           "plan_name": "UK 999 GB",
@@ -6349,19 +6349,6 @@
           "value_score": 70
         },
         {
-          "plan_name": "Unlimited · 30 days · United Kingdom",
-          "provider": "MeiSIM",
-          "price": 47.84,
-          "currency": "USD",
-          "data_gb": null,
-          "unlimited": true,
-          "price_per_gb": null,
-          "validity_days": 30,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 70
-        },
-        {
           "plan_name": "Europe Asia and USA 40 GB Yearly",
           "provider": "Sparks",
           "price": 59.99,
@@ -6440,19 +6427,6 @@
           "value_score": 68
         },
         {
-          "plan_name": "Unlimited · 15 days · United Kingdom",
-          "provider": "MeiSIM",
-          "price": 24.69,
-          "currency": "USD",
-          "data_gb": null,
-          "unlimited": true,
-          "price_per_gb": null,
-          "validity_days": 15,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 67
-        },
-        {
           "plan_name": "Global Special 10 GB",
           "provider": "Sparks",
           "price": 41.99,
@@ -6464,32 +6438,6 @@
           "network": "4G",
           "hotspot": true,
           "value_score": 67
-        },
-        {
-          "plan_name": "Unlimited · 5 days · United Kingdom",
-          "provider": "MeiSIM",
-          "price": 8.79,
-          "currency": "USD",
-          "data_gb": null,
-          "unlimited": true,
-          "price_per_gb": null,
-          "validity_days": 5,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 66
-        },
-        {
-          "plan_name": "Unlimited · 7 days · United Kingdom",
-          "provider": "MeiSIM",
-          "price": 11.67,
-          "currency": "USD",
-          "data_gb": null,
-          "unlimited": true,
-          "price_per_gb": null,
-          "validity_days": 7,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 66
         },
         {
           "plan_name": "UK and Ireland 50 GB",
@@ -6529,32 +6477,6 @@
           "network": "5G",
           "hotspot": true,
           "value_score": 66
-        },
-        {
-          "plan_name": "Unlimited · 1 day · United Kingdom",
-          "provider": "MeiSIM",
-          "price": 2.33,
-          "currency": "USD",
-          "data_gb": null,
-          "unlimited": true,
-          "price_per_gb": null,
-          "validity_days": 1,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 65
-        },
-        {
-          "plan_name": "Unlimited · 3 days · United Kingdom",
-          "provider": "MeiSIM",
-          "price": 5.85,
-          "currency": "USD",
-          "data_gb": null,
-          "unlimited": true,
-          "price_per_gb": null,
-          "validity_days": 3,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 65
         },
         {
           "plan_name": "Europe 12 GB",
@@ -7530,84 +7452,6 @@
           "network": "4G",
           "hotspot": true,
           "value_score": 49
-        },
-        {
-          "plan_name": "9.77 GB · 30 days · United Kingdom",
-          "provider": "MeiSIM",
-          "price": 9.99,
-          "currency": "USD",
-          "data_gb": 9.77,
-          "unlimited": false,
-          "price_per_gb": 1.02,
-          "validity_days": 30,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 45
-        },
-        {
-          "plan_name": "19.53 GB · 30 days · United Kingdom",
-          "provider": "MeiSIM",
-          "price": 16.71,
-          "currency": "USD",
-          "data_gb": 19.53,
-          "unlimited": false,
-          "price_per_gb": 0.86,
-          "validity_days": 30,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 45
-        },
-        {
-          "plan_name": "2.93 GB · 30 days · United Kingdom",
-          "provider": "MeiSIM",
-          "price": 4.75,
-          "currency": "USD",
-          "data_gb": 2.93,
-          "unlimited": false,
-          "price_per_gb": 1.62,
-          "validity_days": 30,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 44
-        },
-        {
-          "plan_name": "4.88 GB · 30 days · United Kingdom",
-          "provider": "MeiSIM",
-          "price": 5.85,
-          "currency": "USD",
-          "data_gb": 4.88,
-          "unlimited": false,
-          "price_per_gb": 1.2,
-          "validity_days": 30,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 44
-        },
-        {
-          "plan_name": "1.95 GB · 15 days · United Kingdom",
-          "provider": "MeiSIM",
-          "price": 3.64,
-          "currency": "USD",
-          "data_gb": 1.95,
-          "unlimited": false,
-          "price_per_gb": 1.87,
-          "validity_days": 15,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 41
-        },
-        {
-          "plan_name": "1000 MB · 7 days · United Kingdom",
-          "provider": "MeiSIM",
-          "price": 2.28,
-          "currency": "USD",
-          "data_gb": 0.9765625,
-          "unlimited": false,
-          "price_per_gb": 2.33,
-          "validity_days": 7,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 40
         }
       ]
     },
