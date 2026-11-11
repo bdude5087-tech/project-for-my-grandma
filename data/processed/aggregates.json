@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-11-11T06:45:01Z",
-    "plan_count": 505
+    "last_updated": "2026-11-11T19:42:54Z",
+    "plan_count": 496
   },
   "aggregates": {
     "JP": {
@@ -171,7 +171,7 @@
           "value_score": 71
         }
       ],
-      "last_updated": "2026-11-11T06:45:01Z"
+      "last_updated": "2026-11-11T19:42:54Z"
     },
     "US": {
       "country_code": "US",
@@ -338,7 +338,7 @@
           "value_score": 75
         }
       ],
-      "last_updated": "2026-11-11T06:45:01Z"
+      "last_updated": "2026-11-11T19:42:54Z"
     },
     "IN": {
       "country_code": "IN",
@@ -504,7 +504,7 @@
           "value_score": 71
         }
       ],
-      "last_updated": "2026-11-11T06:45:01Z"
+      "last_updated": "2026-11-11T19:42:54Z"
     },
     "TH": {
       "country_code": "TH",
@@ -672,7 +672,7 @@
           "value_score": 73
         }
       ],
-      "last_updated": "2026-11-11T06:45:01Z"
+      "last_updated": "2026-11-11T19:42:54Z"
     },
     "MX": {
       "country_code": "MX",
@@ -712,7 +712,7 @@
       },
       "best_value_score": 82,
       "median_price_per_gb": 4.12,
-      "avg_price_per_gb": 4.51,
+      "avg_price_per_gb": 4.52,
       "price_range": {
         "min": 3.99,
         "max": 155.99
@@ -839,7 +839,7 @@
           "value_score": 67
         }
       ],
-      "last_updated": "2026-11-11T06:45:01Z"
+      "last_updated": "2026-11-11T19:42:54Z"
     },
     "GB": {
       "country_code": "GB",
@@ -1006,11 +1006,11 @@
           "value_score": 70
         }
       ],
-      "last_updated": "2026-11-11T06:45:01Z"
+      "last_updated": "2026-11-11T19:42:54Z"
     },
     "IT": {
       "country_code": "IT",
-      "plan_count": 106,
+      "plan_count": 103,
       "provider_count": 8,
       "provider_names": [
         "3",
@@ -1173,7 +1173,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-11-11T06:45:01Z"
+      "last_updated": "2026-11-11T19:42:54Z"
     },
     "VN": {
       "country_code": "VN",
@@ -1213,7 +1213,7 @@
       },
       "best_value_score": 87,
       "median_price_per_gb": 2.185,
-      "avg_price_per_gb": 3.09,
+      "avg_price_per_gb": 3.1,
       "price_range": {
         "min": 3.53,
         "max": 89.99
@@ -1340,11 +1340,11 @@
           "value_score": 73
         }
       ],
-      "last_updated": "2026-11-11T06:45:01Z"
+      "last_updated": "2026-11-11T19:42:54Z"
     },
     "ES": {
       "country_code": "ES",
-      "plan_count": 110,
+      "plan_count": 107,
       "provider_count": 8,
       "provider_names": [
         "3",
@@ -1507,11 +1507,11 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-11-11T06:45:01Z"
+      "last_updated": "2026-11-11T19:42:54Z"
     },
     "FR": {
       "country_code": "FR",
-      "plan_count": 121,
+      "plan_count": 118,
       "provider_count": 8,
       "provider_names": [
         "3",
@@ -1674,7 +1674,7 @@
           "value_score": 80
         }
       ],
-      "last_updated": "2026-11-11T06:45:01Z"
+      "last_updated": "2026-11-11T19:42:54Z"
     }
   }
 }

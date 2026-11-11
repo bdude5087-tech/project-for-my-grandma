@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-11-11T06:45:01Z",
-    "plan_count": 505
+    "last_updated": "2026-11-11T19:42:54Z",
+    "plan_count": 496
   },
   "destinations": [
     {
@@ -1226,11 +1226,11 @@
         {
           "plan_name": "48.83 GB · 30 days · Japan",
           "provider": "MeiSIM",
-          "price": 47.12,
+          "price": 59.06,
           "currency": "USD",
           "data_gb": 48.83,
           "unlimited": false,
-          "price_per_gb": 0.96,
+          "price_per_gb": 1.21,
           "validity_days": 30,
           "network": "Unknown",
           "hotspot": false,
@@ -1252,11 +1252,11 @@
         {
           "plan_name": "19.53 GB · 30 days · Japan",
           "provider": "MeiSIM",
-          "price": 22.0,
+          "price": 23.65,
           "currency": "USD",
           "data_gb": 19.53,
           "unlimited": false,
-          "price_per_gb": 1.13,
+          "price_per_gb": 1.21,
           "validity_days": 30,
           "network": "Unknown",
           "hotspot": false,
@@ -1265,11 +1265,11 @@
         {
           "plan_name": "9.77 GB · 30 days · Japan",
           "provider": "MeiSIM",
-          "price": 14.12,
+          "price": 14.91,
           "currency": "USD",
           "data_gb": 9.77,
           "unlimited": false,
-          "price_per_gb": 1.45,
+          "price_per_gb": 1.53,
           "validity_days": 30,
           "network": "Unknown",
           "hotspot": false,
@@ -2966,7 +2966,7 @@
         {
           "plan_name": "48.83 GB · 30 days · United States",
           "provider": "MeiSIM",
-          "price": 55.99,
+          "price": 56.04,
           "currency": "USD",
           "data_gb": 48.83,
           "unlimited": false,
@@ -6002,11 +6002,11 @@
         {
           "plan_name": "48.83 GB · 30 days · Mexico",
           "provider": "MeiSIM",
-          "price": 50.24,
+          "price": 50.54,
           "currency": "USD",
           "data_gb": 48.83,
           "unlimited": false,
-          "price_per_gb": 1.03,
+          "price_per_gb": 1.04,
           "validity_days": 30,
           "network": "Unknown",
           "hotspot": false,
@@ -6327,11 +6327,11 @@
         {
           "plan_name": "19.53 GB · 30 days · Mexico",
           "provider": "MeiSIM",
-          "price": 23.51,
+          "price": 28.79,
           "currency": "USD",
           "data_gb": 19.53,
           "unlimited": false,
-          "price_per_gb": 1.2,
+          "price_per_gb": 1.47,
           "validity_days": 30,
           "network": "Unknown",
           "hotspot": false,
@@ -6340,11 +6340,11 @@
         {
           "plan_name": "9.77 GB · 30 days · Mexico",
           "provider": "MeiSIM",
-          "price": 15.14,
+          "price": 18.41,
           "currency": "USD",
           "data_gb": 9.77,
           "unlimited": false,
-          "price_per_gb": 1.55,
+          "price_per_gb": 1.88,
           "validity_days": 30,
           "network": "Unknown",
           "hotspot": false,
@@ -7811,7 +7811,7 @@
       "name": "Italy",
       "slug": "italy",
       "url_name": null,
-      "plan_count": 106,
+      "plan_count": 103,
       "provider_count": 8,
       "cheapest_price": 1.96,
       "plans": [
@@ -8362,32 +8362,6 @@
           "value_score": 67
         },
         {
-          "plan_name": "Unlimited · 10 days · Italy",
-          "provider": "MeiSIM",
-          "price": 39.47,
-          "currency": "USD",
-          "data_gb": null,
-          "unlimited": true,
-          "price_per_gb": null,
-          "validity_days": 10,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 67
-        },
-        {
-          "plan_name": "Unlimited · 15 days · Italy",
-          "provider": "MeiSIM",
-          "price": 51.48,
-          "currency": "USD",
-          "data_gb": null,
-          "unlimited": true,
-          "price_per_gb": null,
-          "validity_days": 15,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 67
-        },
-        {
           "plan_name": "Unlimited · 5 days · Italy",
           "provider": "MeiSIM",
           "price": 7.12,
@@ -8463,19 +8437,6 @@
           "validity_days": 30,
           "network": "5G",
           "hotspot": true,
-          "value_score": 66
-        },
-        {
-          "plan_name": "Unlimited · 5 days · Italy",
-          "provider": "MeiSIM",
-          "price": 25.74,
-          "currency": "USD",
-          "data_gb": null,
-          "unlimited": true,
-          "price_per_gb": null,
-          "validity_days": 5,
-          "network": "Unknown",
-          "hotspot": false,
           "value_score": 66
         },
         {
@@ -9493,11 +9454,11 @@
         {
           "plan_name": "97.66 GB · 30 days · Vietnam",
           "provider": "MeiSIM",
-          "price": 72.72,
+          "price": 89.08,
           "currency": "USD",
           "data_gb": 97.66,
           "unlimited": false,
-          "price_per_gb": 0.74,
+          "price_per_gb": 0.91,
           "validity_days": 30,
           "network": "Unknown",
           "hotspot": false,
@@ -10052,11 +10013,11 @@
         {
           "plan_name": "48.83 GB · 30 days · Vietnam",
           "provider": "MeiSIM",
-          "price": 41.32,
+          "price": 50.57,
           "currency": "USD",
           "data_gb": 48.83,
           "unlimited": false,
-          "price_per_gb": 0.85,
+          "price_per_gb": 1.04,
           "validity_days": 30,
           "network": "Unknown",
           "hotspot": false,
@@ -10208,11 +10169,11 @@
         {
           "plan_name": "19.53 GB · 30 days · Vietnam",
           "provider": "MeiSIM",
-          "price": 19.44,
+          "price": 26.8,
           "currency": "USD",
           "data_gb": 19.53,
           "unlimited": false,
-          "price_per_gb": 1.0,
+          "price_per_gb": 1.37,
           "validity_days": 30,
           "network": "Unknown",
           "hotspot": false,
@@ -10290,7 +10251,7 @@
       "name": "Spain",
       "slug": "spain",
       "url_name": null,
-      "plan_count": 110,
+      "plan_count": 107,
       "provider_count": 8,
       "cheapest_price": 2.01,
       "plans": [
@@ -10841,32 +10802,6 @@
           "value_score": 67
         },
         {
-          "plan_name": "Unlimited · 10 days · Spain",
-          "provider": "MeiSIM",
-          "price": 39.47,
-          "currency": "USD",
-          "data_gb": null,
-          "unlimited": true,
-          "price_per_gb": null,
-          "validity_days": 10,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 67
-        },
-        {
-          "plan_name": "Unlimited · 15 days · Spain",
-          "provider": "MeiSIM",
-          "price": 51.48,
-          "currency": "USD",
-          "data_gb": null,
-          "unlimited": true,
-          "price_per_gb": null,
-          "validity_days": 15,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 67
-        },
-        {
           "plan_name": "Unlimited · 5 days · Spain",
           "provider": "MeiSIM",
           "price": 7.26,
@@ -10955,19 +10890,6 @@
           "validity_days": 30,
           "network": "5G",
           "hotspot": true,
-          "value_score": 66
-        },
-        {
-          "plan_name": "Unlimited · 5 days · Spain",
-          "provider": "MeiSIM",
-          "price": 25.74,
-          "currency": "USD",
-          "data_gb": null,
-          "unlimited": true,
-          "price_per_gb": null,
-          "validity_days": 5,
-          "network": "Unknown",
-          "hotspot": false,
           "value_score": 66
         },
         {
@@ -11731,7 +11653,7 @@
       "name": "France",
       "slug": "france",
       "url_name": null,
-      "plan_count": 121,
+      "plan_count": 118,
       "provider_count": 8,
       "cheapest_price": 1.96,
       "plans": [
@@ -12360,32 +12282,6 @@
           "value_score": 67
         },
         {
-          "plan_name": "Unlimited · 10 days · France",
-          "provider": "MeiSIM",
-          "price": 39.47,
-          "currency": "USD",
-          "data_gb": null,
-          "unlimited": true,
-          "price_per_gb": null,
-          "validity_days": 10,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 67
-        },
-        {
-          "plan_name": "Unlimited · 15 days · France",
-          "provider": "MeiSIM",
-          "price": 51.48,
-          "currency": "USD",
-          "data_gb": null,
-          "unlimited": true,
-          "price_per_gb": null,
-          "validity_days": 15,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 67
-        },
-        {
           "plan_name": "Unlimited · 5 days · France",
           "provider": "MeiSIM",
           "price": 7.12,
@@ -12500,19 +12396,6 @@
           "validity_days": 30,
           "network": "5G",
           "hotspot": true,
-          "value_score": 66
-        },
-        {
-          "plan_name": "Unlimited · 5 days · France",
-          "provider": "MeiSIM",
-          "price": 25.74,
-          "currency": "USD",
-          "data_gb": null,
-          "unlimited": true,
-          "price_per_gb": null,
-          "validity_days": 5,
-          "network": "Unknown",
-          "hotspot": false,
           "value_score": 66
         },
         {
