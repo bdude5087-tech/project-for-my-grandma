@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-11-12T07:24:07Z",
-    "plan_count": 496
+    "last_updated": "2026-11-12T20:07:01Z",
+    "plan_count": 499
   },
   "destinations": [
     {
@@ -1334,7 +1334,7 @@
       "name": "United States",
       "slug": "usa",
       "url_name": "USA",
-      "plan_count": 142,
+      "plan_count": 145,
       "provider_count": 8,
       "cheapest_price": 2.92,
       "plans": [
@@ -1490,6 +1490,19 @@
           "unlimited": false,
           "price_per_gb": 0.67,
           "validity_days": 10,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 74
+        },
+        {
+          "plan_name": "North America 60 GB",
+          "provider": "eSIMGo",
+          "price": 54.99,
+          "currency": "USD",
+          "data_gb": 60.0,
+          "unlimited": false,
+          "price_per_gb": 0.92,
+          "validity_days": 15,
           "network": "5G",
           "hotspot": true,
           "value_score": 74
@@ -1822,12 +1835,25 @@
         {
           "plan_name": "North America 20 GB",
           "provider": "eSIMGo",
-          "price": 29.99,
+          "price": 31.99,
           "currency": "USD",
           "data_gb": 20.0,
           "unlimited": false,
-          "price_per_gb": 1.5,
+          "price_per_gb": 1.6,
           "validity_days": 30,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 68
+        },
+        {
+          "plan_name": "North America 30 GB",
+          "provider": "eSIMGo",
+          "price": 32.99,
+          "currency": "USD",
+          "data_gb": 30.0,
+          "unlimited": false,
+          "price_per_gb": 1.1,
+          "validity_days": 15,
           "network": "5G",
           "hotspot": true,
           "value_score": 68
@@ -2103,6 +2129,19 @@
           "validity_days": 3,
           "network": "Unknown",
           "hotspot": false,
+          "value_score": 65
+        },
+        {
+          "plan_name": "North America 15 GB",
+          "provider": "eSIMGo",
+          "price": 19.99,
+          "currency": "USD",
+          "data_gb": 15.0,
+          "unlimited": false,
+          "price_per_gb": 1.33,
+          "validity_days": 15,
+          "network": "5G",
+          "hotspot": true,
           "value_score": 65
         },
         {
@@ -5306,7 +5345,7 @@
       "name": "Mexico",
       "slug": "mexico",
       "url_name": null,
-      "plan_count": 84,
+      "plan_count": 87,
       "provider_count": 8,
       "cheapest_price": 3.99,
       "plans": [
@@ -5322,6 +5361,19 @@
           "network": "4G",
           "hotspot": true,
           "value_score": 82
+        },
+        {
+          "plan_name": "North America 60 GB",
+          "provider": "eSIMGo",
+          "price": 54.99,
+          "currency": "USD",
+          "data_gb": 60.0,
+          "unlimited": false,
+          "price_per_gb": 0.92,
+          "validity_days": 15,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 77
         },
         {
           "plan_name": "Global 26 GB Yearly",
@@ -5404,12 +5456,25 @@
         {
           "plan_name": "North America 20 GB",
           "provider": "eSIMGo",
-          "price": 29.99,
+          "price": 31.99,
           "currency": "USD",
           "data_gb": 20.0,
           "unlimited": false,
-          "price_per_gb": 1.5,
+          "price_per_gb": 1.6,
           "validity_days": 30,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 69
+        },
+        {
+          "plan_name": "North America 30 GB",
+          "provider": "eSIMGo",
+          "price": 32.99,
+          "currency": "USD",
+          "data_gb": 30.0,
+          "unlimited": false,
+          "price_per_gb": 1.1,
+          "validity_days": 15,
           "network": "5G",
           "hotspot": true,
           "value_score": 69
@@ -5516,6 +5581,19 @@
           "validity_days": 3,
           "network": "Unknown",
           "hotspot": false,
+          "value_score": 65
+        },
+        {
+          "plan_name": "North America 15 GB",
+          "provider": "eSIMGo",
+          "price": 19.99,
+          "currency": "USD",
+          "data_gb": 15.0,
+          "unlimited": false,
+          "price_per_gb": 1.33,
+          "validity_days": 15,
+          "network": "5G",
+          "hotspot": true,
           "value_score": 65
         },
         {

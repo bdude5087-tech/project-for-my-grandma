@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-11-12T07:24:07Z",
-    "plan_count": 496
+    "last_updated": "2026-11-12T20:07:01Z",
+    "plan_count": 499
   },
   "providers": [
     {
@@ -863,7 +863,7 @@
     {
       "name": "eSIMGo",
       "logo": "https://meisimusa-backend.vercel.app/img/logo/c9c6f45e110ebe00c040d7d3",
-      "plan_count": 58,
+      "plan_count": 61,
       "country_codes": [
         "AR",
         "AT",

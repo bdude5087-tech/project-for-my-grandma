@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-11-12T07:24:07Z",
-    "plan_count": 496
+    "last_updated": "2026-11-12T20:07:01Z",
+    "plan_count": 499
   },
   "aggregates": {
     "JP": {
@@ -171,11 +171,11 @@
           "value_score": 71
         }
       ],
-      "last_updated": "2026-11-12T07:24:07Z"
+      "last_updated": "2026-11-12T20:07:01Z"
     },
     "US": {
       "country_code": "US",
-      "plan_count": 142,
+      "plan_count": 145,
       "provider_count": 8,
       "provider_names": [
         "3",
@@ -210,8 +210,8 @@
         "network": "4G"
       },
       "best_value_score": 94,
-      "median_price_per_gb": 2.8,
-      "avg_price_per_gb": 3.61,
+      "median_price_per_gb": 2.75,
+      "avg_price_per_gb": 3.56,
       "price_range": {
         "min": 2.92,
         "max": 288.0
@@ -338,7 +338,7 @@
           "value_score": 75
         }
       ],
-      "last_updated": "2026-11-12T07:24:07Z"
+      "last_updated": "2026-11-12T20:07:01Z"
     },
     "IN": {
       "country_code": "IN",
@@ -504,7 +504,7 @@
           "value_score": 71
         }
       ],
-      "last_updated": "2026-11-12T07:24:07Z"
+      "last_updated": "2026-11-12T20:07:01Z"
     },
     "TH": {
       "country_code": "TH",
@@ -672,11 +672,11 @@
           "value_score": 73
         }
       ],
-      "last_updated": "2026-11-12T07:24:07Z"
+      "last_updated": "2026-11-12T20:07:01Z"
     },
     "MX": {
       "country_code": "MX",
-      "plan_count": 84,
+      "plan_count": 87,
       "provider_count": 8,
       "provider_names": [
         "3",
@@ -711,8 +711,8 @@
         "network": "4G"
       },
       "best_value_score": 82,
-      "median_price_per_gb": 4.12,
-      "avg_price_per_gb": 4.52,
+      "median_price_per_gb": 4.0,
+      "avg_price_per_gb": 4.39,
       "price_range": {
         "min": 3.99,
         "max": 155.99
@@ -729,6 +729,18 @@
           "validity_days": 180,
           "network": "4G",
           "value_score": 82
+        },
+        {
+          "plan_name": "North America 60 GB",
+          "provider": "eSIMGo",
+          "price": 54.99,
+          "currency": "USD",
+          "data_gb": 60.0,
+          "price_per_gb": 0.92,
+          "unlimited": false,
+          "validity_days": 15,
+          "network": "5G",
+          "value_score": 77
         },
         {
           "plan_name": "Global 26 GB Yearly",
@@ -805,41 +817,29 @@
         {
           "plan_name": "North America 20 GB",
           "provider": "eSIMGo",
-          "price": 29.99,
+          "price": 31.99,
           "currency": "USD",
           "data_gb": 20.0,
-          "price_per_gb": 1.5,
+          "price_per_gb": 1.6,
           "unlimited": false,
           "validity_days": 30,
           "network": "5G",
           "value_score": 69
         },
         {
-          "plan_name": "97.66 GB · 30 days · Mexico",
-          "provider": "MeiSIM",
-          "price": 88.58,
+          "plan_name": "North America 30 GB",
+          "provider": "eSIMGo",
+          "price": 32.99,
           "currency": "USD",
-          "data_gb": 97.66,
-          "price_per_gb": 0.91,
+          "data_gb": 30.0,
+          "price_per_gb": 1.1,
           "unlimited": false,
-          "validity_days": 30,
-          "network": "Unknown",
+          "validity_days": 15,
+          "network": "5G",
           "value_score": 69
-        },
-        {
-          "plan_name": "Unlimited · 10 days · Mexico",
-          "provider": "MeiSIM",
-          "price": 23.92,
-          "currency": "USD",
-          "data_gb": null,
-          "price_per_gb": null,
-          "unlimited": true,
-          "validity_days": 10,
-          "network": "Unknown",
-          "value_score": 67
         }
       ],
-      "last_updated": "2026-11-12T07:24:07Z"
+      "last_updated": "2026-11-12T20:07:01Z"
     },
     "GB": {
       "country_code": "GB",
@@ -1006,7 +1006,7 @@
           "value_score": 70
         }
       ],
-      "last_updated": "2026-11-12T07:24:07Z"
+      "last_updated": "2026-11-12T20:07:01Z"
     },
     "IT": {
       "country_code": "IT",
@@ -1173,7 +1173,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-11-12T07:24:07Z"
+      "last_updated": "2026-11-12T20:07:01Z"
     },
     "VN": {
       "country_code": "VN",
@@ -1340,7 +1340,7 @@
           "value_score": 73
         }
       ],
-      "last_updated": "2026-11-12T07:24:07Z"
+      "last_updated": "2026-11-12T20:07:01Z"
     },
     "ES": {
       "country_code": "ES",
@@ -1507,7 +1507,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-11-12T07:24:07Z"
+      "last_updated": "2026-11-12T20:07:01Z"
     },
     "FR": {
       "country_code": "FR",
@@ -1674,7 +1674,7 @@
           "value_score": 80
         }
       ],
-      "last_updated": "2026-11-12T07:24:07Z"
+      "last_updated": "2026-11-12T20:07:01Z"
     }
   }
 }
