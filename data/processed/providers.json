@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-11-12T20:07:01Z",
-    "plan_count": 499
+    "last_updated": "2026-11-13T06:56:26Z",
+    "plan_count": 355
   },
   "providers": [
     {
@@ -337,20 +337,11 @@
     {
       "name": "MeiSIM",
       "logo": null,
-      "plan_count": 161,
+      "plan_count": 15,
       "country_codes": [
-        "ES",
-        "FR",
-        "GB",
-        "IN",
-        "IT",
-        "JP",
-        "MX",
-        "TH",
-        "US",
-        "VN"
+        "US"
       ],
-      "price_min": 1.96,
+      "price_min": 15.0,
       "price_max": 288.0,
       "website_url": "https://www.meisimusa.com"
     },
@@ -577,6 +568,7 @@
         "PL",
         "PR",
         "PT",
+        "PY",
         "QA",
         "RE",
         "RO",
@@ -863,7 +855,7 @@
     {
       "name": "eSIMGo",
       "logo": "https://meisimusa-backend.vercel.app/img/logo/c9c6f45e110ebe00c040d7d3",
-      "plan_count": 61,
+      "plan_count": 63,
       "country_codes": [
         "AR",
         "AT",
