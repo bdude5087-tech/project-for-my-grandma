@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-11-13T19:51:36Z",
-    "plan_count": 501
+    "last_updated": "2026-11-14T06:42:58Z",
+    "plan_count": 486
   },
   "destinations": [
     {
@@ -5345,8 +5345,8 @@
       "name": "Mexico",
       "slug": "mexico",
       "url_name": null,
-      "plan_count": 89,
-      "provider_count": 8,
+      "plan_count": 74,
+      "provider_count": 7,
       "cheapest_price": 3.99,
       "plans": [
         {
@@ -5360,7 +5360,7 @@
           "validity_days": 180,
           "network": "4G",
           "hotspot": true,
-          "value_score": 82
+          "value_score": 90
         },
         {
           "plan_name": "North America 60 GB",
@@ -5373,7 +5373,7 @@
           "validity_days": 15,
           "network": "5G",
           "hotspot": true,
-          "value_score": 77
+          "value_score": 87
         },
         {
           "plan_name": "Global 26 GB Yearly",
@@ -5386,33 +5386,7 @@
           "validity_days": 365,
           "network": "4G",
           "hotspot": true,
-          "value_score": 75
-        },
-        {
-          "plan_name": "Global Special 20 GB Yearly",
-          "provider": "Sparks",
-          "price": 67.49,
-          "currency": "USD",
-          "data_gb": 20.0,
-          "unlimited": false,
-          "price_per_gb": 3.37,
-          "validity_days": 365,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 73
-        },
-        {
-          "plan_name": "Global 13 GB Yearly",
-          "provider": "3",
-          "price": 41.99,
-          "currency": "USD",
-          "data_gb": 13.0,
-          "unlimited": false,
-          "price_per_gb": 3.23,
-          "validity_days": 365,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 71
+          "value_score": 79
         },
         {
           "plan_name": "LatAm 50 GB",
@@ -5425,46 +5399,20 @@
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
-          "value_score": 71
+          "value_score": 79
         },
         {
-          "plan_name": "Global Special 10 GB",
+          "plan_name": "Global Special 20 GB Yearly",
           "provider": "Sparks",
-          "price": 41.99,
-          "currency": "USD",
-          "data_gb": 10.0,
-          "unlimited": false,
-          "price_per_gb": 4.2,
-          "validity_days": 180,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 70
-        },
-        {
-          "plan_name": "Unlimited · 30 days · Mexico",
-          "provider": "MeiSIM",
-          "price": 67.88,
-          "currency": "USD",
-          "data_gb": null,
-          "unlimited": true,
-          "price_per_gb": null,
-          "validity_days": 30,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 70
-        },
-        {
-          "plan_name": "North America 20 GB",
-          "provider": "eSIMGo",
-          "price": 31.99,
+          "price": 67.49,
           "currency": "USD",
           "data_gb": 20.0,
           "unlimited": false,
-          "price_per_gb": 1.6,
-          "validity_days": 30,
-          "network": "5G",
+          "price_per_gb": 3.37,
+          "validity_days": 365,
+          "network": "4G",
           "hotspot": true,
-          "value_score": 69
+          "value_score": 76
         },
         {
           "plan_name": "North America 30 GB",
@@ -5477,7 +5425,7 @@
           "validity_days": 15,
           "network": "5G",
           "hotspot": true,
-          "value_score": 69
+          "value_score": 74
         },
         {
           "plan_name": "Colombia Plus 30 GB",
@@ -5490,46 +5438,46 @@
           "validity_days": 15,
           "network": "5G",
           "hotspot": true,
-          "value_score": 69
+          "value_score": 74
         },
         {
-          "plan_name": "97.66 GB · 30 days · Mexico",
-          "provider": "MeiSIM",
-          "price": 88.58,
+          "plan_name": "Global 13 GB Yearly",
+          "provider": "3",
+          "price": 41.99,
           "currency": "USD",
-          "data_gb": 97.66,
+          "data_gb": 13.0,
           "unlimited": false,
-          "price_per_gb": 0.91,
+          "price_per_gb": 3.23,
+          "validity_days": 365,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 73
+        },
+        {
+          "plan_name": "North America 20 GB",
+          "provider": "eSIMGo",
+          "price": 31.99,
+          "currency": "USD",
+          "data_gb": 20.0,
+          "unlimited": false,
+          "price_per_gb": 1.6,
           "validity_days": 30,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 69
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 72
         },
         {
-          "plan_name": "Unlimited · 10 days · Mexico",
-          "provider": "MeiSIM",
-          "price": 23.92,
+          "plan_name": "Global Special 10 GB",
+          "provider": "Sparks",
+          "price": 41.99,
           "currency": "USD",
-          "data_gb": null,
-          "unlimited": true,
-          "price_per_gb": null,
-          "validity_days": 10,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 67
-        },
-        {
-          "plan_name": "Unlimited · 15 days · Mexico",
-          "provider": "MeiSIM",
-          "price": 35.35,
-          "currency": "USD",
-          "data_gb": null,
-          "unlimited": true,
-          "price_per_gb": null,
-          "validity_days": 15,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 67
+          "data_gb": 10.0,
+          "unlimited": false,
+          "price_per_gb": 4.2,
+          "validity_days": 180,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 71
         },
         {
           "plan_name": "Mexico 30 GB",
@@ -5542,59 +5490,7 @@
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
-          "value_score": 67
-        },
-        {
-          "plan_name": "Unlimited · 5 days · Mexico",
-          "provider": "MeiSIM",
-          "price": 13.01,
-          "currency": "USD",
-          "data_gb": null,
-          "unlimited": true,
-          "price_per_gb": null,
-          "validity_days": 5,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 66
-        },
-        {
-          "plan_name": "Unlimited · 7 days · Mexico",
-          "provider": "MeiSIM",
-          "price": 17.06,
-          "currency": "USD",
-          "data_gb": null,
-          "unlimited": true,
-          "price_per_gb": null,
-          "validity_days": 7,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 66
-        },
-        {
-          "plan_name": "Unlimited · 1 day · Mexico",
-          "provider": "MeiSIM",
-          "price": 4.05,
-          "currency": "USD",
-          "data_gb": null,
-          "unlimited": true,
-          "price_per_gb": null,
-          "validity_days": 1,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 65
-        },
-        {
-          "plan_name": "Unlimited · 3 days · Mexico",
-          "provider": "MeiSIM",
-          "price": 8.92,
-          "currency": "USD",
-          "data_gb": null,
-          "unlimited": true,
-          "price_per_gb": null,
-          "validity_days": 3,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 65
+          "value_score": 71
         },
         {
           "plan_name": "North America 15 GB",
@@ -5607,7 +5503,7 @@
           "validity_days": 15,
           "network": "5G",
           "hotspot": true,
-          "value_score": 65
+          "value_score": 68
         },
         {
           "plan_name": "Colombia Plus 15 GB",
@@ -5620,7 +5516,7 @@
           "validity_days": 15,
           "network": "5G",
           "hotspot": true,
-          "value_score": 65
+          "value_score": 67
         },
         {
           "plan_name": "North America 10 GB",
@@ -5633,33 +5529,7 @@
           "validity_days": 30,
           "network": "5G",
           "hotspot": true,
-          "value_score": 65
-        },
-        {
-          "plan_name": "Mexico 10 GB",
-          "provider": "Sparks",
-          "price": 39.99,
-          "currency": "USD",
-          "data_gb": 10.0,
-          "unlimited": false,
-          "price_per_gb": 4.0,
-          "validity_days": 30,
-          "network": "5G",
-          "hotspot": true,
-          "value_score": 65
-        },
-        {
-          "plan_name": "North America 5 GB",
-          "provider": "eSIMGo",
-          "price": 17.99,
-          "currency": "USD",
-          "data_gb": 5.0,
-          "unlimited": false,
-          "price_per_gb": 3.6,
-          "validity_days": 30,
-          "network": "5G",
-          "hotspot": true,
-          "value_score": 64
+          "value_score": 67
         },
         {
           "plan_name": "Mexico 20 GB",
@@ -5672,7 +5542,7 @@
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
-          "value_score": 64
+          "value_score": 67
         },
         {
           "plan_name": "Mexico and USA 20 GB",
@@ -5685,33 +5555,20 @@
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
-          "value_score": 64
+          "value_score": 67
         },
         {
-          "plan_name": "North America 3 GB",
-          "provider": "eSIMGo",
-          "price": 10.99,
+          "plan_name": "Mexico 10 GB",
+          "provider": "Sparks",
+          "price": 39.99,
           "currency": "USD",
-          "data_gb": 3.0,
+          "data_gb": 10.0,
           "unlimited": false,
-          "price_per_gb": 3.66,
+          "price_per_gb": 4.0,
           "validity_days": 30,
           "network": "5G",
           "hotspot": true,
-          "value_score": 63
-        },
-        {
-          "plan_name": "Global Special 5 GB",
-          "provider": "Sparks",
-          "price": 23.49,
-          "currency": "USD",
-          "data_gb": 5.0,
-          "unlimited": false,
-          "price_per_gb": 4.7,
-          "validity_days": 60,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 63
+          "value_score": 66
         },
         {
           "plan_name": "Latin America 20 GB",
@@ -5724,7 +5581,7 @@
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
-          "value_score": 63
+          "value_score": 66
         },
         {
           "plan_name": "LatAm 20 GB",
@@ -5737,33 +5594,20 @@
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
-          "value_score": 63
+          "value_score": 66
         },
         {
-          "plan_name": "Mexico 5 GB",
-          "provider": "Sparks",
-          "price": 29.99,
+          "plan_name": "North America 5 GB",
+          "provider": "eSIMGo",
+          "price": 17.99,
           "currency": "USD",
           "data_gb": 5.0,
           "unlimited": false,
-          "price_per_gb": 6.0,
+          "price_per_gb": 3.6,
           "validity_days": 30,
           "network": "5G",
           "hotspot": true,
-          "value_score": 62
-        },
-        {
-          "plan_name": "Mexico and USA 15 GB",
-          "provider": "NextLink",
-          "price": 37.99,
-          "currency": "USD",
-          "data_gb": 15.0,
-          "unlimited": false,
-          "price_per_gb": 2.53,
-          "validity_days": 30,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 62
+          "value_score": 65
         },
         {
           "plan_name": "Americas 20 GB",
@@ -5776,7 +5620,59 @@
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
-          "value_score": 62
+          "value_score": 65
+        },
+        {
+          "plan_name": "North America 3 GB",
+          "provider": "eSIMGo",
+          "price": 10.99,
+          "currency": "USD",
+          "data_gb": 3.0,
+          "unlimited": false,
+          "price_per_gb": 3.66,
+          "validity_days": 30,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 64
+        },
+        {
+          "plan_name": "Global Special 5 GB",
+          "provider": "Sparks",
+          "price": 23.49,
+          "currency": "USD",
+          "data_gb": 5.0,
+          "unlimited": false,
+          "price_per_gb": 4.7,
+          "validity_days": 60,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 64
+        },
+        {
+          "plan_name": "Mexico and USA 15 GB",
+          "provider": "NextLink",
+          "price": 37.99,
+          "currency": "USD",
+          "data_gb": 15.0,
+          "unlimited": false,
+          "price_per_gb": 2.53,
+          "validity_days": 30,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 64
+        },
+        {
+          "plan_name": "Mexico 5 GB",
+          "provider": "Sparks",
+          "price": 29.99,
+          "currency": "USD",
+          "data_gb": 5.0,
+          "unlimited": false,
+          "price_per_gb": 6.0,
+          "validity_days": 30,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 63
         },
         {
           "plan_name": "Mexico and USA 10 GB",
@@ -5789,20 +5685,7 @@
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
-          "value_score": 61
-        },
-        {
-          "plan_name": "North America 2 GB",
-          "provider": "eSIMGo",
-          "price": 7.99,
-          "currency": "USD",
-          "data_gb": 2.0,
-          "unlimited": false,
-          "price_per_gb": 4.0,
-          "validity_days": 15,
-          "network": "5G",
-          "hotspot": true,
-          "value_score": 60
+          "value_score": 62
         },
         {
           "plan_name": "North America 10 GB",
@@ -5815,7 +5698,7 @@
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
-          "value_score": 60
+          "value_score": 62
         },
         {
           "plan_name": "Latin America 10 GB",
@@ -5828,7 +5711,7 @@
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
-          "value_score": 60
+          "value_score": 62
         },
         {
           "plan_name": "Discover Global 10 GB",
@@ -5841,7 +5724,20 @@
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
-          "value_score": 60
+          "value_score": 62
+        },
+        {
+          "plan_name": "North America 2 GB",
+          "provider": "eSIMGo",
+          "price": 7.99,
+          "currency": "USD",
+          "data_gb": 2.0,
+          "unlimited": false,
+          "price_per_gb": 4.0,
+          "validity_days": 15,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 61
         },
         {
           "plan_name": "LatAm 10 GB",
@@ -5854,7 +5750,7 @@
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
-          "value_score": 60
+          "value_score": 61
         },
         {
           "plan_name": "Best World 10 GB",
@@ -5867,7 +5763,20 @@
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
-          "value_score": 60
+          "value_score": 61
+        },
+        {
+          "plan_name": "Americas 10 GB",
+          "provider": "NextLink",
+          "price": 44.99,
+          "currency": "USD",
+          "data_gb": 10.0,
+          "unlimited": false,
+          "price_per_gb": 4.5,
+          "validity_days": 30,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 61
         },
         {
           "plan_name": "Mexico and USA 5 GB",
@@ -5880,7 +5789,7 @@
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
-          "value_score": 59
+          "value_score": 60
         },
         {
           "plan_name": "Latin America 5 GB",
@@ -5893,7 +5802,7 @@
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
-          "value_score": 59
+          "value_score": 60
         },
         {
           "plan_name": "Mexico 10 GB",
@@ -5906,16 +5815,81 @@
           "validity_days": 15,
           "network": "4G",
           "hotspot": true,
+          "value_score": 60
+        },
+        {
+          "plan_name": "Mexico and USA 3 GB",
+          "provider": "NextLink",
+          "price": 10.49,
+          "currency": "USD",
+          "data_gb": 3.0,
+          "unlimited": false,
+          "price_per_gb": 3.5,
+          "validity_days": 30,
+          "network": "4G",
+          "hotspot": true,
           "value_score": 59
         },
         {
-          "plan_name": "Americas 10 GB",
+          "plan_name": "LatAm 5 GB",
+          "provider": "eSIMGo",
+          "price": 21.49,
+          "currency": "USD",
+          "data_gb": 5.0,
+          "unlimited": false,
+          "price_per_gb": 4.3,
+          "validity_days": 30,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 59
+        },
+        {
+          "plan_name": "Discover Global 5 GB",
+          "provider": "Airalo",
+          "price": 21.99,
+          "currency": "USD",
+          "data_gb": 5.0,
+          "unlimited": false,
+          "price_per_gb": 4.4,
+          "validity_days": 30,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 59
+        },
+        {
+          "plan_name": "Americas 5 GB",
           "provider": "NextLink",
-          "price": 44.99,
+          "price": 22.99,
+          "currency": "USD",
+          "data_gb": 5.0,
+          "unlimited": false,
+          "price_per_gb": 4.6,
+          "validity_days": 30,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 59
+        },
+        {
+          "plan_name": "North America 5 GB",
+          "provider": "Airalo",
+          "price": 25.5,
+          "currency": "USD",
+          "data_gb": 5.0,
+          "unlimited": false,
+          "price_per_gb": 5.1,
+          "validity_days": 30,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 59
+        },
+        {
+          "plan_name": "World 10 GB",
+          "provider": "Ubigi",
+          "price": 69.99,
           "currency": "USD",
           "data_gb": 10.0,
           "unlimited": false,
-          "price_per_gb": 4.5,
+          "price_per_gb": 7.0,
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
@@ -5935,14 +5909,14 @@
           "value_score": 58
         },
         {
-          "plan_name": "Mexico and USA 3 GB",
-          "provider": "NextLink",
-          "price": 10.49,
+          "plan_name": "Mexico 5 GB",
+          "provider": "TSimTech",
+          "price": 11.99,
           "currency": "USD",
-          "data_gb": 3.0,
+          "data_gb": 5.0,
           "unlimited": false,
-          "price_per_gb": 3.5,
-          "validity_days": 30,
+          "price_per_gb": 2.4,
+          "validity_days": 15,
           "network": "4G",
           "hotspot": true,
           "value_score": 58
@@ -5974,84 +5948,6 @@
           "value_score": 58
         },
         {
-          "plan_name": "LatAm 5 GB",
-          "provider": "eSIMGo",
-          "price": 21.49,
-          "currency": "USD",
-          "data_gb": 5.0,
-          "unlimited": false,
-          "price_per_gb": 4.3,
-          "validity_days": 30,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 58
-        },
-        {
-          "plan_name": "Discover Global 5 GB",
-          "provider": "Airalo",
-          "price": 21.99,
-          "currency": "USD",
-          "data_gb": 5.0,
-          "unlimited": false,
-          "price_per_gb": 4.4,
-          "validity_days": 30,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 58
-        },
-        {
-          "plan_name": "Americas 5 GB",
-          "provider": "NextLink",
-          "price": 22.99,
-          "currency": "USD",
-          "data_gb": 5.0,
-          "unlimited": false,
-          "price_per_gb": 4.6,
-          "validity_days": 30,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 58
-        },
-        {
-          "plan_name": "North America 5 GB",
-          "provider": "Airalo",
-          "price": 25.5,
-          "currency": "USD",
-          "data_gb": 5.0,
-          "unlimited": false,
-          "price_per_gb": 5.1,
-          "validity_days": 30,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 58
-        },
-        {
-          "plan_name": "World 10 GB",
-          "provider": "Ubigi",
-          "price": 69.99,
-          "currency": "USD",
-          "data_gb": 10.0,
-          "unlimited": false,
-          "price_per_gb": 7.0,
-          "validity_days": 30,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 58
-        },
-        {
-          "plan_name": "Mexico 5 GB",
-          "provider": "TSimTech",
-          "price": 11.99,
-          "currency": "USD",
-          "data_gb": 5.0,
-          "unlimited": false,
-          "price_per_gb": 2.4,
-          "validity_days": 15,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 57
-        },
-        {
           "plan_name": "Discover Global 3 GB",
           "provider": "Airalo",
           "price": 14.99,
@@ -6062,7 +5958,7 @@
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
-          "value_score": 57
+          "value_score": 58
         },
         {
           "plan_name": "Americas 3 GB",
@@ -6075,7 +5971,7 @@
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
-          "value_score": 57
+          "value_score": 58
         },
         {
           "plan_name": "Global Special 3 GB",
@@ -6088,7 +5984,7 @@
           "validity_days": 30,
           "network": "4G",
           "hotspot": true,
-          "value_score": 57
+          "value_score": 58
         },
         {
           "plan_name": "North America 3 GB",
@@ -6104,17 +6000,43 @@
           "value_score": 57
         },
         {
-          "plan_name": "48.83 GB · 30 days · Mexico",
-          "provider": "MeiSIM",
-          "price": 50.54,
+          "plan_name": "Best World 3 GB",
+          "provider": "Ubigi",
+          "price": 18.99,
           "currency": "USD",
-          "data_gb": 48.83,
+          "data_gb": 3.0,
           "unlimited": false,
-          "price_per_gb": 1.04,
+          "price_per_gb": 6.33,
           "validity_days": 30,
-          "network": "Unknown",
-          "hotspot": false,
+          "network": "4G",
+          "hotspot": true,
           "value_score": 57
+        },
+        {
+          "plan_name": "Mexico and USA 2 GB",
+          "provider": "NextLink",
+          "price": 7.49,
+          "currency": "USD",
+          "data_gb": 2.0,
+          "unlimited": false,
+          "price_per_gb": 3.75,
+          "validity_days": 15,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 56
+        },
+        {
+          "plan_name": "Mexico 3 GB",
+          "provider": "TSimTech",
+          "price": 7.99,
+          "currency": "USD",
+          "data_gb": 3.0,
+          "unlimited": false,
+          "price_per_gb": 2.66,
+          "validity_days": 7,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 56
         },
         {
           "plan_name": "Mexico 1 GB",
@@ -6130,19 +6052,6 @@
           "value_score": 56
         },
         {
-          "plan_name": "Best World 3 GB",
-          "provider": "Ubigi",
-          "price": 18.99,
-          "currency": "USD",
-          "data_gb": 3.0,
-          "unlimited": false,
-          "price_per_gb": 6.33,
-          "validity_days": 30,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 56
-        },
-        {
           "plan_name": "Latin America 3 GB",
           "provider": "Airalo",
           "price": 20.99,
@@ -6154,32 +6063,6 @@
           "network": "4G",
           "hotspot": true,
           "value_score": 56
-        },
-        {
-          "plan_name": "Mexico and USA 2 GB",
-          "provider": "NextLink",
-          "price": 7.49,
-          "currency": "USD",
-          "data_gb": 2.0,
-          "unlimited": false,
-          "price_per_gb": 3.75,
-          "validity_days": 15,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 55
-        },
-        {
-          "plan_name": "Mexico 3 GB",
-          "provider": "TSimTech",
-          "price": 7.99,
-          "currency": "USD",
-          "data_gb": 3.0,
-          "unlimited": false,
-          "price_per_gb": 2.66,
-          "validity_days": 7,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 55
         },
         {
           "plan_name": "LatAm 2 GB",
@@ -6260,6 +6143,19 @@
           "value_score": 54
         },
         {
+          "plan_name": "World 3 GB",
+          "provider": "Ubigi",
+          "price": 31.99,
+          "currency": "USD",
+          "data_gb": 3.0,
+          "unlimited": false,
+          "price_per_gb": 10.66,
+          "validity_days": 30,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 54
+        },
+        {
           "plan_name": "Mexico 1 GB",
           "provider": "TSimTech",
           "price": 3.99,
@@ -6320,19 +6216,6 @@
           "unlimited": false,
           "price_per_gb": 7.5,
           "validity_days": 15,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 53
-        },
-        {
-          "plan_name": "World 3 GB",
-          "provider": "Ubigi",
-          "price": 31.99,
-          "currency": "USD",
-          "data_gb": 3.0,
-          "unlimited": false,
-          "price_per_gb": 10.66,
-          "validity_days": 30,
           "network": "4G",
           "hotspot": true,
           "value_score": 53
@@ -6427,84 +6310,6 @@
           "network": "4G",
           "hotspot": true,
           "value_score": 49
-        },
-        {
-          "plan_name": "19.53 GB · 30 days · Mexico",
-          "provider": "MeiSIM",
-          "price": 28.79,
-          "currency": "USD",
-          "data_gb": 19.53,
-          "unlimited": false,
-          "price_per_gb": 1.47,
-          "validity_days": 30,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 49
-        },
-        {
-          "plan_name": "9.77 GB · 30 days · Mexico",
-          "provider": "MeiSIM",
-          "price": 18.41,
-          "currency": "USD",
-          "data_gb": 9.77,
-          "unlimited": false,
-          "price_per_gb": 1.88,
-          "validity_days": 30,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 46
-        },
-        {
-          "plan_name": "4.88 GB · 30 days · Mexico",
-          "provider": "MeiSIM",
-          "price": 10.02,
-          "currency": "USD",
-          "data_gb": 4.88,
-          "unlimited": false,
-          "price_per_gb": 2.05,
-          "validity_days": 30,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 45
-        },
-        {
-          "plan_name": "2.93 GB · 30 days · Mexico",
-          "provider": "MeiSIM",
-          "price": 8.49,
-          "currency": "USD",
-          "data_gb": 2.93,
-          "unlimited": false,
-          "price_per_gb": 2.9,
-          "validity_days": 30,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 44
-        },
-        {
-          "plan_name": "1.95 GB · 15 days · Mexico",
-          "provider": "MeiSIM",
-          "price": 6.42,
-          "currency": "USD",
-          "data_gb": 1.95,
-          "unlimited": false,
-          "price_per_gb": 3.29,
-          "validity_days": 15,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 41
-        },
-        {
-          "plan_name": "1000 MB · 7 days · Mexico",
-          "provider": "MeiSIM",
-          "price": 4.02,
-          "currency": "USD",
-          "data_gb": 0.9765625,
-          "unlimited": false,
-          "price_per_gb": 4.12,
-          "validity_days": 7,
-          "network": "Unknown",
-          "hotspot": false,
-          "value_score": 39
         }
       ]
     },
