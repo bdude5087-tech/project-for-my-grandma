@@ -1,13 +1,13 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-11-20T07:29:49Z",
-    "plan_count": 501
+    "last_updated": "2026-11-20T20:31:42Z",
+    "plan_count": 506
   },
   "aggregates": {
     "JP": {
       "country_code": "JP",
-      "plan_count": 101,
+      "plan_count": 105,
       "provider_count": 9,
       "provider_names": [
         "3",
@@ -43,8 +43,8 @@
         "network": "5G"
       },
       "best_value_score": 87,
-      "median_price_per_gb": 1.4,
-      "avg_price_per_gb": 2.32,
+      "median_price_per_gb": 1.35,
+      "avg_price_per_gb": 2.24,
       "price_range": {
         "min": 3.66,
         "max": 92.85
@@ -171,7 +171,7 @@
           "value_score": 71
         }
       ],
-      "last_updated": "2026-11-20T07:29:49Z"
+      "last_updated": "2026-11-20T20:31:42Z"
     },
     "US": {
       "country_code": "US",
@@ -338,7 +338,7 @@
           "value_score": 75
         }
       ],
-      "last_updated": "2026-11-20T07:29:49Z"
+      "last_updated": "2026-11-20T20:31:42Z"
     },
     "IN": {
       "country_code": "IN",
@@ -504,11 +504,11 @@
           "value_score": 71
         }
       ],
-      "last_updated": "2026-11-20T07:29:49Z"
+      "last_updated": "2026-11-20T20:31:42Z"
     },
     "TH": {
       "country_code": "TH",
-      "plan_count": 94,
+      "plan_count": 98,
       "provider_count": 9,
       "provider_names": [
         "3",
@@ -544,8 +544,8 @@
         "network": "5G"
       },
       "best_value_score": 87,
-      "median_price_per_gb": 2.0,
-      "avg_price_per_gb": 2.82,
+      "median_price_per_gb": 1.92,
+      "avg_price_per_gb": 2.71,
       "price_range": {
         "min": 3.33,
         "max": 107.92
@@ -660,19 +660,19 @@
           "value_score": 74
         },
         {
-          "plan_name": "APAC 17 GB Yearly",
-          "provider": "3",
-          "price": 43.99,
+          "plan_name": "Asialink Unlimited 10 Days",
+          "provider": "Airalo",
+          "price": 21.99,
           "currency": "USD",
-          "data_gb": 17.0,
-          "price_per_gb": 2.59,
+          "data_gb": 66.0,
+          "price_per_gb": 0.33,
           "unlimited": false,
-          "validity_days": 365,
+          "validity_days": 10,
           "network": "4G",
           "value_score": 73
         }
       ],
-      "last_updated": "2026-11-20T07:29:49Z"
+      "last_updated": "2026-11-20T20:31:42Z"
     },
     "MX": {
       "country_code": "MX",
@@ -839,7 +839,7 @@
           "value_score": 69
         }
       ],
-      "last_updated": "2026-11-20T07:29:49Z"
+      "last_updated": "2026-11-20T20:31:42Z"
     },
     "GB": {
       "country_code": "GB",
@@ -1006,7 +1006,7 @@
           "value_score": 70
         }
       ],
-      "last_updated": "2026-11-20T07:29:49Z"
+      "last_updated": "2026-11-20T20:31:42Z"
     },
     "IT": {
       "country_code": "IT",
@@ -1073,8 +1073,8 @@
           "price_per_gb": 0.5,
           "unlimited": false,
           "validity_days": 30,
-          "network": "4G",
-          "value_score": 85
+          "network": "5G",
+          "value_score": 90
         },
         {
           "plan_name": "Europe and USA Yearly 40 GB",
@@ -1161,23 +1161,23 @@
           "value_score": 79
         },
         {
-          "plan_name": "Europe Asia and USA 40 GB Yearly",
-          "provider": "Sparks",
-          "price": 59.99,
+          "plan_name": "EU 60 GB Unlimited Calls",
+          "provider": "Bouygues",
+          "price": 44.99,
           "currency": "USD",
-          "data_gb": 40.0,
-          "price_per_gb": 1.5,
+          "data_gb": 60.0,
+          "price_per_gb": 0.75,
           "unlimited": false,
-          "validity_days": 365,
-          "network": "4G",
+          "validity_days": 30,
+          "network": "5G",
           "value_score": 77
         }
       ],
-      "last_updated": "2026-11-20T07:29:49Z"
+      "last_updated": "2026-11-20T20:31:42Z"
     },
     "VN": {
       "country_code": "VN",
-      "plan_count": 83,
+      "plan_count": 87,
       "provider_count": 8,
       "provider_names": [
         "3",
@@ -1212,8 +1212,8 @@
         "network": "5G"
       },
       "best_value_score": 87,
-      "median_price_per_gb": 2.185,
-      "avg_price_per_gb": 3.1,
+      "median_price_per_gb": 2.0,
+      "avg_price_per_gb": 2.96,
       "price_range": {
         "min": 3.53,
         "max": 89.99
@@ -1316,6 +1316,18 @@
           "value_score": 74
         },
         {
+          "plan_name": "Asialink Unlimited 10 Days",
+          "provider": "Airalo",
+          "price": 21.99,
+          "currency": "USD",
+          "data_gb": 66.0,
+          "price_per_gb": 0.33,
+          "unlimited": false,
+          "validity_days": 10,
+          "network": "4G",
+          "value_score": 73
+        },
+        {
           "plan_name": "APAC 17 GB Yearly",
           "provider": "3",
           "price": 43.99,
@@ -1326,21 +1338,9 @@
           "validity_days": 365,
           "network": "4G",
           "value_score": 73
-        },
-        {
-          "plan_name": "Global Special 20 GB Yearly",
-          "provider": "Sparks",
-          "price": 67.49,
-          "currency": "USD",
-          "data_gb": 20.0,
-          "price_per_gb": 3.37,
-          "unlimited": false,
-          "validity_days": 365,
-          "network": "4G",
-          "value_score": 73
         }
       ],
-      "last_updated": "2026-11-20T07:29:49Z"
+      "last_updated": "2026-11-20T20:31:42Z"
     },
     "ES": {
       "country_code": "ES",
@@ -1407,8 +1407,8 @@
           "price_per_gb": 0.5,
           "unlimited": false,
           "validity_days": 30,
-          "network": "4G",
-          "value_score": 85
+          "network": "5G",
+          "value_score": 90
         },
         {
           "plan_name": "Europe and USA Yearly 40 GB",
@@ -1495,23 +1495,23 @@
           "value_score": 79
         },
         {
-          "plan_name": "Europe Asia and USA 40 GB Yearly",
-          "provider": "Sparks",
-          "price": 59.99,
+          "plan_name": "EU 60 GB Unlimited Calls",
+          "provider": "Bouygues",
+          "price": 44.99,
           "currency": "USD",
-          "data_gb": 40.0,
-          "price_per_gb": 1.5,
+          "data_gb": 60.0,
+          "price_per_gb": 0.75,
           "unlimited": false,
-          "validity_days": 365,
-          "network": "4G",
+          "validity_days": 30,
+          "network": "5G",
           "value_score": 77
         }
       ],
-      "last_updated": "2026-11-20T07:29:49Z"
+      "last_updated": "2026-11-20T20:31:42Z"
     },
     "FR": {
       "country_code": "FR",
-      "plan_count": 118,
+      "plan_count": 119,
       "provider_count": 8,
       "provider_names": [
         "3",
@@ -1546,8 +1546,8 @@
         "network": "5G"
       },
       "best_value_score": 95,
-      "median_price_per_gb": 1.4,
-      "avg_price_per_gb": 2.37,
+      "median_price_per_gb": 1.35,
+      "avg_price_per_gb": 2.35,
       "price_range": {
         "min": 1.96,
         "max": 124.99
@@ -1578,6 +1578,30 @@
           "value_score": 94
         },
         {
+          "plan_name": "EU 120 GB Unlimited Calls",
+          "provider": "Bouygues",
+          "price": 59.99,
+          "currency": "USD",
+          "data_gb": 120.0,
+          "price_per_gb": 0.5,
+          "unlimited": false,
+          "validity_days": 30,
+          "network": "5G",
+          "value_score": 90
+        },
+        {
+          "plan_name": "France 100 GB Unlimited Calls",
+          "provider": "Bouygues",
+          "price": 31.99,
+          "currency": "USD",
+          "data_gb": 100.0,
+          "price_per_gb": 0.32,
+          "unlimited": false,
+          "validity_days": 30,
+          "network": "5G",
+          "value_score": 86
+        },
+        {
           "plan_name": "France 100 GB",
           "provider": "eSIMGo",
           "price": 49.99,
@@ -1587,18 +1611,6 @@
           "unlimited": false,
           "validity_days": 30,
           "network": "5G",
-          "value_score": 85
-        },
-        {
-          "plan_name": "EU 120 GB Unlimited Calls",
-          "provider": "Bouygues",
-          "price": 59.99,
-          "currency": "USD",
-          "data_gb": 120.0,
-          "price_per_gb": 0.5,
-          "unlimited": false,
-          "validity_days": 30,
-          "network": "4G",
           "value_score": 85
         },
         {
@@ -1660,21 +1672,9 @@
           "validity_days": 60,
           "network": "5G",
           "value_score": 80
-        },
-        {
-          "plan_name": "Europe Special 50 GB 60 Days",
-          "provider": "Sparks",
-          "price": 49.99,
-          "currency": "USD",
-          "data_gb": 50.0,
-          "price_per_gb": 1.0,
-          "unlimited": false,
-          "validity_days": 60,
-          "network": "5G",
-          "value_score": 80
         }
       ],
-      "last_updated": "2026-11-20T07:29:49Z"
+      "last_updated": "2026-11-20T20:31:42Z"
     }
   }
 }

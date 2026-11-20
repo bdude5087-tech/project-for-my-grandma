@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-11-20T07:29:49Z",
-    "plan_count": 501
+    "last_updated": "2026-11-20T20:31:42Z",
+    "plan_count": 506
   },
   "destinations": [
     {
@@ -10,7 +10,7 @@
       "name": "Japan",
       "slug": "japan",
       "url_name": null,
-      "plan_count": 101,
+      "plan_count": 105,
       "provider_count": 9,
       "cheapest_price": 3.66,
       "plans": [
@@ -730,6 +730,19 @@
           "value_score": 64
         },
         {
+          "plan_name": "Asialink Unlimited 10 Days",
+          "provider": "Airalo",
+          "price": 21.99,
+          "currency": "USD",
+          "data_gb": 66.0,
+          "unlimited": false,
+          "price_per_gb": 0.33,
+          "validity_days": 10,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 64
+        },
+        {
           "plan_name": "Japan Unlimited 10 Days",
           "provider": "Airalo",
           "price": 24.99,
@@ -804,6 +817,19 @@
           "price_per_gb": 1.7,
           "validity_days": 15,
           "network": "5G",
+          "hotspot": true,
+          "value_score": 62
+        },
+        {
+          "plan_name": "Asialink Unlimited 7 Days",
+          "provider": "Airalo",
+          "price": 17.99,
+          "currency": "USD",
+          "data_gb": 53.0,
+          "unlimited": false,
+          "price_per_gb": 0.34,
+          "validity_days": 7,
+          "network": "4G",
           "hotspot": true,
           "value_score": 62
         },
@@ -894,6 +920,19 @@
           "unlimited": false,
           "price_per_gb": 1.5,
           "validity_days": 30,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 60
+        },
+        {
+          "plan_name": "Asialink Unlimited 5 Days",
+          "provider": "Airalo",
+          "price": 14.99,
+          "currency": "USD",
+          "data_gb": 43.0,
+          "unlimited": false,
+          "price_per_gb": 0.35,
+          "validity_days": 5,
           "network": "4G",
           "hotspot": true,
           "value_score": 60
@@ -1001,6 +1040,19 @@
           "network": "4G",
           "hotspot": true,
           "value_score": 59
+        },
+        {
+          "plan_name": "Asialink Unlimited 3 Days",
+          "provider": "Airalo",
+          "price": 9.99,
+          "currency": "USD",
+          "data_gb": 28.0,
+          "unlimited": false,
+          "price_per_gb": 0.36,
+          "validity_days": 3,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 58
         },
         {
           "plan_name": "Japan Unlimited 3 Days",
@@ -4112,7 +4164,7 @@
       "name": "Thailand",
       "slug": "thailand",
       "url_name": null,
-      "plan_count": 94,
+      "plan_count": 98,
       "provider_count": 9,
       "cheapest_price": 3.33,
       "plans": [
@@ -4232,6 +4284,19 @@
           "network": "4G",
           "hotspot": true,
           "value_score": 74
+        },
+        {
+          "plan_name": "Asialink Unlimited 10 Days",
+          "provider": "Airalo",
+          "price": 21.99,
+          "currency": "USD",
+          "data_gb": 66.0,
+          "unlimited": false,
+          "price_per_gb": 0.33,
+          "validity_days": 10,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 73
         },
         {
           "plan_name": "APAC 17 GB Yearly",
@@ -4403,6 +4468,19 @@
           "value_score": 70
         },
         {
+          "plan_name": "Asialink Unlimited 7 Days",
+          "provider": "Airalo",
+          "price": 17.99,
+          "currency": "USD",
+          "data_gb": 53.0,
+          "unlimited": false,
+          "price_per_gb": 0.34,
+          "validity_days": 7,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 69
+        },
+        {
           "plan_name": "Vietnam Plus 20 GB",
           "provider": "TSimTech",
           "price": 20.99,
@@ -4529,6 +4607,19 @@
           "price_per_gb": 1.4,
           "validity_days": 30,
           "network": "5G",
+          "hotspot": true,
+          "value_score": 67
+        },
+        {
+          "plan_name": "Asialink Unlimited 5 Days",
+          "provider": "Airalo",
+          "price": 14.99,
+          "currency": "USD",
+          "data_gb": 43.0,
+          "unlimited": false,
+          "price_per_gb": 0.35,
+          "validity_days": 5,
+          "network": "4G",
           "hotspot": true,
           "value_score": 67
         },
@@ -4802,6 +4893,19 @@
           "price_per_gb": 2.0,
           "validity_days": 15,
           "network": "5G",
+          "hotspot": true,
+          "value_score": 62
+        },
+        {
+          "plan_name": "Asialink Unlimited 3 Days",
+          "provider": "Airalo",
+          "price": 9.99,
+          "currency": "USD",
+          "data_gb": 28.0,
+          "unlimited": false,
+          "price_per_gb": 0.36,
+          "validity_days": 3,
+          "network": "4G",
           "hotspot": true,
           "value_score": 62
         },
@@ -6726,6 +6830,19 @@
           "value_score": 68
         },
         {
+          "plan_name": "EU 120 GB Unlimited Calls",
+          "provider": "Bouygues",
+          "price": 59.99,
+          "currency": "USD",
+          "data_gb": 120.0,
+          "unlimited": false,
+          "price_per_gb": 0.5,
+          "validity_days": 30,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 68
+        },
+        {
           "plan_name": "Global Special 20 GB Yearly",
           "provider": "Sparks",
           "price": 67.49,
@@ -6798,6 +6915,19 @@
           "data_gb": 50.0,
           "unlimited": false,
           "price_per_gb": 0.7,
+          "validity_days": 30,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 66
+        },
+        {
+          "plan_name": "EU 60 GB Unlimited Calls",
+          "provider": "Bouygues",
+          "price": 44.99,
+          "currency": "USD",
+          "data_gb": 60.0,
+          "unlimited": false,
+          "price_per_gb": 0.75,
           "validity_days": 30,
           "network": "5G",
           "hotspot": true,
@@ -7233,19 +7363,6 @@
           "value_score": 63
         },
         {
-          "plan_name": "EU 120 GB Unlimited Calls",
-          "provider": "Bouygues",
-          "price": 59.99,
-          "currency": "USD",
-          "data_gb": 120.0,
-          "unlimited": false,
-          "price_per_gb": 0.5,
-          "validity_days": 30,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 63
-        },
-        {
           "plan_name": "Europe 15 GB",
           "provider": "eSIMGo",
           "price": 12.99,
@@ -7307,19 +7424,6 @@
           "price_per_gb": 2.25,
           "validity_days": 15,
           "network": "5G",
-          "hotspot": true,
-          "value_score": 61
-        },
-        {
-          "plan_name": "EU 60 GB Unlimited Calls",
-          "provider": "Bouygues",
-          "price": 44.99,
-          "currency": "USD",
-          "data_gb": 60.0,
-          "unlimited": false,
-          "price_per_gb": 0.75,
-          "validity_days": 30,
-          "network": "4G",
           "hotspot": true,
           "value_score": 61
         },
@@ -7941,9 +8045,9 @@
           "unlimited": false,
           "price_per_gb": 0.5,
           "validity_days": 30,
-          "network": "4G",
+          "network": "5G",
           "hotspot": true,
-          "value_score": 85
+          "value_score": 90
         },
         {
           "plan_name": "Europe and USA Yearly 40 GB",
@@ -8035,6 +8139,19 @@
           "network": "4G",
           "hotspot": true,
           "value_score": 79
+        },
+        {
+          "plan_name": "EU 60 GB Unlimited Calls",
+          "provider": "Bouygues",
+          "price": 44.99,
+          "currency": "USD",
+          "data_gb": 60.0,
+          "unlimited": false,
+          "price_per_gb": 0.75,
+          "validity_days": 30,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 77
         },
         {
           "plan_name": "Europe Asia and USA 40 GB Yearly",
@@ -8150,19 +8267,6 @@
           "price_per_gb": 0.77,
           "validity_days": 30,
           "network": "5G",
-          "hotspot": true,
-          "value_score": 72
-        },
-        {
-          "plan_name": "EU 60 GB Unlimited Calls",
-          "provider": "Bouygues",
-          "price": 44.99,
-          "currency": "USD",
-          "data_gb": 60.0,
-          "unlimited": false,
-          "price_per_gb": 0.75,
-          "validity_days": 30,
-          "network": "4G",
           "hotspot": true,
           "value_score": 72
         },
@@ -9265,7 +9369,7 @@
       "name": "Vietnam",
       "slug": "vietnam",
       "url_name": null,
-      "plan_count": 83,
+      "plan_count": 87,
       "provider_count": 8,
       "cheapest_price": 3.53,
       "plans": [
@@ -9372,6 +9476,19 @@
           "network": "4G",
           "hotspot": true,
           "value_score": 74
+        },
+        {
+          "plan_name": "Asialink Unlimited 10 Days",
+          "provider": "Airalo",
+          "price": 21.99,
+          "currency": "USD",
+          "data_gb": 66.0,
+          "unlimited": false,
+          "price_per_gb": 0.33,
+          "validity_days": 10,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 73
         },
         {
           "plan_name": "APAC 17 GB Yearly",
@@ -9504,6 +9621,19 @@
           "value_score": 70
         },
         {
+          "plan_name": "Asialink Unlimited 7 Days",
+          "provider": "Airalo",
+          "price": 17.99,
+          "currency": "USD",
+          "data_gb": 53.0,
+          "unlimited": false,
+          "price_per_gb": 0.34,
+          "validity_days": 7,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 69
+        },
+        {
           "plan_name": "Vietnam Plus 20 GB",
           "provider": "TSimTech",
           "price": 20.99,
@@ -9591,6 +9721,19 @@
           "price_per_gb": 1.4,
           "validity_days": 30,
           "network": "5G",
+          "hotspot": true,
+          "value_score": 67
+        },
+        {
+          "plan_name": "Asialink Unlimited 5 Days",
+          "provider": "Airalo",
+          "price": 14.99,
+          "currency": "USD",
+          "data_gb": 43.0,
+          "unlimited": false,
+          "price_per_gb": 0.35,
+          "validity_days": 5,
+          "network": "4G",
           "hotspot": true,
           "value_score": 67
         },
@@ -9825,6 +9968,19 @@
           "price_per_gb": 2.0,
           "validity_days": 15,
           "network": "5G",
+          "hotspot": true,
+          "value_score": 62
+        },
+        {
+          "plan_name": "Asialink Unlimited 3 Days",
+          "provider": "Airalo",
+          "price": 9.99,
+          "currency": "USD",
+          "data_gb": 28.0,
+          "unlimited": false,
+          "price_per_gb": 0.36,
+          "validity_days": 3,
+          "network": "4G",
           "hotspot": true,
           "value_score": 62
         },
@@ -10381,9 +10537,9 @@
           "unlimited": false,
           "price_per_gb": 0.5,
           "validity_days": 30,
-          "network": "4G",
+          "network": "5G",
           "hotspot": true,
-          "value_score": 85
+          "value_score": 90
         },
         {
           "plan_name": "Europe and USA Yearly 40 GB",
@@ -10475,6 +10631,19 @@
           "network": "4G",
           "hotspot": true,
           "value_score": 79
+        },
+        {
+          "plan_name": "EU 60 GB Unlimited Calls",
+          "provider": "Bouygues",
+          "price": 44.99,
+          "currency": "USD",
+          "data_gb": 60.0,
+          "unlimited": false,
+          "price_per_gb": 0.75,
+          "validity_days": 30,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 77
         },
         {
           "plan_name": "Europe Asia and USA 40 GB Yearly",
@@ -10590,19 +10759,6 @@
           "price_per_gb": 0.77,
           "validity_days": 30,
           "network": "5G",
-          "hotspot": true,
-          "value_score": 72
-        },
-        {
-          "plan_name": "EU 60 GB Unlimited Calls",
-          "provider": "Bouygues",
-          "price": 44.99,
-          "currency": "USD",
-          "data_gb": 60.0,
-          "unlimited": false,
-          "price_per_gb": 0.75,
-          "validity_days": 30,
-          "network": "4G",
           "hotspot": true,
           "value_score": 72
         },
@@ -11757,7 +11913,7 @@
       "name": "France",
       "slug": "france",
       "url_name": null,
-      "plan_count": 118,
+      "plan_count": 119,
       "provider_count": 8,
       "cheapest_price": 1.96,
       "plans": [
@@ -11788,6 +11944,32 @@
           "value_score": 94
         },
         {
+          "plan_name": "EU 120 GB Unlimited Calls",
+          "provider": "Bouygues",
+          "price": 59.99,
+          "currency": "USD",
+          "data_gb": 120.0,
+          "unlimited": false,
+          "price_per_gb": 0.5,
+          "validity_days": 30,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 90
+        },
+        {
+          "plan_name": "France 100 GB Unlimited Calls",
+          "provider": "Bouygues",
+          "price": 31.99,
+          "currency": "USD",
+          "data_gb": 100.0,
+          "unlimited": false,
+          "price_per_gb": 0.32,
+          "validity_days": 30,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 86
+        },
+        {
           "plan_name": "France 100 GB",
           "provider": "eSIMGo",
           "price": 49.99,
@@ -11797,19 +11979,6 @@
           "price_per_gb": 0.5,
           "validity_days": 30,
           "network": "5G",
-          "hotspot": true,
-          "value_score": 85
-        },
-        {
-          "plan_name": "EU 120 GB Unlimited Calls",
-          "provider": "Bouygues",
-          "price": 59.99,
-          "currency": "USD",
-          "data_gb": 120.0,
-          "unlimited": false,
-          "price_per_gb": 0.5,
-          "validity_days": 30,
-          "network": "4G",
           "hotspot": true,
           "value_score": 85
         },
@@ -11903,6 +12072,19 @@
           "network": "4G",
           "hotspot": true,
           "value_score": 79
+        },
+        {
+          "plan_name": "EU 60 GB Unlimited Calls",
+          "provider": "Bouygues",
+          "price": 44.99,
+          "currency": "USD",
+          "data_gb": 60.0,
+          "unlimited": false,
+          "price_per_gb": 0.75,
+          "validity_days": 30,
+          "network": "5G",
+          "hotspot": true,
+          "value_score": 77
         },
         {
           "plan_name": "Europe Asia and USA 40 GB Yearly",
@@ -12031,19 +12213,6 @@
           "price_per_gb": 0.77,
           "validity_days": 30,
           "network": "5G",
-          "hotspot": true,
-          "value_score": 72
-        },
-        {
-          "plan_name": "EU 60 GB Unlimited Calls",
-          "provider": "Bouygues",
-          "price": 44.99,
-          "currency": "USD",
-          "data_gb": 60.0,
-          "unlimited": false,
-          "price_per_gb": 0.75,
-          "validity_days": 30,
-          "network": "4G",
           "hotspot": true,
           "value_score": 72
         },
