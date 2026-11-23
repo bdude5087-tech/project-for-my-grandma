@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-11-22T19:50:34Z",
-    "plan_count": 506
+    "last_updated": "2026-11-23T07:52:56Z",
+    "plan_count": 505
   },
   "aggregates": {
     "JP": {
@@ -171,11 +171,11 @@
           "value_score": 71
         }
       ],
-      "last_updated": "2026-11-22T19:50:34Z"
+      "last_updated": "2026-11-23T07:52:56Z"
     },
     "US": {
       "country_code": "US",
-      "plan_count": 145,
+      "plan_count": 144,
       "provider_count": 8,
       "provider_names": [
         "3",
@@ -210,8 +210,8 @@
         "network": "4G"
       },
       "best_value_score": 94,
-      "median_price_per_gb": 2.68,
-      "avg_price_per_gb": 3.51,
+      "median_price_per_gb": 2.7,
+      "avg_price_per_gb": 3.53,
       "price_range": {
         "min": 2.92,
         "max": 288.0
@@ -338,7 +338,7 @@
           "value_score": 75
         }
       ],
-      "last_updated": "2026-11-22T19:50:34Z"
+      "last_updated": "2026-11-23T07:52:56Z"
     },
     "IN": {
       "country_code": "IN",
@@ -504,7 +504,7 @@
           "value_score": 71
         }
       ],
-      "last_updated": "2026-11-22T19:50:34Z"
+      "last_updated": "2026-11-23T07:52:56Z"
     },
     "TH": {
       "country_code": "TH",
@@ -672,7 +672,7 @@
           "value_score": 73
         }
       ],
-      "last_updated": "2026-11-22T19:50:34Z"
+      "last_updated": "2026-11-23T07:52:56Z"
     },
     "MX": {
       "country_code": "MX",
@@ -839,7 +839,7 @@
           "value_score": 69
         }
       ],
-      "last_updated": "2026-11-22T19:50:34Z"
+      "last_updated": "2026-11-23T07:52:56Z"
     },
     "GB": {
       "country_code": "GB",
@@ -1006,7 +1006,7 @@
           "value_score": 70
         }
       ],
-      "last_updated": "2026-11-22T19:50:34Z"
+      "last_updated": "2026-11-23T07:52:56Z"
     },
     "IT": {
       "country_code": "IT",
@@ -1173,7 +1173,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-11-22T19:50:34Z"
+      "last_updated": "2026-11-23T07:52:56Z"
     },
     "VN": {
       "country_code": "VN",
@@ -1340,7 +1340,7 @@
           "value_score": 73
         }
       ],
-      "last_updated": "2026-11-22T19:50:34Z"
+      "last_updated": "2026-11-23T07:52:56Z"
     },
     "ES": {
       "country_code": "ES",
@@ -1507,7 +1507,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-11-22T19:50:34Z"
+      "last_updated": "2026-11-23T07:52:56Z"
     },
     "FR": {
       "country_code": "FR",
@@ -1674,7 +1674,7 @@
           "value_score": 80
         }
       ],
-      "last_updated": "2026-11-22T19:50:34Z"
+      "last_updated": "2026-11-23T07:52:56Z"
     }
   }
 }
