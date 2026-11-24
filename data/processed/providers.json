@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-11-24T00:03:27Z",
-    "plan_count": 478
+    "last_updated": "2026-11-24T10:05:21Z",
+    "plan_count": 472
   },
   "providers": [
     {
@@ -337,17 +337,16 @@
     {
       "name": "MeiSIM",
       "logo": null,
-      "plan_count": 133,
+      "plan_count": 130,
       "country_codes": [
         "ES",
         "FR",
         "GB",
         "IN",
-        "IT",
         "JP",
+        "MX",
         "TH",
-        "US",
-        "VN"
+        "US"
       ],
       "price_min": 1.96,
       "price_max": 288.0,
@@ -656,14 +655,13 @@
     {
       "name": "Ubigi",
       "logo": "https://meisimusa-backend.vercel.app/img/logo/d10f5f51164398df745403c1",
-      "plan_count": 9,
+      "plan_count": 6,
       "country_codes": [
         "AD",
         "AE",
         "AG",
         "AI",
         "AL",
-        "AM",
         "AR",
         "AT",
         "AU",
@@ -672,7 +670,6 @@
         "BA",
         "BB",
         "BE",
-        "BF",
         "BG",
         "BH",
         "BJ",
@@ -685,7 +682,6 @@
         "BS",
         "BW",
         "BY",
-        "BZ",
         "CA",
         "CG",
         "CH",
@@ -695,7 +691,6 @@
         "CN",
         "CO",
         "CR",
-        "CV",
         "CW",
         "CY",
         "CZ",
@@ -726,7 +721,6 @@
         "GP",
         "GR",
         "GT",
-        "GU",
         "GW",
         "GY",
         "HK",
@@ -759,7 +753,6 @@
         "LI",
         "LK",
         "LR",
-        "LS",
         "LT",
         "LU",
         "LV",
@@ -779,13 +772,10 @@
         "MU",
         "MX",
         "MY",
-        "MZ",
-        "NC",
         "NG",
         "NI",
         "NL",
         "NO",
-        "NP",
         "NR",
         "NZ",
         "OM",
@@ -818,8 +808,6 @@
         "SX",
         "SZ",
         "TC",
-        "TD",
-        "TG",
         "TH",
         "TJ",
         "TN",
