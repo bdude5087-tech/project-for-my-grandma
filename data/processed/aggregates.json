@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-11-26T08:36:22Z",
+    "last_updated": "2026-11-26T21:43:15Z",
     "plan_count": 502
   },
   "aggregates": {
@@ -171,7 +171,7 @@
           "value_score": 71
         }
       ],
-      "last_updated": "2026-11-26T08:36:22Z"
+      "last_updated": "2026-11-26T21:43:15Z"
     },
     "US": {
       "country_code": "US",
@@ -190,10 +190,10 @@
       "cheapest_plan": {
         "plan_name": "1000 MB · 7 days · United States",
         "provider": "MeiSIM",
-        "price": 2.92,
+        "price": 2.93,
         "currency": "USD",
         "data_gb": 0.9765625,
-        "price_per_gb": 2.99,
+        "price_per_gb": 3.0,
         "unlimited": false,
         "validity_days": 7,
         "network": "Unknown"
@@ -213,7 +213,7 @@
       "median_price_per_gb": 2.6550000000000002,
       "avg_price_per_gb": 3.35,
       "price_range": {
-        "min": 2.92,
+        "min": 2.93,
         "max": 288.0
       },
       "ranked_plans": [
@@ -338,7 +338,7 @@
           "value_score": 75
         }
       ],
-      "last_updated": "2026-11-26T08:36:22Z"
+      "last_updated": "2026-11-26T21:43:15Z"
     },
     "IN": {
       "country_code": "IN",
@@ -504,7 +504,7 @@
           "value_score": 71
         }
       ],
-      "last_updated": "2026-11-26T08:36:22Z"
+      "last_updated": "2026-11-26T21:43:15Z"
     },
     "TH": {
       "country_code": "TH",
@@ -544,7 +544,7 @@
         "network": "5G"
       },
       "best_value_score": 87,
-      "median_price_per_gb": 1.87,
+      "median_price_per_gb": 1.885,
       "avg_price_per_gb": 2.42,
       "price_range": {
         "min": 3.33,
@@ -672,7 +672,7 @@
           "value_score": 73
         }
       ],
-      "last_updated": "2026-11-26T08:36:22Z"
+      "last_updated": "2026-11-26T21:43:15Z"
     },
     "MX": {
       "country_code": "MX",
@@ -839,7 +839,7 @@
           "value_score": 69
         }
       ],
-      "last_updated": "2026-11-26T08:36:22Z"
+      "last_updated": "2026-11-26T21:43:15Z"
     },
     "GB": {
       "country_code": "GB",
@@ -858,10 +858,10 @@
       "cheapest_plan": {
         "plan_name": "1000 MB · 7 days · United Kingdom",
         "provider": "MeiSIM",
-        "price": 2.28,
+        "price": 2.42,
         "currency": "USD",
         "data_gb": 0.9765625,
-        "price_per_gb": 2.33,
+        "price_per_gb": 2.48,
         "unlimited": false,
         "validity_days": 7,
         "network": "Unknown"
@@ -881,7 +881,7 @@
       "median_price_per_gb": 1.45,
       "avg_price_per_gb": 2.26,
       "price_range": {
-        "min": 2.28,
+        "min": 2.42,
         "max": 116.99
       },
       "ranked_plans": [
@@ -1006,7 +1006,7 @@
           "value_score": 70
         }
       ],
-      "last_updated": "2026-11-26T08:36:22Z"
+      "last_updated": "2026-11-26T21:43:15Z"
     },
     "IT": {
       "country_code": "IT",
@@ -1025,10 +1025,10 @@
       "cheapest_plan": {
         "plan_name": "1000 MB · 7 days · Italy",
         "provider": "MeiSIM",
-        "price": 1.96,
+        "price": 2.15,
         "currency": "USD",
         "data_gb": 0.9765625,
-        "price_per_gb": 2.01,
+        "price_per_gb": 2.2,
         "unlimited": false,
         "validity_days": 7,
         "network": "Unknown"
@@ -1048,7 +1048,7 @@
       "median_price_per_gb": 1.4,
       "avg_price_per_gb": 2.21,
       "price_range": {
-        "min": 1.96,
+        "min": 2.15,
         "max": 116.99
       },
       "ranked_plans": [
@@ -1173,7 +1173,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-11-26T08:36:22Z"
+      "last_updated": "2026-11-26T21:43:15Z"
     },
     "VN": {
       "country_code": "VN",
@@ -1340,7 +1340,7 @@
           "value_score": 73
         }
       ],
-      "last_updated": "2026-11-26T08:36:22Z"
+      "last_updated": "2026-11-26T21:43:15Z"
     },
     "ES": {
       "country_code": "ES",
@@ -1359,10 +1359,10 @@
       "cheapest_plan": {
         "plan_name": "1000 MB · 7 days · Spain",
         "provider": "MeiSIM",
-        "price": 2.01,
+        "price": 2.2,
         "currency": "USD",
         "data_gb": 0.9765625,
-        "price_per_gb": 2.06,
+        "price_per_gb": 2.25,
         "unlimited": false,
         "validity_days": 7,
         "network": "Unknown"
@@ -1382,7 +1382,7 @@
       "median_price_per_gb": 1.5,
       "avg_price_per_gb": 2.25,
       "price_range": {
-        "min": 2.01,
+        "min": 2.2,
         "max": 116.99
       },
       "ranked_plans": [
@@ -1507,7 +1507,7 @@
           "value_score": 77
         }
       ],
-      "last_updated": "2026-11-26T08:36:22Z"
+      "last_updated": "2026-11-26T21:43:15Z"
     },
     "FR": {
       "country_code": "FR",
@@ -1526,10 +1526,10 @@
       "cheapest_plan": {
         "plan_name": "1000 MB · 7 days · France",
         "provider": "MeiSIM",
-        "price": 1.96,
+        "price": 2.15,
         "currency": "USD",
         "data_gb": 0.9765625,
-        "price_per_gb": 2.01,
+        "price_per_gb": 2.2,
         "unlimited": false,
         "validity_days": 7,
         "network": "Unknown"
@@ -1547,9 +1547,9 @@
       },
       "best_value_score": 95,
       "median_price_per_gb": 1.25,
-      "avg_price_per_gb": 2.1,
+      "avg_price_per_gb": 2.11,
       "price_range": {
-        "min": 1.96,
+        "min": 2.15,
         "max": 124.99
       },
       "ranked_plans": [
@@ -1674,7 +1674,7 @@
           "value_score": 80
         }
       ],
-      "last_updated": "2026-11-26T08:36:22Z"
+      "last_updated": "2026-11-26T21:43:15Z"
     }
   }
 }
