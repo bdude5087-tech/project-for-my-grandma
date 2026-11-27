@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-11-26T21:43:15Z",
+    "last_updated": "2026-11-27T08:47:25Z",
     "plan_count": 502
   },
   "destinations": [
@@ -65,19 +65,6 @@
           "network": "5G",
           "hotspot": true,
           "value_score": 78
-        },
-        {
-          "plan_name": "Best World 50 GB 180 Days",
-          "provider": "Ubigi",
-          "price": 89.99,
-          "currency": "USD",
-          "data_gb": 50.0,
-          "unlimited": false,
-          "price_per_gb": 1.8,
-          "validity_days": 180,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 74
         },
         {
           "plan_name": "Japan Premium Unlimited 7 Days",
@@ -153,6 +140,19 @@
           "unlimited": false,
           "price_per_gb": 2.0,
           "validity_days": 365,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 71
+        },
+        {
+          "plan_name": "Best World 25 GB 90 Days",
+          "provider": "Ubigi",
+          "price": 69.99,
+          "currency": "USD",
+          "data_gb": 25.0,
+          "unlimited": false,
+          "price_per_gb": 2.8,
+          "validity_days": 90,
           "network": "4G",
           "hotspot": true,
           "value_score": 71
@@ -1443,19 +1443,6 @@
           "value_score": 80
         },
         {
-          "plan_name": "Best World 50 GB 180 Days",
-          "provider": "Ubigi",
-          "price": 89.99,
-          "currency": "USD",
-          "data_gb": 50.0,
-          "unlimited": false,
-          "price_per_gb": 1.8,
-          "validity_days": 180,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 79
-        },
-        {
           "plan_name": "Europe Asia and USA 40 GB Yearly",
           "provider": "Sparks",
           "price": 59.99,
@@ -1529,6 +1516,19 @@
           "unlimited": false,
           "price_per_gb": 2.0,
           "validity_days": 365,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 73
+        },
+        {
+          "plan_name": "Best World 25 GB 90 Days",
+          "provider": "Ubigi",
+          "price": 69.99,
+          "currency": "USD",
+          "data_gb": 25.0,
+          "unlimited": false,
+          "price_per_gb": 2.8,
+          "validity_days": 90,
           "network": "4G",
           "hotspot": true,
           "value_score": 73
@@ -3196,19 +3196,6 @@
       "cheapest_price": 3.99,
       "plans": [
         {
-          "plan_name": "Best World 50 GB 180 Days",
-          "provider": "Ubigi",
-          "price": 89.99,
-          "currency": "USD",
-          "data_gb": 50.0,
-          "unlimited": false,
-          "price_per_gb": 1.8,
-          "validity_days": 180,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 82
-        },
-        {
           "plan_name": "Europe Asia and USA 40 GB Yearly",
           "provider": "Sparks",
           "price": 59.99,
@@ -3256,6 +3243,19 @@
           "unlimited": false,
           "price_per_gb": 2.0,
           "validity_days": 365,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 74
+        },
+        {
+          "plan_name": "Best World 25 GB 90 Days",
+          "provider": "Ubigi",
+          "price": 69.99,
+          "currency": "USD",
+          "data_gb": 25.0,
+          "unlimited": false,
+          "price_per_gb": 2.8,
+          "validity_days": 90,
           "network": "4G",
           "hotspot": true,
           "value_score": 74
@@ -4065,19 +4065,6 @@
           "value_score": 85
         },
         {
-          "plan_name": "Best World 50 GB 180 Days",
-          "provider": "Ubigi",
-          "price": 89.99,
-          "currency": "USD",
-          "data_gb": 50.0,
-          "unlimited": false,
-          "price_per_gb": 1.8,
-          "validity_days": 180,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 82
-        },
-        {
           "plan_name": "Europe Asia and USA 40 GB Yearly",
           "provider": "Sparks",
           "price": 59.99,
@@ -4151,6 +4138,19 @@
           "unlimited": false,
           "price_per_gb": 2.0,
           "validity_days": 365,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 74
+        },
+        {
+          "plan_name": "Best World 25 GB 90 Days",
+          "provider": "Ubigi",
+          "price": 69.99,
+          "currency": "USD",
+          "data_gb": 25.0,
+          "unlimited": false,
+          "price_per_gb": 2.8,
+          "validity_days": 90,
           "network": "4G",
           "hotspot": true,
           "value_score": 74
@@ -5285,19 +5285,6 @@
       "cheapest_price": 3.99,
       "plans": [
         {
-          "plan_name": "Best World 50 GB 180 Days",
-          "provider": "Ubigi",
-          "price": 89.99,
-          "currency": "USD",
-          "data_gb": 50.0,
-          "unlimited": false,
-          "price_per_gb": 1.8,
-          "validity_days": 180,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 82
-        },
-        {
           "plan_name": "North America 60 GB",
           "provider": "eSIMGo",
           "price": 54.99,
@@ -5322,6 +5309,19 @@
           "network": "4G",
           "hotspot": true,
           "value_score": 75
+        },
+        {
+          "plan_name": "Best World 25 GB 90 Days",
+          "provider": "Ubigi",
+          "price": 69.99,
+          "currency": "USD",
+          "data_gb": 25.0,
+          "unlimited": false,
+          "price_per_gb": 2.8,
+          "validity_days": 90,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 74
         },
         {
           "plan_name": "Global Special 20 GB Yearly",
@@ -6570,19 +6570,6 @@
           "value_score": 70
         },
         {
-          "plan_name": "Best World 50 GB 180 Days",
-          "provider": "Ubigi",
-          "price": 89.99,
-          "currency": "USD",
-          "data_gb": 50.0,
-          "unlimited": false,
-          "price_per_gb": 1.8,
-          "validity_days": 180,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 70
-        },
-        {
           "plan_name": "Europe Asia and USA 20 GB Yearly",
           "provider": "Sparks",
           "price": 39.99,
@@ -6591,6 +6578,19 @@
           "unlimited": false,
           "price_per_gb": 2.0,
           "validity_days": 365,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 69
+        },
+        {
+          "plan_name": "Best World 25 GB 90 Days",
+          "provider": "Ubigi",
+          "price": 69.99,
+          "currency": "USD",
+          "data_gb": 25.0,
+          "unlimited": false,
+          "price_per_gb": 2.8,
+          "validity_days": 90,
           "network": "4G",
           "hotspot": true,
           "value_score": 69
@@ -7881,19 +7881,6 @@
           "value_score": 80
         },
         {
-          "plan_name": "Best World 50 GB 180 Days",
-          "provider": "Ubigi",
-          "price": 89.99,
-          "currency": "USD",
-          "data_gb": 50.0,
-          "unlimited": false,
-          "price_per_gb": 1.8,
-          "validity_days": 180,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 79
-        },
-        {
           "plan_name": "EU 60 GB Unlimited Calls",
           "provider": "Bouygues",
           "price": 44.99,
@@ -7993,6 +7980,19 @@
           "unlimited": false,
           "price_per_gb": 2.0,
           "validity_days": 365,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 73
+        },
+        {
+          "plan_name": "Best World 25 GB 90 Days",
+          "provider": "Ubigi",
+          "price": 69.99,
+          "currency": "USD",
+          "data_gb": 25.0,
+          "unlimited": false,
+          "price_per_gb": 2.8,
+          "validity_days": 90,
           "network": "4G",
           "hotspot": true,
           "value_score": 73
@@ -9114,19 +9114,6 @@
           "value_score": 85
         },
         {
-          "plan_name": "Best World 50 GB 180 Days",
-          "provider": "Ubigi",
-          "price": 89.99,
-          "currency": "USD",
-          "data_gb": 50.0,
-          "unlimited": false,
-          "price_per_gb": 1.8,
-          "validity_days": 180,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 82
-        },
-        {
           "plan_name": "Europe Asia and USA 40 GB Yearly",
           "provider": "Sparks",
           "price": 59.99,
@@ -9187,6 +9174,19 @@
           "unlimited": false,
           "price_per_gb": 2.0,
           "validity_days": 365,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 74
+        },
+        {
+          "plan_name": "Best World 25 GB 90 Days",
+          "provider": "Ubigi",
+          "price": 69.99,
+          "currency": "USD",
+          "data_gb": 25.0,
+          "unlimited": false,
+          "price_per_gb": 2.8,
+          "validity_days": 90,
           "network": "4G",
           "hotspot": true,
           "value_score": 74
@@ -10295,19 +10295,6 @@
           "value_score": 80
         },
         {
-          "plan_name": "Best World 50 GB 180 Days",
-          "provider": "Ubigi",
-          "price": 89.99,
-          "currency": "USD",
-          "data_gb": 50.0,
-          "unlimited": false,
-          "price_per_gb": 1.8,
-          "validity_days": 180,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 79
-        },
-        {
           "plan_name": "EU 60 GB Unlimited Calls",
           "provider": "Bouygues",
           "price": 44.99,
@@ -10407,6 +10394,19 @@
           "unlimited": false,
           "price_per_gb": 2.0,
           "validity_days": 365,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 73
+        },
+        {
+          "plan_name": "Best World 25 GB 90 Days",
+          "provider": "Ubigi",
+          "price": 69.99,
+          "currency": "USD",
+          "data_gb": 25.0,
+          "unlimited": false,
+          "price_per_gb": 2.8,
+          "validity_days": 90,
           "network": "4G",
           "hotspot": true,
           "value_score": 73
@@ -11697,19 +11697,6 @@
           "value_score": 80
         },
         {
-          "plan_name": "Best World 50 GB 180 Days",
-          "provider": "Ubigi",
-          "price": 89.99,
-          "currency": "USD",
-          "data_gb": 50.0,
-          "unlimited": false,
-          "price_per_gb": 1.8,
-          "validity_days": 180,
-          "network": "4G",
-          "hotspot": true,
-          "value_score": 79
-        },
-        {
           "plan_name": "EU 60 GB Unlimited Calls",
           "provider": "Bouygues",
           "price": 44.99,
@@ -11822,6 +11809,19 @@
           "unlimited": false,
           "price_per_gb": 2.0,
           "validity_days": 365,
+          "network": "4G",
+          "hotspot": true,
+          "value_score": 73
+        },
+        {
+          "plan_name": "Best World 25 GB 90 Days",
+          "provider": "Ubigi",
+          "price": 69.99,
+          "currency": "USD",
+          "data_gb": 25.0,
+          "unlimited": false,
+          "price_per_gb": 2.8,
+          "validity_days": 90,
           "network": "4G",
           "hotspot": true,
           "value_score": 73
