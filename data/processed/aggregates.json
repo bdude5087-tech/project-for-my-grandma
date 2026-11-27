@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "meisim_usa_api",
-    "last_updated": "2026-11-27T08:47:25Z",
+    "last_updated": "2026-11-27T21:27:35Z",
     "plan_count": 502
   },
   "aggregates": {
@@ -23,7 +23,7 @@
       "cheapest_plan": {
         "plan_name": "Unlimited · 1 day · Japan",
         "provider": "MeiSIM",
-        "price": 3.66,
+        "price": 3.99,
         "currency": "USD",
         "data_gb": null,
         "price_per_gb": null,
@@ -46,7 +46,7 @@
       "median_price_per_gb": 1.3,
       "avg_price_per_gb": 1.97,
       "price_range": {
-        "min": 3.66,
+        "min": 3.99,
         "max": 92.85
       },
       "ranked_plans": [
@@ -97,6 +97,18 @@
           "validity_days": 10,
           "network": "5G",
           "value_score": 78
+        },
+        {
+          "plan_name": "Best World 50 GB 180 Days",
+          "provider": "Ubigi",
+          "price": 89.99,
+          "currency": "USD",
+          "data_gb": 50.0,
+          "price_per_gb": 1.8,
+          "unlimited": false,
+          "validity_days": 180,
+          "network": "4G",
+          "value_score": 74
         },
         {
           "plan_name": "Japan Premium Unlimited 7 Days",
@@ -157,21 +169,9 @@
           "validity_days": 15,
           "network": "5G",
           "value_score": 71
-        },
-        {
-          "plan_name": "Europe Asia and USA 20 GB Yearly",
-          "provider": "Sparks",
-          "price": 39.99,
-          "currency": "USD",
-          "data_gb": 20.0,
-          "price_per_gb": 2.0,
-          "unlimited": false,
-          "validity_days": 365,
-          "network": "4G",
-          "value_score": 71
         }
       ],
-      "last_updated": "2026-11-27T08:47:25Z"
+      "last_updated": "2026-11-27T21:27:35Z"
     },
     "US": {
       "country_code": "US",
@@ -190,10 +190,10 @@
       "cheapest_plan": {
         "plan_name": "1000 MB · 7 days · United States",
         "provider": "MeiSIM",
-        "price": 2.93,
+        "price": 2.99,
         "currency": "USD",
         "data_gb": 0.9765625,
-        "price_per_gb": 3.0,
+        "price_per_gb": 3.06,
         "unlimited": false,
         "validity_days": 7,
         "network": "Unknown"
@@ -210,10 +210,10 @@
         "network": "4G"
       },
       "best_value_score": 94,
-      "median_price_per_gb": 2.68,
-      "avg_price_per_gb": 3.36,
+      "median_price_per_gb": 2.6550000000000002,
+      "avg_price_per_gb": 3.35,
       "price_range": {
-        "min": 2.93,
+        "min": 2.99,
         "max": 288.0
       },
       "ranked_plans": [
@@ -302,6 +302,18 @@
           "value_score": 80
         },
         {
+          "plan_name": "Best World 50 GB 180 Days",
+          "provider": "Ubigi",
+          "price": 89.99,
+          "currency": "USD",
+          "data_gb": 50.0,
+          "price_per_gb": 1.8,
+          "unlimited": false,
+          "validity_days": 180,
+          "network": "4G",
+          "value_score": 79
+        },
+        {
           "plan_name": "Europe Asia and USA 40 GB Yearly",
           "provider": "Sparks",
           "price": 59.99,
@@ -324,21 +336,9 @@
           "validity_days": 365,
           "network": "4G",
           "value_score": 75
-        },
-        {
-          "plan_name": "USA 50 GB",
-          "provider": "eSIMGo",
-          "price": 47.99,
-          "currency": "USD",
-          "data_gb": 50.0,
-          "price_per_gb": 0.96,
-          "unlimited": false,
-          "validity_days": 30,
-          "network": "5G",
-          "value_score": 75
         }
       ],
-      "last_updated": "2026-11-27T08:47:25Z"
+      "last_updated": "2026-11-27T21:27:35Z"
     },
     "IN": {
       "country_code": "IN",
@@ -365,24 +365,36 @@
         "network": "4G"
       },
       "best_value_plan": {
-        "plan_name": "Europe Asia and USA 40 GB Yearly",
-        "provider": "Sparks",
-        "price": 59.99,
+        "plan_name": "Best World 50 GB 180 Days",
+        "provider": "Ubigi",
+        "price": 89.99,
         "currency": "USD",
-        "data_gb": 40.0,
-        "price_per_gb": 1.5,
+        "data_gb": 50.0,
+        "price_per_gb": 1.8,
         "unlimited": false,
-        "validity_days": 365,
+        "validity_days": 180,
         "network": "4G"
       },
-      "best_value_score": 79,
+      "best_value_score": 82,
       "median_price_per_gb": 2.8,
-      "avg_price_per_gb": 3.3,
+      "avg_price_per_gb": 3.28,
       "price_range": {
         "min": 3.99,
         "max": 138.0
       },
       "ranked_plans": [
+        {
+          "plan_name": "Best World 50 GB 180 Days",
+          "provider": "Ubigi",
+          "price": 89.99,
+          "currency": "USD",
+          "data_gb": 50.0,
+          "price_per_gb": 1.8,
+          "unlimited": false,
+          "validity_days": 180,
+          "network": "4G",
+          "value_score": 82
+        },
         {
           "plan_name": "Europe Asia and USA 40 GB Yearly",
           "provider": "Sparks",
@@ -428,18 +440,6 @@
           "price_per_gb": 2.0,
           "unlimited": false,
           "validity_days": 365,
-          "network": "4G",
-          "value_score": 74
-        },
-        {
-          "plan_name": "Best World 25 GB 90 Days",
-          "provider": "Ubigi",
-          "price": 69.99,
-          "currency": "USD",
-          "data_gb": 25.0,
-          "price_per_gb": 2.8,
-          "unlimited": false,
-          "validity_days": 90,
           "network": "4G",
           "value_score": 74
         },
@@ -504,7 +504,7 @@
           "value_score": 71
         }
       ],
-      "last_updated": "2026-11-27T08:47:25Z"
+      "last_updated": "2026-11-27T21:27:35Z"
     },
     "TH": {
       "country_code": "TH",
@@ -522,15 +522,15 @@
         "eSIMGo"
       ],
       "cheapest_plan": {
-        "plan_name": "1000 MB · 7 days · Thailand",
-        "provider": "MeiSIM",
-        "price": 3.33,
+        "plan_name": "Singapore Malaysia Thailand 3 GB",
+        "provider": "TSimTech",
+        "price": 3.49,
         "currency": "USD",
-        "data_gb": 0.9765625,
-        "price_per_gb": 3.41,
+        "data_gb": 3.0,
+        "price_per_gb": 1.16,
         "unlimited": false,
         "validity_days": 7,
-        "network": "Unknown"
+        "network": "5G"
       },
       "best_value_plan": {
         "plan_name": "Asia 7 Countries 50 GB",
@@ -545,9 +545,9 @@
       },
       "best_value_score": 87,
       "median_price_per_gb": 1.91,
-      "avg_price_per_gb": 2.43,
+      "avg_price_per_gb": 2.42,
       "price_range": {
-        "min": 3.33,
+        "min": 3.49,
         "max": 107.92
       },
       "ranked_plans": [
@@ -574,6 +574,18 @@
           "validity_days": 60,
           "network": "5G",
           "value_score": 85
+        },
+        {
+          "plan_name": "Best World 50 GB 180 Days",
+          "provider": "Ubigi",
+          "price": 89.99,
+          "currency": "USD",
+          "data_gb": 50.0,
+          "price_per_gb": 1.8,
+          "unlimited": false,
+          "validity_days": 180,
+          "network": "4G",
+          "value_score": 82
         },
         {
           "plan_name": "Europe Asia and USA 40 GB Yearly",
@@ -648,18 +660,6 @@
           "value_score": 74
         },
         {
-          "plan_name": "Best World 25 GB 90 Days",
-          "provider": "Ubigi",
-          "price": 69.99,
-          "currency": "USD",
-          "data_gb": 25.0,
-          "price_per_gb": 2.8,
-          "unlimited": false,
-          "validity_days": 90,
-          "network": "4G",
-          "value_score": 74
-        },
-        {
           "plan_name": "Asialink Unlimited 10 Days",
           "provider": "Airalo",
           "price": 21.99,
@@ -672,7 +672,7 @@
           "value_score": 73
         }
       ],
-      "last_updated": "2026-11-27T08:47:25Z"
+      "last_updated": "2026-11-27T21:27:35Z"
     },
     "MX": {
       "country_code": "MX",
@@ -700,24 +700,36 @@
         "network": "4G"
       },
       "best_value_plan": {
-        "plan_name": "North America 60 GB",
-        "provider": "eSIMGo",
-        "price": 54.99,
+        "plan_name": "Best World 50 GB 180 Days",
+        "provider": "Ubigi",
+        "price": 89.99,
         "currency": "USD",
-        "data_gb": 60.0,
-        "price_per_gb": 0.92,
+        "data_gb": 50.0,
+        "price_per_gb": 1.8,
         "unlimited": false,
-        "validity_days": 15,
-        "network": "5G"
+        "validity_days": 180,
+        "network": "4G"
       },
-      "best_value_score": 77,
+      "best_value_score": 82,
       "median_price_per_gb": 3.99,
-      "avg_price_per_gb": 4.08,
+      "avg_price_per_gb": 4.06,
       "price_range": {
         "min": 3.99,
         "max": 155.99
       },
       "ranked_plans": [
+        {
+          "plan_name": "Best World 50 GB 180 Days",
+          "provider": "Ubigi",
+          "price": 89.99,
+          "currency": "USD",
+          "data_gb": 50.0,
+          "price_per_gb": 1.8,
+          "unlimited": false,
+          "validity_days": 180,
+          "network": "4G",
+          "value_score": 82
+        },
         {
           "plan_name": "North America 60 GB",
           "provider": "eSIMGo",
@@ -741,18 +753,6 @@
           "validity_days": 365,
           "network": "4G",
           "value_score": 75
-        },
-        {
-          "plan_name": "Best World 25 GB 90 Days",
-          "provider": "Ubigi",
-          "price": 69.99,
-          "currency": "USD",
-          "data_gb": 25.0,
-          "price_per_gb": 2.8,
-          "unlimited": false,
-          "validity_days": 90,
-          "network": "4G",
-          "value_score": 74
         },
         {
           "plan_name": "Global Special 20 GB Yearly",
@@ -839,7 +839,7 @@
           "value_score": 69
         }
       ],
-      "last_updated": "2026-11-27T08:47:25Z"
+      "last_updated": "2026-11-27T21:27:35Z"
     },
     "GB": {
       "country_code": "GB",
@@ -856,14 +856,14 @@
         "eSIMGo"
       ],
       "cheapest_plan": {
-        "plan_name": "1000 MB · 7 days · United Kingdom",
+        "plan_name": "Unlimited · 1 day · United Kingdom",
         "provider": "MeiSIM",
-        "price": 2.42,
+        "price": 2.49,
         "currency": "USD",
-        "data_gb": 0.9765625,
-        "price_per_gb": 2.48,
-        "unlimited": false,
-        "validity_days": 7,
+        "data_gb": null,
+        "price_per_gb": null,
+        "unlimited": true,
+        "validity_days": 1,
         "network": "Unknown"
       },
       "best_value_plan": {
@@ -879,9 +879,9 @@
       },
       "best_value_score": 90,
       "median_price_per_gb": 1.45,
-      "avg_price_per_gb": 2.27,
+      "avg_price_per_gb": 2.26,
       "price_range": {
-        "min": 2.42,
+        "min": 2.49,
         "max": 116.99
       },
       "ranked_plans": [
@@ -1006,7 +1006,7 @@
           "value_score": 70
         }
       ],
-      "last_updated": "2026-11-27T08:47:25Z"
+      "last_updated": "2026-11-27T21:27:35Z"
     },
     "IT": {
       "country_code": "IT",
@@ -1023,14 +1023,14 @@
         "eSIMGo"
       ],
       "cheapest_plan": {
-        "plan_name": "1000 MB · 7 days · Italy",
+        "plan_name": "Unlimited · 1 day · Italy",
         "provider": "MeiSIM",
-        "price": 2.15,
+        "price": 2.49,
         "currency": "USD",
-        "data_gb": 0.9765625,
-        "price_per_gb": 2.2,
-        "unlimited": false,
-        "validity_days": 7,
+        "data_gb": null,
+        "price_per_gb": null,
+        "unlimited": true,
+        "validity_days": 1,
         "network": "Unknown"
       },
       "best_value_plan": {
@@ -1048,7 +1048,7 @@
       "median_price_per_gb": 1.4,
       "avg_price_per_gb": 2.22,
       "price_range": {
-        "min": 2.15,
+        "min": 2.49,
         "max": 116.99
       },
       "ranked_plans": [
@@ -1149,6 +1149,18 @@
           "value_score": 80
         },
         {
+          "plan_name": "Best World 50 GB 180 Days",
+          "provider": "Ubigi",
+          "price": 89.99,
+          "currency": "USD",
+          "data_gb": 50.0,
+          "price_per_gb": 1.8,
+          "unlimited": false,
+          "validity_days": 180,
+          "network": "4G",
+          "value_score": 79
+        },
+        {
           "plan_name": "EU 60 GB Unlimited Calls",
           "provider": "Bouygues",
           "price": 44.99,
@@ -1159,21 +1171,9 @@
           "validity_days": 30,
           "network": "5G",
           "value_score": 77
-        },
-        {
-          "plan_name": "Europe Asia and USA 40 GB Yearly",
-          "provider": "Sparks",
-          "price": 59.99,
-          "currency": "USD",
-          "data_gb": 40.0,
-          "price_per_gb": 1.5,
-          "unlimited": false,
-          "validity_days": 365,
-          "network": "4G",
-          "value_score": 77
         }
       ],
-      "last_updated": "2026-11-27T08:47:25Z"
+      "last_updated": "2026-11-27T21:27:35Z"
     },
     "VN": {
       "country_code": "VN",
@@ -1213,10 +1213,10 @@
       },
       "best_value_score": 87,
       "median_price_per_gb": 2.0,
-      "avg_price_per_gb": 2.65,
+      "avg_price_per_gb": 2.64,
       "price_range": {
         "min": 3.53,
-        "max": 89.08
+        "max": 89.99
       },
       "ranked_plans": [
         {
@@ -1242,6 +1242,18 @@
           "validity_days": 60,
           "network": "5G",
           "value_score": 85
+        },
+        {
+          "plan_name": "Best World 50 GB 180 Days",
+          "provider": "Ubigi",
+          "price": 89.99,
+          "currency": "USD",
+          "data_gb": 50.0,
+          "price_per_gb": 1.8,
+          "unlimited": false,
+          "validity_days": 180,
+          "network": "4G",
+          "value_score": 82
         },
         {
           "plan_name": "Europe Asia and USA 40 GB Yearly",
@@ -1304,18 +1316,6 @@
           "value_score": 74
         },
         {
-          "plan_name": "Best World 25 GB 90 Days",
-          "provider": "Ubigi",
-          "price": 69.99,
-          "currency": "USD",
-          "data_gb": 25.0,
-          "price_per_gb": 2.8,
-          "unlimited": false,
-          "validity_days": 90,
-          "network": "4G",
-          "value_score": 74
-        },
-        {
           "plan_name": "Asialink Unlimited 10 Days",
           "provider": "Airalo",
           "price": 21.99,
@@ -1340,7 +1340,7 @@
           "value_score": 73
         }
       ],
-      "last_updated": "2026-11-27T08:47:25Z"
+      "last_updated": "2026-11-27T21:27:35Z"
     },
     "ES": {
       "country_code": "ES",
@@ -1357,14 +1357,14 @@
         "eSIMGo"
       ],
       "cheapest_plan": {
-        "plan_name": "1000 MB · 7 days · Spain",
+        "plan_name": "Unlimited · 1 day · Spain",
         "provider": "MeiSIM",
-        "price": 2.2,
+        "price": 2.49,
         "currency": "USD",
-        "data_gb": 0.9765625,
-        "price_per_gb": 2.25,
-        "unlimited": false,
-        "validity_days": 7,
+        "data_gb": null,
+        "price_per_gb": null,
+        "unlimited": true,
+        "validity_days": 1,
         "network": "Unknown"
       },
       "best_value_plan": {
@@ -1382,7 +1382,7 @@
       "median_price_per_gb": 1.5,
       "avg_price_per_gb": 2.26,
       "price_range": {
-        "min": 2.2,
+        "min": 2.49,
         "max": 116.99
       },
       "ranked_plans": [
@@ -1483,6 +1483,18 @@
           "value_score": 80
         },
         {
+          "plan_name": "Best World 50 GB 180 Days",
+          "provider": "Ubigi",
+          "price": 89.99,
+          "currency": "USD",
+          "data_gb": 50.0,
+          "price_per_gb": 1.8,
+          "unlimited": false,
+          "validity_days": 180,
+          "network": "4G",
+          "value_score": 79
+        },
+        {
           "plan_name": "EU 60 GB Unlimited Calls",
           "provider": "Bouygues",
           "price": 44.99,
@@ -1493,21 +1505,9 @@
           "validity_days": 30,
           "network": "5G",
           "value_score": 77
-        },
-        {
-          "plan_name": "Europe Asia and USA 40 GB Yearly",
-          "provider": "Sparks",
-          "price": 59.99,
-          "currency": "USD",
-          "data_gb": 40.0,
-          "price_per_gb": 1.5,
-          "unlimited": false,
-          "validity_days": 365,
-          "network": "4G",
-          "value_score": 77
         }
       ],
-      "last_updated": "2026-11-27T08:47:25Z"
+      "last_updated": "2026-11-27T21:27:35Z"
     },
     "FR": {
       "country_code": "FR",
@@ -1524,14 +1524,14 @@
         "eSIMGo"
       ],
       "cheapest_plan": {
-        "plan_name": "1000 MB · 7 days · France",
+        "plan_name": "Unlimited · 1 day · France",
         "provider": "MeiSIM",
-        "price": 2.15,
+        "price": 2.49,
         "currency": "USD",
-        "data_gb": 0.9765625,
-        "price_per_gb": 2.2,
-        "unlimited": false,
-        "validity_days": 7,
+        "data_gb": null,
+        "price_per_gb": null,
+        "unlimited": true,
+        "validity_days": 1,
         "network": "Unknown"
       },
       "best_value_plan": {
@@ -1547,9 +1547,9 @@
       },
       "best_value_score": 95,
       "median_price_per_gb": 1.25,
-      "avg_price_per_gb": 2.12,
+      "avg_price_per_gb": 2.11,
       "price_range": {
-        "min": 2.15,
+        "min": 2.49,
         "max": 124.99
       },
       "ranked_plans": [
@@ -1674,7 +1674,7 @@
           "value_score": 80
         }
       ],
-      "last_updated": "2026-11-27T08:47:25Z"
+      "last_updated": "2026-11-27T21:27:35Z"
     }
   }
 }
